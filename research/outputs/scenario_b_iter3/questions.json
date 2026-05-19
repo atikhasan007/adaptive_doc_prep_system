@@ -1,0 +1,157 @@
+{
+  "session_id": "3cc18e61-783e-49d4-a3c3-0a27172d3710",
+  "mcqs": [
+    {
+      "question_id": "q1",
+      "question_text": "How many burst-relay nodes comprise the PAMC Yatiri network serving the asset's operational territory?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "10",
+        "D": "12"
+      },
+      "correct_answer": "B",
+      "explanation": "Section 8.7 states the asset's operational territory is served by exactly 8 burst-relay nodes within the PAMC Yatiri network.",
+      "section_id": 8,
+      "topic_tag": "Communications Infrastructure"
+    },
+    {
+      "question_id": "q2",
+      "question_text": "What is the mandatory requirement for communications when a cell-led operation takes place outside of relay coverage?",
+      "options": {
+        "A": "The operation must be aborted immediately.",
+        "B": "Utilize local landline infrastructure.",
+        "C": "Require satellite uplink and Director's authorization.",
+        "D": "Establish a temporary line-of-comms with at least three nodes."
+      },
+      "correct_answer": "C",
+      "explanation": "According to Section 8.7, operations outside relay coverage require satellite uplink and explicit Director's authorization.",
+      "section_id": 8,
+      "topic_tag": "Communications Infrastructure"
+    },
+    {
+      "question_id": "q3",
+      "question_text": "Regarding network redundancy, what is the minimum line-of-comms requirement for each cell-led operation?",
+      "options": {
+        "A": "At least 1 node",
+        "B": "At least 2 nodes",
+        "C": "Exactly 3 nodes",
+        "D": "Primary node only"
+      },
+      "correct_answer": "B",
+      "explanation": "Section 8.7 specifies that each cell-led operation requires a line-of-comms to at least 2 nodes within the network.",
+      "section_id": 8,
+      "topic_tag": "Communications Infrastructure"
+    },
+    {
+      "question_id": "q4",
+      "question_text": "Which of the following locations is NOT listed as a burst-relay node in the PAMC Yatiri network?",
+      "options": {
+        "A": "Punta Arenas",
+        "B": "Antofagasta",
+        "C": "Iquique",
+        "D": "Mendoza"
+      },
+      "correct_answer": "C",
+      "explanation": "The 8 nodes listed are Valpara\u00edso, Antofagasta, Arica, La Paz, Cuzco, Salta, Mendoza, and Punta Arenas; Iquique is a safehouse location, not a relay node.",
+      "section_id": 8,
+      "topic_tag": "Communications Infrastructure"
+    },
+    {
+      "question_id": "q5",
+      "question_text": "If a safehouse experiences a technical failure in its primary communications, which hardware is provided as a standard backup?",
+      "options": {
+        "A": "A secondary satellite dish",
+        "B": "A Yatiri-2 backup comms unit",
+        "C": "A portable signal repeater",
+        "D": "An encrypted shortwave transmitter"
+      },
+      "correct_answer": "B",
+      "explanation": "Section 8.3 explicitly lists the Yatiri-2 backup comms unit as part of the standardized provisioning for all safehouses.",
+      "section_id": 8,
+      "topic_tag": "Communications Infrastructure"
+    }
+  ],
+  "results": [
+    {
+      "question_id": "q1",
+      "question_text": "How many burst-relay nodes comprise the PAMC Yatiri network serving the asset's operational territory?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "10",
+        "D": "12"
+      },
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "explanation": "Section 8.7 states the asset's operational territory is served by exactly 8 burst-relay nodes within the PAMC Yatiri network.",
+      "section_id": 8,
+      "topic_tag": "Communications Infrastructure"
+    },
+    {
+      "question_id": "q2",
+      "question_text": "What is the mandatory requirement for communications when a cell-led operation takes place outside of relay coverage?",
+      "options": {
+        "A": "The operation must be aborted immediately.",
+        "B": "Utilize local landline infrastructure.",
+        "C": "Require satellite uplink and Director's authorization.",
+        "D": "Establish a temporary line-of-comms with at least three nodes."
+      },
+      "correct_answer": "C",
+      "user_answer": "C",
+      "is_correct": true,
+      "explanation": "According to Section 8.7, operations outside relay coverage require satellite uplink and explicit Director's authorization.",
+      "section_id": 8,
+      "topic_tag": "Communications Infrastructure"
+    },
+    {
+      "question_id": "q3",
+      "question_text": "Regarding network redundancy, what is the minimum line-of-comms requirement for each cell-led operation?",
+      "options": {
+        "A": "At least 1 node",
+        "B": "At least 2 nodes",
+        "C": "Exactly 3 nodes",
+        "D": "Primary node only"
+      },
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "explanation": "Section 8.7 specifies that each cell-led operation requires a line-of-comms to at least 2 nodes within the network.",
+      "section_id": 8,
+      "topic_tag": "Communications Infrastructure"
+    },
+    {
+      "question_id": "q4",
+      "question_text": "Which of the following locations is NOT listed as a burst-relay node in the PAMC Yatiri network?",
+      "options": {
+        "A": "Punta Arenas",
+        "B": "Antofagasta",
+        "C": "Iquique",
+        "D": "Mendoza"
+      },
+      "correct_answer": "C",
+      "user_answer": "C",
+      "is_correct": true,
+      "explanation": "The 8 nodes listed are Valpara\u00edso, Antofagasta, Arica, La Paz, Cuzco, Salta, Mendoza, and Punta Arenas; Iquique is a safehouse location, not a relay node.",
+      "section_id": 8,
+      "topic_tag": "Communications Infrastructure"
+    },
+    {
+      "question_id": "q5",
+      "question_text": "If a safehouse experiences a technical failure in its primary communications, which hardware is provided as a standard backup?",
+      "options": {
+        "A": "A secondary satellite dish",
+        "B": "A Yatiri-2 backup comms unit",
+        "C": "A portable signal repeater",
+        "D": "An encrypted shortwave transmitter"
+      },
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "explanation": "Section 8.3 explicitly lists the Yatiri-2 backup comms unit as part of the standardized provisioning for all safehouses.",
+      "section_id": 8,
+      "topic_tag": "Communications Infrastructure"
+    }
+  ]
+}

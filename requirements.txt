@@ -18,5 +18,12 @@ pydantic
 tiktoken
 jupyter
 ipykernel
+fitz 
+pymupdf
+pdfplumber
+chromadb
+sentence-transformers
+pymongo 
+python-dotenv
 
 -e .

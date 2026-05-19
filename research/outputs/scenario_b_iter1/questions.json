@@ -1,0 +1,307 @@
+{
+  "session_id": "95f9f293-4d20-480c-8437-1223dc73bbc4",
+  "mcqs": [
+    {
+      "question_id": "q1",
+      "question_text": "According to the Doctrine of Sequential Suspension (DSS), what is the duration of the targeting window that must be protected above all else?",
+      "options": {
+        "A": "0.8 seconds",
+        "B": "1.2 seconds",
+        "C": "2.0 seconds",
+        "D": "3.0 seconds"
+      },
+      "correct_answer": "B",
+      "explanation": "Section 5.1, Principle 3 explicitly states that acquisition is the vulnerability and the targeting window is 1.2 seconds.",
+      "section_id": 5,
+      "topic_tag": "Doctrine Principles"
+    },
+    {
+      "question_id": "q2",
+      "question_text": "What is the primary constraint of the 'Three-Two-One' rule concerning activations?",
+      "options": {
+        "A": "Three activations maximum per 60-second window",
+        "B": "Three activations per mission",
+        "C": "Three activations per day",
+        "D": "Three activations per engagement zone"
+      },
+      "correct_answer": "A",
+      "explanation": "Section 5.2 defines the Three-Two-One rule as three activations maximum per 60-second window.",
+      "section_id": 5,
+      "topic_tag": "Tactical Heuristic"
+    },
+    {
+      "question_id": "q3",
+      "question_text": "Which location is restricted due to a 'psychological' reason following a 2018 incident?",
+      "options": {
+        "A": "Salar de Uyuni Sector 4",
+        "B": "Easter Island",
+        "C": "Cerro Castillo",
+        "D": "Oficina Tarija"
+      },
+      "correct_answer": "C",
+      "explanation": "Section 8 identifies the Cerro Castillo exclusion ring as restricted for psychological reasons following a 2018 trigger site incident.",
+      "section_id": 8,
+      "topic_tag": "Operational Territory"
+    },
+    {
+      "question_id": "q4",
+      "question_text": "Under the Tier-Based Engagement Protocols, what is the required preparation for a Tier 5 threat?",
+      "options": {
+        "A": "Solo engagement with authorization",
+        "B": "96-hour rest preceding the engagement",
+        "C": "Calexin-7 dose pre-loaded",
+        "D": "Cell lead authority only"
+      },
+      "correct_answer": "B",
+      "explanation": "Section 5.3 stipulates that Tier 5 engagements require a 96-hour rest period preceding the mission.",
+      "section_id": 5,
+      "topic_tag": "Engagement Protocols"
+    },
+    {
+      "question_id": "q5",
+      "question_text": "How many burst-relay nodes are served within the PAMC Yatiri network in the asset's territory?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "12"
+      },
+      "correct_answer": "C",
+      "explanation": "Section 8.7 states there are 8 burst-relay nodes serving the asset's territory.",
+      "section_id": 8,
+      "topic_tag": "Communications Infrastructure"
+    },
+    {
+      "question_id": "q6",
+      "question_text": "Which Directive was violated during the Salta incident on 14 August 2023?",
+      "options": {
+        "A": "Directive 6",
+        "B": "Directive 9",
+        "C": "Directive 10",
+        "D": "Directive 11"
+      },
+      "correct_answer": "A",
+      "explanation": "Section 5.12 lists the Salta incident as a violation of Directive 6, which resulted in a catastrophic outcome.",
+      "section_id": 5,
+      "topic_tag": "Documented Departures"
+    },
+    {
+      "question_id": "q7",
+      "question_text": "What is the mandatory action regarding Calexin-7 supplies before an engagement?",
+      "options": {
+        "A": "Destroy the supply",
+        "B": "Store it in the vehicle bay",
+        "C": "Release it to the medic",
+        "D": "Inject a dose immediately"
+      },
+      "correct_answer": "C",
+      "explanation": "Directive 11 in Section 5.11 states the asset must always release a captured Calexin-7 supply to the medic before engagement.",
+      "section_id": 5,
+      "topic_tag": "Standing Directives"
+    },
+    {
+      "question_id": "q8",
+      "question_text": "What is the operational security level of the Cuartel Valpara\u00edso facility?",
+      "options": {
+        "A": "Restricted-1",
+        "B": "Restricted-2",
+        "C": "Restricted-3",
+        "D": "Classified-5"
+      },
+      "correct_answer": "C",
+      "explanation": "Section 8 states that the operational security level for Cuartel Valpara\u00edso is PAMC Restricted-3.",
+      "section_id": 8,
+      "topic_tag": "Base Information"
+    },
+    {
+      "question_id": "q9",
+      "question_text": "At what percentage of targeting fatigue must the asset withdraw, according to Directive 10?",
+      "options": {
+        "A": "60%",
+        "B": "75%",
+        "C": "80%",
+        "D": "90%"
+      },
+      "correct_answer": "C",
+      "explanation": "Section 5.11, Directive 10 requires withdrawal at 80% targeting fatigue.",
+      "section_id": 5,
+      "topic_tag": "Combat Directives"
+    },
+    {
+      "question_id": "q10",
+      "question_text": "Which Tier of threat prohibits the asset from engaging solo under any condition?",
+      "options": {
+        "A": "Tier 2",
+        "B": "Tier 3",
+        "C": "Tier 4",
+        "D": "Tier 5"
+      },
+      "correct_answer": "D",
+      "explanation": "Section 5.3 explicitly states that the asset is not authorized to engage Tier 5 threats solo under any condition.",
+      "section_id": 5,
+      "topic_tag": "Engagement Protocols"
+    }
+  ],
+  "results": [
+    {
+      "question_id": "q1",
+      "question_text": "According to the Doctrine of Sequential Suspension (DSS), what is the duration of the targeting window that must be protected above all else?",
+      "options": {
+        "A": "0.8 seconds",
+        "B": "1.2 seconds",
+        "C": "2.0 seconds",
+        "D": "3.0 seconds"
+      },
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "explanation": "Section 5.1, Principle 3 explicitly states that acquisition is the vulnerability and the targeting window is 1.2 seconds.",
+      "section_id": 5,
+      "topic_tag": "Doctrine Principles"
+    },
+    {
+      "question_id": "q2",
+      "question_text": "What is the primary constraint of the 'Three-Two-One' rule concerning activations?",
+      "options": {
+        "A": "Three activations maximum per 60-second window",
+        "B": "Three activations per mission",
+        "C": "Three activations per day",
+        "D": "Three activations per engagement zone"
+      },
+      "correct_answer": "A",
+      "user_answer": "C",
+      "is_correct": false,
+      "explanation": "Section 5.2 defines the Three-Two-One rule as three activations maximum per 60-second window.",
+      "section_id": 5,
+      "topic_tag": "Tactical Heuristic"
+    },
+    {
+      "question_id": "q3",
+      "question_text": "Which location is restricted due to a 'psychological' reason following a 2018 incident?",
+      "options": {
+        "A": "Salar de Uyuni Sector 4",
+        "B": "Easter Island",
+        "C": "Cerro Castillo",
+        "D": "Oficina Tarija"
+      },
+      "correct_answer": "C",
+      "user_answer": "C",
+      "is_correct": true,
+      "explanation": "Section 8 identifies the Cerro Castillo exclusion ring as restricted for psychological reasons following a 2018 trigger site incident.",
+      "section_id": 8,
+      "topic_tag": "Operational Territory"
+    },
+    {
+      "question_id": "q4",
+      "question_text": "Under the Tier-Based Engagement Protocols, what is the required preparation for a Tier 5 threat?",
+      "options": {
+        "A": "Solo engagement with authorization",
+        "B": "96-hour rest preceding the engagement",
+        "C": "Calexin-7 dose pre-loaded",
+        "D": "Cell lead authority only"
+      },
+      "correct_answer": "B",
+      "user_answer": "C",
+      "is_correct": false,
+      "explanation": "Section 5.3 stipulates that Tier 5 engagements require a 96-hour rest period preceding the mission.",
+      "section_id": 5,
+      "topic_tag": "Engagement Protocols"
+    },
+    {
+      "question_id": "q5",
+      "question_text": "How many burst-relay nodes are served within the PAMC Yatiri network in the asset's territory?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "12"
+      },
+      "correct_answer": "C",
+      "user_answer": "B",
+      "is_correct": false,
+      "explanation": "Section 8.7 states there are 8 burst-relay nodes serving the asset's territory.",
+      "section_id": 8,
+      "topic_tag": "Communications Infrastructure"
+    },
+    {
+      "question_id": "q6",
+      "question_text": "Which Directive was violated during the Salta incident on 14 August 2023?",
+      "options": {
+        "A": "Directive 6",
+        "B": "Directive 9",
+        "C": "Directive 10",
+        "D": "Directive 11"
+      },
+      "correct_answer": "A",
+      "user_answer": "A",
+      "is_correct": true,
+      "explanation": "Section 5.12 lists the Salta incident as a violation of Directive 6, which resulted in a catastrophic outcome.",
+      "section_id": 5,
+      "topic_tag": "Documented Departures"
+    },
+    {
+      "question_id": "q7",
+      "question_text": "What is the mandatory action regarding Calexin-7 supplies before an engagement?",
+      "options": {
+        "A": "Destroy the supply",
+        "B": "Store it in the vehicle bay",
+        "C": "Release it to the medic",
+        "D": "Inject a dose immediately"
+      },
+      "correct_answer": "C",
+      "user_answer": "C",
+      "is_correct": true,
+      "explanation": "Directive 11 in Section 5.11 states the asset must always release a captured Calexin-7 supply to the medic before engagement.",
+      "section_id": 5,
+      "topic_tag": "Standing Directives"
+    },
+    {
+      "question_id": "q8",
+      "question_text": "What is the operational security level of the Cuartel Valpara\u00edso facility?",
+      "options": {
+        "A": "Restricted-1",
+        "B": "Restricted-2",
+        "C": "Restricted-3",
+        "D": "Classified-5"
+      },
+      "correct_answer": "C",
+      "user_answer": "C",
+      "is_correct": true,
+      "explanation": "Section 8 states that the operational security level for Cuartel Valpara\u00edso is PAMC Restricted-3.",
+      "section_id": 8,
+      "topic_tag": "Base Information"
+    },
+    {
+      "question_id": "q9",
+      "question_text": "At what percentage of targeting fatigue must the asset withdraw, according to Directive 10?",
+      "options": {
+        "A": "60%",
+        "B": "75%",
+        "C": "80%",
+        "D": "90%"
+      },
+      "correct_answer": "C",
+      "user_answer": "D",
+      "is_correct": false,
+      "explanation": "Section 5.11, Directive 10 requires withdrawal at 80% targeting fatigue.",
+      "section_id": 5,
+      "topic_tag": "Combat Directives"
+    },
+    {
+      "question_id": "q10",
+      "question_text": "Which Tier of threat prohibits the asset from engaging solo under any condition?",
+      "options": {
+        "A": "Tier 2",
+        "B": "Tier 3",
+        "C": "Tier 4",
+        "D": "Tier 5"
+      },
+      "correct_answer": "D",
+      "user_answer": "C",
+      "is_correct": false,
+      "explanation": "Section 5.3 explicitly states that the asset is not authorized to engage Tier 5 threats solo under any condition.",
+      "section_id": 5,
+      "topic_tag": "Engagement Protocols"
+    }
+  ]
+}
