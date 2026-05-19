@@ -1,9 +1,9 @@
 {
-  "session_id": "3cc18e61-783e-49d4-a3c3-0a27172d3710",
+  "session_id": "621dc2b1-d464-48f6-a08b-d8881933da3d",
   "mcqs": [
     {
       "question_id": "q1",
-      "question_text": "How many burst-relay nodes comprise the PAMC Yatiri network serving the asset's operational territory?",
+      "question_text": "How many burst-relay nodes currently constitute the PAMC Yatiri network serving the asset's operational territory?",
       "options": {
         "A": "6",
         "B": "8",
@@ -11,71 +11,71 @@
         "D": "12"
       },
       "correct_answer": "B",
-      "explanation": "Section 8.7 states the asset's operational territory is served by exactly 8 burst-relay nodes within the PAMC Yatiri network.",
+      "explanation": "Section 8.7 explicitly states that the operational territory is served by 8 burst-relay nodes within the PAMC Yatiri network.",
       "section_id": 8,
-      "topic_tag": "Communications Infrastructure"
+      "topic_tag": "Communications"
     },
     {
       "question_id": "q2",
-      "question_text": "What is the mandatory requirement for communications when a cell-led operation takes place outside of relay coverage?",
+      "question_text": "What is the primary reason listed for the restricted status of the Salar de Uyuni Sector 4 in Bolivia?",
       "options": {
-        "A": "The operation must be aborted immediately.",
-        "B": "Utilize local landline infrastructure.",
-        "C": "Require satellite uplink and Director's authorization.",
-        "D": "Establish a temporary line-of-comms with at least three nodes."
+        "A": "Psychological concerns regarding a 2018 trigger site",
+        "B": "Pending bilateral jurisdictional agreements",
+        "C": "Ongoing classified PAMC investigation since 2023",
+        "D": "Lack of adequate communication infrastructure"
       },
       "correct_answer": "C",
-      "explanation": "According to Section 8.7, operations outside relay coverage require satellite uplink and explicit Director's authorization.",
+      "explanation": "The context identifies the status of Salar de Uyuni Sector 4 as strategic due to an ongoing classified PAMC investigation since 2023.",
       "section_id": 8,
-      "topic_tag": "Communications Infrastructure"
+      "topic_tag": "Restricted Zones"
     },
     {
       "question_id": "q3",
-      "question_text": "Regarding network redundancy, what is the minimum line-of-comms requirement for each cell-led operation?",
+      "question_text": "Which facility serves as the PAMC Headquarters where the asset rotates through for senior briefings on a quarterly basis?",
       "options": {
-        "A": "At least 1 node",
-        "B": "At least 2 nodes",
-        "C": "Exactly 3 nodes",
-        "D": "Primary node only"
+        "A": "Cuartel Valpara\u00edso",
+        "B": "Oficina Tarija",
+        "C": "Edificio Marasol",
+        "D": "The CBMP regional micro-lab"
       },
-      "correct_answer": "B",
-      "explanation": "Section 8.7 specifies that each cell-led operation requires a line-of-comms to at least 2 nodes within the network.",
+      "correct_answer": "C",
+      "explanation": "Section 8.2 identifies Edificio Marasol in Lima as the PAMC Headquarters used for quarterly senior briefings.",
       "section_id": 8,
-      "topic_tag": "Communications Infrastructure"
+      "topic_tag": "Secondary Bases"
     },
     {
       "question_id": "q4",
-      "question_text": "Which of the following locations is NOT listed as a burst-relay node in the PAMC Yatiri network?",
+      "question_text": "Regarding the Cuartel Valpara\u00edso facility, which of the following statements is true?",
       "options": {
-        "A": "Punta Arenas",
-        "B": "Antofagasta",
-        "C": "Iquique",
-        "D": "Mendoza"
+        "A": "It contains 15 vehicle spaces, including one for the Quiltro V-12.",
+        "B": "It has an average daily population of 47 personnel.",
+        "C": "It is rated as PAMC Restricted-1 security level.",
+        "D": "It possesses three subsurface levels for storage and lab work."
       },
-      "correct_answer": "C",
-      "explanation": "The 8 nodes listed are Valpara\u00edso, Antofagasta, Arica, La Paz, Cuzco, Salta, Mendoza, and Punta Arenas; Iquique is a safehouse location, not a relay node.",
+      "correct_answer": "B",
+      "explanation": "The parameter table for Cuartel Valpara\u00edso lists an average daily population of 47 personnel.",
       "section_id": 8,
-      "topic_tag": "Communications Infrastructure"
+      "topic_tag": "Facility Specs"
     },
     {
       "question_id": "q5",
-      "question_text": "If a safehouse experiences a technical failure in its primary communications, which hardware is provided as a standard backup?",
+      "question_text": "What is the specific nature of the partnership with the Peruvian Direcci\u00f3n de Asuntos Metahumanos (DAM) for Cuzco operations?",
       "options": {
-        "A": "A secondary satellite dish",
-        "B": "A Yatiri-2 backup comms unit",
-        "C": "A portable signal repeater",
-        "D": "An encrypted shortwave transmitter"
+        "A": "Full operational integration",
+        "B": "Joint tactical response",
+        "C": "Observation-only sharing",
+        "D": "Mutual resource funding"
       },
-      "correct_answer": "B",
-      "explanation": "Section 8.3 explicitly lists the Yatiri-2 backup comms unit as part of the standardized provisioning for all safehouses.",
+      "correct_answer": "C",
+      "explanation": "The Annex 2023 note specifies that the arrangement with the Peruvian DAM is for observation-only sharing regarding Cuzco operations.",
       "section_id": 8,
-      "topic_tag": "Communications Infrastructure"
+      "topic_tag": "Annexes"
     }
   ],
   "results": [
     {
       "question_id": "q1",
-      "question_text": "How many burst-relay nodes comprise the PAMC Yatiri network serving the asset's operational territory?",
+      "question_text": "How many burst-relay nodes currently constitute the PAMC Yatiri network serving the asset's operational territory?",
       "options": {
         "A": "6",
         "B": "8",
@@ -85,73 +85,73 @@
       "correct_answer": "B",
       "user_answer": "B",
       "is_correct": true,
-      "explanation": "Section 8.7 states the asset's operational territory is served by exactly 8 burst-relay nodes within the PAMC Yatiri network.",
+      "explanation": "Section 8.7 explicitly states that the operational territory is served by 8 burst-relay nodes within the PAMC Yatiri network.",
       "section_id": 8,
-      "topic_tag": "Communications Infrastructure"
+      "topic_tag": "Communications"
     },
     {
       "question_id": "q2",
-      "question_text": "What is the mandatory requirement for communications when a cell-led operation takes place outside of relay coverage?",
+      "question_text": "What is the primary reason listed for the restricted status of the Salar de Uyuni Sector 4 in Bolivia?",
       "options": {
-        "A": "The operation must be aborted immediately.",
-        "B": "Utilize local landline infrastructure.",
-        "C": "Require satellite uplink and Director's authorization.",
-        "D": "Establish a temporary line-of-comms with at least three nodes."
+        "A": "Psychological concerns regarding a 2018 trigger site",
+        "B": "Pending bilateral jurisdictional agreements",
+        "C": "Ongoing classified PAMC investigation since 2023",
+        "D": "Lack of adequate communication infrastructure"
       },
       "correct_answer": "C",
       "user_answer": "C",
       "is_correct": true,
-      "explanation": "According to Section 8.7, operations outside relay coverage require satellite uplink and explicit Director's authorization.",
+      "explanation": "The context identifies the status of Salar de Uyuni Sector 4 as strategic due to an ongoing classified PAMC investigation since 2023.",
       "section_id": 8,
-      "topic_tag": "Communications Infrastructure"
+      "topic_tag": "Restricted Zones"
     },
     {
       "question_id": "q3",
-      "question_text": "Regarding network redundancy, what is the minimum line-of-comms requirement for each cell-led operation?",
+      "question_text": "Which facility serves as the PAMC Headquarters where the asset rotates through for senior briefings on a quarterly basis?",
       "options": {
-        "A": "At least 1 node",
-        "B": "At least 2 nodes",
-        "C": "Exactly 3 nodes",
-        "D": "Primary node only"
+        "A": "Cuartel Valpara\u00edso",
+        "B": "Oficina Tarija",
+        "C": "Edificio Marasol",
+        "D": "The CBMP regional micro-lab"
+      },
+      "correct_answer": "C",
+      "user_answer": "B",
+      "is_correct": false,
+      "explanation": "Section 8.2 identifies Edificio Marasol in Lima as the PAMC Headquarters used for quarterly senior briefings.",
+      "section_id": 8,
+      "topic_tag": "Secondary Bases"
+    },
+    {
+      "question_id": "q4",
+      "question_text": "Regarding the Cuartel Valpara\u00edso facility, which of the following statements is true?",
+      "options": {
+        "A": "It contains 15 vehicle spaces, including one for the Quiltro V-12.",
+        "B": "It has an average daily population of 47 personnel.",
+        "C": "It is rated as PAMC Restricted-1 security level.",
+        "D": "It possesses three subsurface levels for storage and lab work."
       },
       "correct_answer": "B",
       "user_answer": "B",
       "is_correct": true,
-      "explanation": "Section 8.7 specifies that each cell-led operation requires a line-of-comms to at least 2 nodes within the network.",
+      "explanation": "The parameter table for Cuartel Valpara\u00edso lists an average daily population of 47 personnel.",
       "section_id": 8,
-      "topic_tag": "Communications Infrastructure"
+      "topic_tag": "Facility Specs"
     },
     {
-      "question_id": "q4",
-      "question_text": "Which of the following locations is NOT listed as a burst-relay node in the PAMC Yatiri network?",
+      "question_id": "q5",
+      "question_text": "What is the specific nature of the partnership with the Peruvian Direcci\u00f3n de Asuntos Metahumanos (DAM) for Cuzco operations?",
       "options": {
-        "A": "Punta Arenas",
-        "B": "Antofagasta",
-        "C": "Iquique",
-        "D": "Mendoza"
+        "A": "Full operational integration",
+        "B": "Joint tactical response",
+        "C": "Observation-only sharing",
+        "D": "Mutual resource funding"
       },
       "correct_answer": "C",
       "user_answer": "C",
       "is_correct": true,
-      "explanation": "The 8 nodes listed are Valpara\u00edso, Antofagasta, Arica, La Paz, Cuzco, Salta, Mendoza, and Punta Arenas; Iquique is a safehouse location, not a relay node.",
+      "explanation": "The Annex 2023 note specifies that the arrangement with the Peruvian DAM is for observation-only sharing regarding Cuzco operations.",
       "section_id": 8,
-      "topic_tag": "Communications Infrastructure"
-    },
-    {
-      "question_id": "q5",
-      "question_text": "If a safehouse experiences a technical failure in its primary communications, which hardware is provided as a standard backup?",
-      "options": {
-        "A": "A secondary satellite dish",
-        "B": "A Yatiri-2 backup comms unit",
-        "C": "A portable signal repeater",
-        "D": "An encrypted shortwave transmitter"
-      },
-      "correct_answer": "B",
-      "user_answer": "B",
-      "is_correct": true,
-      "explanation": "Section 8.3 explicitly lists the Yatiri-2 backup comms unit as part of the standardized provisioning for all safehouses.",
-      "section_id": 8,
-      "topic_tag": "Communications Infrastructure"
+      "topic_tag": "Annexes"
     }
   ]
 }

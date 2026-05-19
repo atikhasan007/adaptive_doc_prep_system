@@ -1,457 +1,457 @@
 {
-  "session_id": "c67030d9-082f-4528-9b1d-7ecf7c20ca1b",
+  "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
   "mcqs": [
     {
       "question_id": "q1",
-      "question_text": "Who serves as the communications relay operator for the PAMC network?",
+      "question_text": "Who serves as the Cell technical lead in Section 6?",
       "options": {
-        "A": "Lic. Marta Spiess-Quiroga",
-        "B": "T\u00f3rtola",
-        "C": "Erlind Halvorsen",
+        "A": "L\u00e9on Marr\u00f3n-Saavedra",
+        "B": "Sol\u00e8ne Bauer-Cortez",
+        "C": "Maite Borghi-Castelnuovo",
         "D": "A\u00edda Salvatierra-Bunge"
       },
       "correct_answer": "B",
-      "explanation": "Section 6 lists 'T\u00f3rtola' as the communications relay operator located in Trelew.",
+      "explanation": "Section 6 explicitly lists Sol\u00e8ne Bauer-Cortez as the Cell technical lead.",
       "section_id": 6,
-      "topic_tag": "Communications Infrastructure"
+      "topic_tag": "Personnel"
     },
     {
       "question_id": "q2",
-      "question_text": "Which individual is identified as the Cell technical lead with three years of service?",
+      "question_text": "How many years has L\u00e9on Marr\u00f3n-Saavedra been with the organization?",
       "options": {
-        "A": "Sol\u00e8ne Bauer-Cortez",
-        "B": "Mateo Quispe-Linares",
-        "C": "Ra\u00fal Vendrame",
-        "D": "L\u00e9on Marr\u00f3n-Saavedra"
+        "A": "3 years",
+        "B": "4 years",
+        "C": "6 years",
+        "D": "7 years"
       },
-      "correct_answer": "A",
-      "explanation": "Section 6 explicitly lists Sol\u00e8ne Bauer-Cortez as the Cell technical lead with 3 years of tenure.",
+      "correct_answer": "D",
+      "explanation": "The table in Section 6 lists L\u00e9on Marr\u00f3n-Saavedra's tenure as 7 years.",
       "section_id": 6,
       "topic_tag": "Personnel"
     },
     {
       "question_id": "q3",
-      "question_text": "What is the primary role of the individual located in Trelew?",
+      "question_text": "What is the professional role of Maite Borghi-Castelnuovo?",
       "options": {
-        "A": "Lawyer",
-        "B": "Physicist",
-        "C": "Communications relay operator",
-        "D": "Operations Director"
+        "A": "Cell medic",
+        "B": "CBMP physicist",
+        "C": "Psychologist",
+        "D": "Cell tracker"
       },
       "correct_answer": "C",
-      "explanation": "Section 6 identifies the personnel located in Trelew as a communications relay operator known as 'T\u00f3rtola'.",
+      "explanation": "Maite Borghi-Castelnuovo is identified as the Psychologist in Section 6.",
       "section_id": 6,
-      "topic_tag": "Communications Infrastructure"
+      "topic_tag": "Personnel"
     },
     {
       "question_id": "q4",
-      "question_text": "How many total cases have been logged by the PAMC between 2019 and 2025?",
+      "question_text": "What was the classification status of Case 2019-0017?",
       "options": {
-        "A": "47",
-        "B": "48",
-        "C": "31",
-        "D": "28"
+        "A": "Open",
+        "B": "Classified",
+        "C": "Declassified Q4 2020",
+        "D": "Declassified Q1 2021"
       },
-      "correct_answer": "B",
-      "explanation": "Section 9.11 summary statistics indicate 47 closed cases and 1 open case, totaling 48.",
+      "correct_answer": "C",
+      "explanation": "Case 2019-0017 is listed as Declassified Q4 2020 in the Case Files section.",
       "section_id": 9,
-      "topic_tag": "Case Statistics"
+      "topic_tag": "Case History"
     },
     {
       "question_id": "q5",
-      "question_text": "In Case 2019-0017, what was the demonstrated mass-ceiling stability weight?",
+      "question_text": "Where specifically did Case 2019-0017 take place?",
       "options": {
-        "A": "100 kg",
-        "B": "150 kg",
-        "C": "200 kg",
-        "D": "250 kg"
+        "A": "Tallinn, Estonia",
+        "B": "Near Tocopilla, Antofagasta Region, Chile",
+        "C": "The Cordillera Mountains",
+        "D": "Atacama, Peru"
       },
-      "correct_answer": "C",
-      "explanation": "Section 9.2 states the operation demonstrated initial mass-ceiling stability at 200 kg.",
+      "correct_answer": "B",
+      "explanation": "The location for Case 2019-0017 is given as the Atacama Desert, near Tocopilla, Antofagasta Region, Chile.",
+      "section_id": 9,
+      "topic_tag": "Location"
+    },
+    {
+      "question_id": "q6",
+      "question_text": "What was the outcome of Case 2019-0017?",
+      "options": {
+        "A": "Pyrrhic",
+        "B": "Catastrophic",
+        "C": "Inconclusive",
+        "D": "Successful"
+      },
+      "correct_answer": "D",
+      "explanation": "The Outcome field for Case 2019-0017 is explicitly marked as Successful.",
       "section_id": 9,
       "topic_tag": "Operations"
     },
     {
-      "question_id": "q6",
-      "question_text": "Which entity provides the PAMC with case-data exchanges and four reciprocal briefings per year?",
+      "question_id": "q7",
+      "question_text": "How many days did the operation in Tallinn last for the asset?",
       "options": {
-        "A": "Iron Tributary",
-        "B": "Mar Inverso",
-        "C": "European Metahuman Reserve (EUMR)",
-        "D": "Norwegian Coast Guard"
+        "A": "3 days",
+        "B": "7 days",
+        "C": "9 days",
+        "D": "14 days"
       },
       "correct_answer": "C",
-      "explanation": "Section 6 lists the EUMR as an ally providing case-data exchange and four reciprocal briefings annually.",
-      "section_id": 6,
-      "topic_tag": "Allies and Networks"
-    },
-    {
-      "question_id": "q7",
-      "question_text": "What percentage of cases resulted in a 'Successful' outcome according to the 2019\u20132025 summary?",
-      "options": {
-        "A": "66%",
-        "B": "13%",
-        "C": "11%",
-        "D": "6%"
-      },
-      "correct_answer": "A",
-      "explanation": "Section 9.11 lists 31 successful cases out of 47 closed cases, representing 66%.",
+      "explanation": "The notes in Section 9 state the asset spent 9 days in Tallinn coordinating intelligence handoff.",
       "section_id": 9,
-      "topic_tag": "Case Statistics"
+      "topic_tag": "Operations"
     },
     {
       "question_id": "q8",
-      "question_text": "How many micro-caches were audited during Case 2025-0220?",
+      "question_text": "Which two EUMR operatives are mentioned in the Section 9 notes?",
       "options": {
-        "A": "10",
-        "B": "15",
-        "C": "19",
-        "D": "28"
+        "A": "HOLLOWMARK and VERIDIAN",
+        "B": "Sol\u00e8ne and Ra\u00fal",
+        "C": "L\u00e9on and Maite",
+        "D": "Bauer-Cortez and Salvatierra-Bunge"
       },
-      "correct_answer": "C",
-      "explanation": "Section 9 states Case 2025-0220 involved the triennial audit of all 19 micro-caches.",
+      "correct_answer": "A",
+      "explanation": "The text states the operation involved EUMR operatives HOLLOWMARK and VERIDIAN.",
       "section_id": 9,
-      "topic_tag": "Logistics"
+      "topic_tag": "Intelligence"
     },
     {
       "question_id": "q9",
-      "question_text": "What is the status of the Audiencia member mentioned in Case 2025-0019?",
+      "question_text": "In Case 2019-0017, how many adversary casualties were recorded?",
       "options": {
-        "A": "Imprisoned",
-        "B": "Promoted",
-        "C": "Reassigned",
-        "D": "Under investigation"
+        "A": "None",
+        "B": "1 captured",
+        "C": "2 captured",
+        "D": "2 killed"
       },
       "correct_answer": "C",
-      "explanation": "Section 9.8 notes that following the counter-audit, one Audiencia member was reassigned.",
+      "explanation": "The adversary casualties for Case 2019-0017 were 2 captured (small-arms smugglers).",
       "section_id": 9,
-      "topic_tag": "Internal Affairs"
+      "topic_tag": "Operations"
     },
     {
       "question_id": "q10",
-      "question_text": "Who is the Director that the asset reports to weekly regarding Case 2025-0220?",
+      "question_text": "What mass-ceiling stability was demonstrated during Case 2019-0017?",
       "options": {
-        "A": "Director Salvatierra",
-        "B": "Director Marr\u00f3n-Saavedra",
-        "C": "Director Bauer-Cortez",
-        "D": "Director Borghi-Castelnuovo"
+        "A": "100 kg",
+        "B": "200 kg",
+        "C": "300 kg",
+        "D": "72 kg"
       },
-      "correct_answer": "A",
-      "explanation": "Section 9 notes that for the Cordillera Cache Audit, the asset reports weekly to Director Salvatierra.",
+      "correct_answer": "B",
+      "explanation": "The post-action notes for Case 2019-0017 state the mass-ceiling stability was at 200 kg.",
       "section_id": 9,
-      "topic_tag": "Management"
+      "topic_tag": "Technical"
     },
     {
       "question_id": "q11",
-      "question_text": "What was the specific cause of the operational failure during the engagement where Quebrantadero escaped?",
+      "question_text": "How much planned time was originally allocated for the operation in Case 2019-0017?",
       "options": {
-        "A": "Communication failure in the relay network",
-        "B": "A pulse striking a civilian-density target",
-        "C": "Failure of the micro-cache system",
-        "D": "Unauthorized EUMR intervention"
+        "A": "52 hours",
+        "B": "24 hours",
+        "C": "3 days",
+        "D": "72 hours"
       },
-      "correct_answer": "B",
-      "explanation": "Section 9 notes that Quebrantadero's pulse struck a civilian-density urban target before SLATEFALL could interdict.",
+      "correct_answer": "D",
+      "explanation": "The operation was planned for 72 hours, though it concluded in 52 hours.",
       "section_id": 9,
       "topic_tag": "Operations"
     },
     {
       "question_id": "q12",
-      "question_text": "How many total operative deaths (KIA) were recorded between 2019 and 2025?",
+      "question_text": "What is the job title of A\u00edda Salvatierra-Bunge?",
       "options": {
-        "A": "0",
-        "B": "1",
-        "C": "2",
-        "D": "3"
+        "A": "Cell tracker",
+        "B": "Operations Director",
+        "C": "Cell medic",
+        "D": "Psychologist"
       },
       "correct_answer": "B",
-      "explanation": "Section 9.11 records 1 PAMC operative KIA (Cpl. Y\u00e1\u00f1ez-R\u00edos, 2022).",
-      "section_id": 9,
-      "topic_tag": "Case Statistics"
-    },
-    {
-      "question_id": "q13",
-      "question_text": "Which individual serves as the psychologist for the cell?",
-      "options": {
-        "A": "Sol\u00e8ne Bauer-Cortez",
-        "B": "A\u00edda Salvatierra-Bunge",
-        "C": "Maite Borghi-Castelnuovo",
-        "D": "Ra\u00fal Vendrame"
-      },
-      "correct_answer": "C",
-      "explanation": "Section 6 identifies Maite Borghi-Castelnuovo as the cell psychologist.",
+      "explanation": "A\u00edda Salvatierra-Bunge is listed as the Operations Director in Section 6.",
       "section_id": 6,
       "topic_tag": "Personnel"
     },
     {
-      "question_id": "q14",
-      "question_text": "Where is the lawyer and civilian-affairs counsel, Lic. Marta Spiess-Quiroga, based?",
+      "question_id": "q13",
+      "question_text": "What type of report was produced after the Tallinn operation?",
       "options": {
-        "A": "Lima",
-        "B": "Troms\u00f8",
-        "C": "Coyhaique",
-        "D": "Trelew"
+        "A": "A 14-page joint after-action report",
+        "B": "A 9-page intelligence briefing",
+        "C": "A 52-hour summary",
+        "D": "A classified cache audit"
       },
       "correct_answer": "A",
-      "explanation": "Section 6 lists Lic. Marta Spiess-Quiroga as a lawyer/counsel based in Lima.",
+      "explanation": "The text confirms the production of a 14-page joint after-action report.",
+      "section_id": 9,
+      "topic_tag": "Intelligence"
+    },
+    {
+      "question_id": "q14",
+      "question_text": "Which operative serves as the 'Cell medic'?",
+      "options": {
+        "A": "Mateo Quispe-Linares",
+        "B": "Ra\u00fal Vendrame",
+        "C": "Sol\u00e8ne Bauer-Cortez",
+        "D": "L\u00e9on Marr\u00f3n-Saavedra"
+      },
+      "correct_answer": "B",
+      "explanation": "Ra\u00fal Vendrame is explicitly listed as the Cell medic in Section 6.",
       "section_id": 6,
       "topic_tag": "Personnel"
     },
     {
       "question_id": "q15",
-      "question_text": "What was the final status of the underwriter referral in Case 2025-0019?",
+      "question_text": "What was the 'first' for the asset during the Tallinn operation?",
       "options": {
-        "A": "Approved",
-        "B": "Dismissed",
-        "C": "Ongoing",
-        "D": "Escalated"
+        "A": "The first independent operation",
+        "B": "The first intelligence handoff",
+        "C": "The first demonstration of Inertial Suspension to non-PAMC liaisons",
+        "D": "The first audit of a cache"
       },
-      "correct_answer": "B",
-      "explanation": "Section 9.8 states that in the Audiencia Counter-Audit, the underwriter referral was dismissed.",
+      "correct_answer": "C",
+      "explanation": "The text notes the Tallinn operation was the first instance of the asset's Inertial Suspension being demonstrated to non-PAMC liaisons.",
       "section_id": 9,
-      "topic_tag": "Internal Affairs"
+      "topic_tag": "Technical"
     }
   ],
   "results": [
     {
       "question_id": "q1",
-      "question_text": "Who serves as the communications relay operator for the PAMC network?",
+      "question_text": "Who serves as the Cell technical lead in Section 6?",
       "options": {
-        "A": "Lic. Marta Spiess-Quiroga",
-        "B": "T\u00f3rtola",
-        "C": "Erlind Halvorsen",
+        "A": "L\u00e9on Marr\u00f3n-Saavedra",
+        "B": "Sol\u00e8ne Bauer-Cortez",
+        "C": "Maite Borghi-Castelnuovo",
         "D": "A\u00edda Salvatierra-Bunge"
       },
       "correct_answer": "B",
-      "user_answer": "B",
-      "is_correct": true,
-      "explanation": "Section 6 lists 'T\u00f3rtola' as the communications relay operator located in Trelew.",
+      "user_answer": "C",
+      "is_correct": false,
+      "explanation": "Section 6 explicitly lists Sol\u00e8ne Bauer-Cortez as the Cell technical lead.",
       "section_id": 6,
-      "topic_tag": "Communications Infrastructure"
+      "topic_tag": "Personnel"
     },
     {
       "question_id": "q2",
-      "question_text": "Which individual is identified as the Cell technical lead with three years of service?",
+      "question_text": "How many years has L\u00e9on Marr\u00f3n-Saavedra been with the organization?",
       "options": {
-        "A": "Sol\u00e8ne Bauer-Cortez",
-        "B": "Mateo Quispe-Linares",
-        "C": "Ra\u00fal Vendrame",
-        "D": "L\u00e9on Marr\u00f3n-Saavedra"
+        "A": "3 years",
+        "B": "4 years",
+        "C": "6 years",
+        "D": "7 years"
       },
-      "correct_answer": "A",
+      "correct_answer": "D",
       "user_answer": "A",
-      "is_correct": true,
-      "explanation": "Section 6 explicitly lists Sol\u00e8ne Bauer-Cortez as the Cell technical lead with 3 years of tenure.",
+      "is_correct": false,
+      "explanation": "The table in Section 6 lists L\u00e9on Marr\u00f3n-Saavedra's tenure as 7 years.",
       "section_id": 6,
       "topic_tag": "Personnel"
     },
     {
       "question_id": "q3",
-      "question_text": "What is the primary role of the individual located in Trelew?",
+      "question_text": "What is the professional role of Maite Borghi-Castelnuovo?",
       "options": {
-        "A": "Lawyer",
-        "B": "Physicist",
-        "C": "Communications relay operator",
-        "D": "Operations Director"
+        "A": "Cell medic",
+        "B": "CBMP physicist",
+        "C": "Psychologist",
+        "D": "Cell tracker"
       },
       "correct_answer": "C",
       "user_answer": "C",
       "is_correct": true,
-      "explanation": "Section 6 identifies the personnel located in Trelew as a communications relay operator known as 'T\u00f3rtola'.",
+      "explanation": "Maite Borghi-Castelnuovo is identified as the Psychologist in Section 6.",
       "section_id": 6,
-      "topic_tag": "Communications Infrastructure"
+      "topic_tag": "Personnel"
     },
     {
       "question_id": "q4",
-      "question_text": "How many total cases have been logged by the PAMC between 2019 and 2025?",
+      "question_text": "What was the classification status of Case 2019-0017?",
       "options": {
-        "A": "47",
-        "B": "48",
-        "C": "31",
-        "D": "28"
+        "A": "Open",
+        "B": "Classified",
+        "C": "Declassified Q4 2020",
+        "D": "Declassified Q1 2021"
+      },
+      "correct_answer": "C",
+      "user_answer": "C",
+      "is_correct": true,
+      "explanation": "Case 2019-0017 is listed as Declassified Q4 2020 in the Case Files section.",
+      "section_id": 9,
+      "topic_tag": "Case History"
+    },
+    {
+      "question_id": "q5",
+      "question_text": "Where specifically did Case 2019-0017 take place?",
+      "options": {
+        "A": "Tallinn, Estonia",
+        "B": "Near Tocopilla, Antofagasta Region, Chile",
+        "C": "The Cordillera Mountains",
+        "D": "Atacama, Peru"
       },
       "correct_answer": "B",
       "user_answer": "B",
       "is_correct": true,
-      "explanation": "Section 9.11 summary statistics indicate 47 closed cases and 1 open case, totaling 48.",
+      "explanation": "The location for Case 2019-0017 is given as the Atacama Desert, near Tocopilla, Antofagasta Region, Chile.",
       "section_id": 9,
-      "topic_tag": "Case Statistics"
+      "topic_tag": "Location"
     },
     {
-      "question_id": "q5",
-      "question_text": "In Case 2019-0017, what was the demonstrated mass-ceiling stability weight?",
+      "question_id": "q6",
+      "question_text": "What was the outcome of Case 2019-0017?",
       "options": {
-        "A": "100 kg",
-        "B": "150 kg",
-        "C": "200 kg",
-        "D": "250 kg"
+        "A": "Pyrrhic",
+        "B": "Catastrophic",
+        "C": "Inconclusive",
+        "D": "Successful"
       },
-      "correct_answer": "C",
-      "user_answer": "C",
+      "correct_answer": "D",
+      "user_answer": "D",
       "is_correct": true,
-      "explanation": "Section 9.2 states the operation demonstrated initial mass-ceiling stability at 200 kg.",
+      "explanation": "The Outcome field for Case 2019-0017 is explicitly marked as Successful.",
       "section_id": 9,
       "topic_tag": "Operations"
     },
     {
-      "question_id": "q6",
-      "question_text": "Which entity provides the PAMC with case-data exchanges and four reciprocal briefings per year?",
+      "question_id": "q7",
+      "question_text": "How many days did the operation in Tallinn last for the asset?",
       "options": {
-        "A": "Iron Tributary",
-        "B": "Mar Inverso",
-        "C": "European Metahuman Reserve (EUMR)",
-        "D": "Norwegian Coast Guard"
+        "A": "3 days",
+        "B": "7 days",
+        "C": "9 days",
+        "D": "14 days"
       },
       "correct_answer": "C",
       "user_answer": "C",
       "is_correct": true,
-      "explanation": "Section 6 lists the EUMR as an ally providing case-data exchange and four reciprocal briefings annually.",
-      "section_id": 6,
-      "topic_tag": "Allies and Networks"
-    },
-    {
-      "question_id": "q7",
-      "question_text": "What percentage of cases resulted in a 'Successful' outcome according to the 2019\u20132025 summary?",
-      "options": {
-        "A": "66%",
-        "B": "13%",
-        "C": "11%",
-        "D": "6%"
-      },
-      "correct_answer": "A",
-      "user_answer": "C",
-      "is_correct": false,
-      "explanation": "Section 9.11 lists 31 successful cases out of 47 closed cases, representing 66%.",
+      "explanation": "The notes in Section 9 state the asset spent 9 days in Tallinn coordinating intelligence handoff.",
       "section_id": 9,
-      "topic_tag": "Case Statistics"
+      "topic_tag": "Operations"
     },
     {
       "question_id": "q8",
-      "question_text": "How many micro-caches were audited during Case 2025-0220?",
+      "question_text": "Which two EUMR operatives are mentioned in the Section 9 notes?",
       "options": {
-        "A": "10",
-        "B": "15",
-        "C": "19",
-        "D": "28"
+        "A": "HOLLOWMARK and VERIDIAN",
+        "B": "Sol\u00e8ne and Ra\u00fal",
+        "C": "L\u00e9on and Maite",
+        "D": "Bauer-Cortez and Salvatierra-Bunge"
+      },
+      "correct_answer": "A",
+      "user_answer": "D",
+      "is_correct": false,
+      "explanation": "The text states the operation involved EUMR operatives HOLLOWMARK and VERIDIAN.",
+      "section_id": 9,
+      "topic_tag": "Intelligence"
+    },
+    {
+      "question_id": "q9",
+      "question_text": "In Case 2019-0017, how many adversary casualties were recorded?",
+      "options": {
+        "A": "None",
+        "B": "1 captured",
+        "C": "2 captured",
+        "D": "2 killed"
       },
       "correct_answer": "C",
       "user_answer": "C",
       "is_correct": true,
-      "explanation": "Section 9 states Case 2025-0220 involved the triennial audit of all 19 micro-caches.",
+      "explanation": "The adversary casualties for Case 2019-0017 were 2 captured (small-arms smugglers).",
       "section_id": 9,
-      "topic_tag": "Logistics"
-    },
-    {
-      "question_id": "q9",
-      "question_text": "What is the status of the Audiencia member mentioned in Case 2025-0019?",
-      "options": {
-        "A": "Imprisoned",
-        "B": "Promoted",
-        "C": "Reassigned",
-        "D": "Under investigation"
-      },
-      "correct_answer": "C",
-      "user_answer": "A",
-      "is_correct": false,
-      "explanation": "Section 9.8 notes that following the counter-audit, one Audiencia member was reassigned.",
-      "section_id": 9,
-      "topic_tag": "Internal Affairs"
+      "topic_tag": "Operations"
     },
     {
       "question_id": "q10",
-      "question_text": "Who is the Director that the asset reports to weekly regarding Case 2025-0220?",
+      "question_text": "What mass-ceiling stability was demonstrated during Case 2019-0017?",
       "options": {
-        "A": "Director Salvatierra",
-        "B": "Director Marr\u00f3n-Saavedra",
-        "C": "Director Bauer-Cortez",
-        "D": "Director Borghi-Castelnuovo"
-      },
-      "correct_answer": "A",
-      "user_answer": "C",
-      "is_correct": false,
-      "explanation": "Section 9 notes that for the Cordillera Cache Audit, the asset reports weekly to Director Salvatierra.",
-      "section_id": 9,
-      "topic_tag": "Management"
-    },
-    {
-      "question_id": "q11",
-      "question_text": "What was the specific cause of the operational failure during the engagement where Quebrantadero escaped?",
-      "options": {
-        "A": "Communication failure in the relay network",
-        "B": "A pulse striking a civilian-density target",
-        "C": "Failure of the micro-cache system",
-        "D": "Unauthorized EUMR intervention"
+        "A": "100 kg",
+        "B": "200 kg",
+        "C": "300 kg",
+        "D": "72 kg"
       },
       "correct_answer": "B",
       "user_answer": "B",
       "is_correct": true,
-      "explanation": "Section 9 notes that Quebrantadero's pulse struck a civilian-density urban target before SLATEFALL could interdict.",
+      "explanation": "The post-action notes for Case 2019-0017 state the mass-ceiling stability was at 200 kg.",
+      "section_id": 9,
+      "topic_tag": "Technical"
+    },
+    {
+      "question_id": "q11",
+      "question_text": "How much planned time was originally allocated for the operation in Case 2019-0017?",
+      "options": {
+        "A": "52 hours",
+        "B": "24 hours",
+        "C": "3 days",
+        "D": "72 hours"
+      },
+      "correct_answer": "D",
+      "user_answer": "D",
+      "is_correct": true,
+      "explanation": "The operation was planned for 72 hours, though it concluded in 52 hours.",
       "section_id": 9,
       "topic_tag": "Operations"
     },
     {
       "question_id": "q12",
-      "question_text": "How many total operative deaths (KIA) were recorded between 2019 and 2025?",
+      "question_text": "What is the job title of A\u00edda Salvatierra-Bunge?",
       "options": {
-        "A": "0",
-        "B": "1",
-        "C": "2",
-        "D": "3"
+        "A": "Cell tracker",
+        "B": "Operations Director",
+        "C": "Cell medic",
+        "D": "Psychologist"
       },
       "correct_answer": "B",
-      "user_answer": "C",
-      "is_correct": false,
-      "explanation": "Section 9.11 records 1 PAMC operative KIA (Cpl. Y\u00e1\u00f1ez-R\u00edos, 2022).",
-      "section_id": 9,
-      "topic_tag": "Case Statistics"
-    },
-    {
-      "question_id": "q13",
-      "question_text": "Which individual serves as the psychologist for the cell?",
-      "options": {
-        "A": "Sol\u00e8ne Bauer-Cortez",
-        "B": "A\u00edda Salvatierra-Bunge",
-        "C": "Maite Borghi-Castelnuovo",
-        "D": "Ra\u00fal Vendrame"
-      },
-      "correct_answer": "C",
-      "user_answer": "A",
-      "is_correct": false,
-      "explanation": "Section 6 identifies Maite Borghi-Castelnuovo as the cell psychologist.",
+      "user_answer": "B",
+      "is_correct": true,
+      "explanation": "A\u00edda Salvatierra-Bunge is listed as the Operations Director in Section 6.",
       "section_id": 6,
       "topic_tag": "Personnel"
     },
     {
-      "question_id": "q14",
-      "question_text": "Where is the lawyer and civilian-affairs counsel, Lic. Marta Spiess-Quiroga, based?",
+      "question_id": "q13",
+      "question_text": "What type of report was produced after the Tallinn operation?",
       "options": {
-        "A": "Lima",
-        "B": "Troms\u00f8",
-        "C": "Coyhaique",
-        "D": "Trelew"
+        "A": "A 14-page joint after-action report",
+        "B": "A 9-page intelligence briefing",
+        "C": "A 52-hour summary",
+        "D": "A classified cache audit"
       },
       "correct_answer": "A",
-      "user_answer": "A",
+      "user_answer": "D",
+      "is_correct": false,
+      "explanation": "The text confirms the production of a 14-page joint after-action report.",
+      "section_id": 9,
+      "topic_tag": "Intelligence"
+    },
+    {
+      "question_id": "q14",
+      "question_text": "Which operative serves as the 'Cell medic'?",
+      "options": {
+        "A": "Mateo Quispe-Linares",
+        "B": "Ra\u00fal Vendrame",
+        "C": "Sol\u00e8ne Bauer-Cortez",
+        "D": "L\u00e9on Marr\u00f3n-Saavedra"
+      },
+      "correct_answer": "B",
+      "user_answer": "B",
       "is_correct": true,
-      "explanation": "Section 6 lists Lic. Marta Spiess-Quiroga as a lawyer/counsel based in Lima.",
+      "explanation": "Ra\u00fal Vendrame is explicitly listed as the Cell medic in Section 6.",
       "section_id": 6,
       "topic_tag": "Personnel"
     },
     {
       "question_id": "q15",
-      "question_text": "What was the final status of the underwriter referral in Case 2025-0019?",
+      "question_text": "What was the 'first' for the asset during the Tallinn operation?",
       "options": {
-        "A": "Approved",
-        "B": "Dismissed",
-        "C": "Ongoing",
-        "D": "Escalated"
+        "A": "The first independent operation",
+        "B": "The first intelligence handoff",
+        "C": "The first demonstration of Inertial Suspension to non-PAMC liaisons",
+        "D": "The first audit of a cache"
       },
-      "correct_answer": "B",
-      "user_answer": "B",
+      "correct_answer": "C",
+      "user_answer": "C",
       "is_correct": true,
-      "explanation": "Section 9.8 states that in the Audiencia Counter-Audit, the underwriter referral was dismissed.",
+      "explanation": "The text notes the Tallinn operation was the first instance of the asset's Inertial Suspension being demonstrated to non-PAMC liaisons.",
       "section_id": 9,
-      "topic_tag": "Internal Affairs"
+      "topic_tag": "Technical"
     }
   ]
 }

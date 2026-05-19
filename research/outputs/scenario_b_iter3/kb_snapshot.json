@@ -1,20 +1,38 @@
 {
   "kb_snapshot": [
     {
-      "session_id": "3cc18e61-783e-49d4-a3c3-0a27172d3710",
+      "session_id": "621dc2b1-d464-48f6-a08b-d8881933da3d",
       "section_ids": [
         8
       ],
-      "created_at": "2026-05-19T15:49:21.853000",
+      "created_at": "2026-05-19T18:18:39.861000",
       "total_q": 5,
-      "correct_count": 5,
-      "score_pct": 100.0,
+      "correct_count": 4,
+      "score_pct": 80.0,
       "questions": [
         {
-          "session_id": "3cc18e61-783e-49d4-a3c3-0a27172d3710",
-          "created_at": "2026-05-19T15:49:21.853000",
+          "session_id": "621dc2b1-d464-48f6-a08b-d8881933da3d",
+          "created_at": "2026-05-19T18:18:39.861000",
+          "question_id": "q3",
+          "question_text": "Which facility serves as the PAMC Headquarters where the asset rotates through for senior briefings on a quarterly basis?",
+          "options": {
+            "A": "Cuartel Valpara\u00edso",
+            "B": "Oficina Tarija",
+            "C": "Edificio Marasol",
+            "D": "The CBMP regional micro-lab"
+          },
+          "correct_answer": "C",
+          "user_answer": "B",
+          "is_correct": false,
+          "explanation": "Section 8.2 identifies Edificio Marasol in Lima as the PAMC Headquarters used for quarterly senior briefings.",
+          "section_id": 8,
+          "topic_tag": "Secondary Bases"
+        },
+        {
+          "session_id": "621dc2b1-d464-48f6-a08b-d8881933da3d",
+          "created_at": "2026-05-19T18:18:39.861000",
           "question_id": "q1",
-          "question_text": "How many burst-relay nodes comprise the PAMC Yatiri network serving the asset's operational territory?",
+          "question_text": "How many burst-relay nodes currently constitute the PAMC Yatiri network serving the asset's operational territory?",
           "options": {
             "A": "6",
             "B": "8",
@@ -24,754 +42,929 @@
           "correct_answer": "B",
           "user_answer": "B",
           "is_correct": true,
-          "explanation": "Section 8.7 states the asset's operational territory is served by exactly 8 burst-relay nodes within the PAMC Yatiri network.",
+          "explanation": "Section 8.7 explicitly states that the operational territory is served by 8 burst-relay nodes within the PAMC Yatiri network.",
           "section_id": 8,
-          "topic_tag": "Communications Infrastructure"
+          "topic_tag": "Communications"
         },
         {
-          "session_id": "3cc18e61-783e-49d4-a3c3-0a27172d3710",
-          "created_at": "2026-05-19T15:49:21.853000",
+          "session_id": "621dc2b1-d464-48f6-a08b-d8881933da3d",
+          "created_at": "2026-05-19T18:18:39.861000",
           "question_id": "q2",
-          "question_text": "What is the mandatory requirement for communications when a cell-led operation takes place outside of relay coverage?",
+          "question_text": "What is the primary reason listed for the restricted status of the Salar de Uyuni Sector 4 in Bolivia?",
           "options": {
-            "A": "The operation must be aborted immediately.",
-            "B": "Utilize local landline infrastructure.",
-            "C": "Require satellite uplink and Director's authorization.",
-            "D": "Establish a temporary line-of-comms with at least three nodes."
+            "A": "Psychological concerns regarding a 2018 trigger site",
+            "B": "Pending bilateral jurisdictional agreements",
+            "C": "Ongoing classified PAMC investigation since 2023",
+            "D": "Lack of adequate communication infrastructure"
           },
           "correct_answer": "C",
           "user_answer": "C",
           "is_correct": true,
-          "explanation": "According to Section 8.7, operations outside relay coverage require satellite uplink and explicit Director's authorization.",
+          "explanation": "The context identifies the status of Salar de Uyuni Sector 4 as strategic due to an ongoing classified PAMC investigation since 2023.",
           "section_id": 8,
-          "topic_tag": "Communications Infrastructure"
+          "topic_tag": "Restricted Zones"
         },
         {
-          "session_id": "3cc18e61-783e-49d4-a3c3-0a27172d3710",
-          "created_at": "2026-05-19T15:49:21.853000",
-          "question_id": "q3",
-          "question_text": "Regarding network redundancy, what is the minimum line-of-comms requirement for each cell-led operation?",
-          "options": {
-            "A": "At least 1 node",
-            "B": "At least 2 nodes",
-            "C": "Exactly 3 nodes",
-            "D": "Primary node only"
-          },
-          "correct_answer": "B",
-          "user_answer": "B",
-          "is_correct": true,
-          "explanation": "Section 8.7 specifies that each cell-led operation requires a line-of-comms to at least 2 nodes within the network.",
-          "section_id": 8,
-          "topic_tag": "Communications Infrastructure"
-        },
-        {
-          "session_id": "3cc18e61-783e-49d4-a3c3-0a27172d3710",
-          "created_at": "2026-05-19T15:49:21.853000",
+          "session_id": "621dc2b1-d464-48f6-a08b-d8881933da3d",
+          "created_at": "2026-05-19T18:18:39.861000",
           "question_id": "q4",
-          "question_text": "Which of the following locations is NOT listed as a burst-relay node in the PAMC Yatiri network?",
+          "question_text": "Regarding the Cuartel Valpara\u00edso facility, which of the following statements is true?",
           "options": {
-            "A": "Punta Arenas",
-            "B": "Antofagasta",
-            "C": "Iquique",
-            "D": "Mendoza"
-          },
-          "correct_answer": "C",
-          "user_answer": "C",
-          "is_correct": true,
-          "explanation": "The 8 nodes listed are Valpara\u00edso, Antofagasta, Arica, La Paz, Cuzco, Salta, Mendoza, and Punta Arenas; Iquique is a safehouse location, not a relay node.",
-          "section_id": 8,
-          "topic_tag": "Communications Infrastructure"
-        },
-        {
-          "session_id": "3cc18e61-783e-49d4-a3c3-0a27172d3710",
-          "created_at": "2026-05-19T15:49:21.853000",
-          "question_id": "q5",
-          "question_text": "If a safehouse experiences a technical failure in its primary communications, which hardware is provided as a standard backup?",
-          "options": {
-            "A": "A secondary satellite dish",
-            "B": "A Yatiri-2 backup comms unit",
-            "C": "A portable signal repeater",
-            "D": "An encrypted shortwave transmitter"
+            "A": "It contains 15 vehicle spaces, including one for the Quiltro V-12.",
+            "B": "It has an average daily population of 47 personnel.",
+            "C": "It is rated as PAMC Restricted-1 security level.",
+            "D": "It possesses three subsurface levels for storage and lab work."
           },
           "correct_answer": "B",
           "user_answer": "B",
           "is_correct": true,
-          "explanation": "Section 8.3 explicitly lists the Yatiri-2 backup comms unit as part of the standardized provisioning for all safehouses.",
+          "explanation": "The parameter table for Cuartel Valpara\u00edso lists an average daily population of 47 personnel.",
           "section_id": 8,
-          "topic_tag": "Communications Infrastructure"
+          "topic_tag": "Facility Specs"
+        },
+        {
+          "session_id": "621dc2b1-d464-48f6-a08b-d8881933da3d",
+          "created_at": "2026-05-19T18:18:39.861000",
+          "question_id": "q5",
+          "question_text": "What is the specific nature of the partnership with the Peruvian Direcci\u00f3n de Asuntos Metahumanos (DAM) for Cuzco operations?",
+          "options": {
+            "A": "Full operational integration",
+            "B": "Joint tactical response",
+            "C": "Observation-only sharing",
+            "D": "Mutual resource funding"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "The Annex 2023 note specifies that the arrangement with the Peruvian DAM is for observation-only sharing regarding Cuzco operations.",
+          "section_id": 8,
+          "topic_tag": "Annexes"
         }
       ]
     },
     {
-      "session_id": "c67030d9-082f-4528-9b1d-7ecf7c20ca1b",
+      "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
       "section_ids": [
         6,
         8,
         9
       ],
-      "created_at": "2026-05-19T15:48:36.030000",
+      "created_at": "2026-05-19T18:18:19.737000",
       "total_q": 15,
-      "correct_count": 10,
-      "score_pct": 66.67,
+      "correct_count": 11,
+      "score_pct": 73.33,
       "questions": [
         {
-          "session_id": "c67030d9-082f-4528-9b1d-7ecf7c20ca1b",
-          "created_at": "2026-05-19T15:48:36.030000",
-          "question_id": "q7",
-          "question_text": "What percentage of cases resulted in a 'Successful' outcome according to the 2019\u20132025 summary?",
-          "options": {
-            "A": "66%",
-            "B": "13%",
-            "C": "11%",
-            "D": "6%"
-          },
-          "correct_answer": "A",
-          "user_answer": "C",
-          "is_correct": false,
-          "explanation": "Section 9.11 lists 31 successful cases out of 47 closed cases, representing 66%.",
-          "section_id": 9,
-          "topic_tag": "Case Statistics"
-        },
-        {
-          "session_id": "c67030d9-082f-4528-9b1d-7ecf7c20ca1b",
-          "created_at": "2026-05-19T15:48:36.030000",
-          "question_id": "q9",
-          "question_text": "What is the status of the Audiencia member mentioned in Case 2025-0019?",
-          "options": {
-            "A": "Imprisoned",
-            "B": "Promoted",
-            "C": "Reassigned",
-            "D": "Under investigation"
-          },
-          "correct_answer": "C",
-          "user_answer": "A",
-          "is_correct": false,
-          "explanation": "Section 9.8 notes that following the counter-audit, one Audiencia member was reassigned.",
-          "section_id": 9,
-          "topic_tag": "Internal Affairs"
-        },
-        {
-          "session_id": "c67030d9-082f-4528-9b1d-7ecf7c20ca1b",
-          "created_at": "2026-05-19T15:48:36.030000",
-          "question_id": "q10",
-          "question_text": "Who is the Director that the asset reports to weekly regarding Case 2025-0220?",
-          "options": {
-            "A": "Director Salvatierra",
-            "B": "Director Marr\u00f3n-Saavedra",
-            "C": "Director Bauer-Cortez",
-            "D": "Director Borghi-Castelnuovo"
-          },
-          "correct_answer": "A",
-          "user_answer": "C",
-          "is_correct": false,
-          "explanation": "Section 9 notes that for the Cordillera Cache Audit, the asset reports weekly to Director Salvatierra.",
-          "section_id": 9,
-          "topic_tag": "Management"
-        },
-        {
-          "session_id": "c67030d9-082f-4528-9b1d-7ecf7c20ca1b",
-          "created_at": "2026-05-19T15:48:36.030000",
-          "question_id": "q12",
-          "question_text": "How many total operative deaths (KIA) were recorded between 2019 and 2025?",
-          "options": {
-            "A": "0",
-            "B": "1",
-            "C": "2",
-            "D": "3"
-          },
-          "correct_answer": "B",
-          "user_answer": "C",
-          "is_correct": false,
-          "explanation": "Section 9.11 records 1 PAMC operative KIA (Cpl. Y\u00e1\u00f1ez-R\u00edos, 2022).",
-          "section_id": 9,
-          "topic_tag": "Case Statistics"
-        },
-        {
-          "session_id": "c67030d9-082f-4528-9b1d-7ecf7c20ca1b",
-          "created_at": "2026-05-19T15:48:36.030000",
-          "question_id": "q13",
-          "question_text": "Which individual serves as the psychologist for the cell?",
-          "options": {
-            "A": "Sol\u00e8ne Bauer-Cortez",
-            "B": "A\u00edda Salvatierra-Bunge",
-            "C": "Maite Borghi-Castelnuovo",
-            "D": "Ra\u00fal Vendrame"
-          },
-          "correct_answer": "C",
-          "user_answer": "A",
-          "is_correct": false,
-          "explanation": "Section 6 identifies Maite Borghi-Castelnuovo as the cell psychologist.",
-          "section_id": 6,
-          "topic_tag": "Personnel"
-        },
-        {
-          "session_id": "c67030d9-082f-4528-9b1d-7ecf7c20ca1b",
-          "created_at": "2026-05-19T15:48:36.030000",
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
           "question_id": "q1",
-          "question_text": "Who serves as the communications relay operator for the PAMC network?",
+          "question_text": "Who serves as the Cell technical lead in Section 6?",
           "options": {
-            "A": "Lic. Marta Spiess-Quiroga",
-            "B": "T\u00f3rtola",
-            "C": "Erlind Halvorsen",
+            "A": "L\u00e9on Marr\u00f3n-Saavedra",
+            "B": "Sol\u00e8ne Bauer-Cortez",
+            "C": "Maite Borghi-Castelnuovo",
             "D": "A\u00edda Salvatierra-Bunge"
           },
           "correct_answer": "B",
-          "user_answer": "B",
-          "is_correct": true,
-          "explanation": "Section 6 lists 'T\u00f3rtola' as the communications relay operator located in Trelew.",
-          "section_id": 6,
-          "topic_tag": "Communications Infrastructure"
-        },
-        {
-          "session_id": "c67030d9-082f-4528-9b1d-7ecf7c20ca1b",
-          "created_at": "2026-05-19T15:48:36.030000",
-          "question_id": "q2",
-          "question_text": "Which individual is identified as the Cell technical lead with three years of service?",
-          "options": {
-            "A": "Sol\u00e8ne Bauer-Cortez",
-            "B": "Mateo Quispe-Linares",
-            "C": "Ra\u00fal Vendrame",
-            "D": "L\u00e9on Marr\u00f3n-Saavedra"
-          },
-          "correct_answer": "A",
-          "user_answer": "A",
-          "is_correct": true,
-          "explanation": "Section 6 explicitly lists Sol\u00e8ne Bauer-Cortez as the Cell technical lead with 3 years of tenure.",
+          "user_answer": "C",
+          "is_correct": false,
+          "explanation": "Section 6 explicitly lists Sol\u00e8ne Bauer-Cortez as the Cell technical lead.",
           "section_id": 6,
           "topic_tag": "Personnel"
         },
         {
-          "session_id": "c67030d9-082f-4528-9b1d-7ecf7c20ca1b",
-          "created_at": "2026-05-19T15:48:36.030000",
-          "question_id": "q3",
-          "question_text": "What is the primary role of the individual located in Trelew?",
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q2",
+          "question_text": "How many years has L\u00e9on Marr\u00f3n-Saavedra been with the organization?",
           "options": {
-            "A": "Lawyer",
-            "B": "Physicist",
-            "C": "Communications relay operator",
-            "D": "Operations Director"
+            "A": "3 years",
+            "B": "4 years",
+            "C": "6 years",
+            "D": "7 years"
+          },
+          "correct_answer": "D",
+          "user_answer": "A",
+          "is_correct": false,
+          "explanation": "The table in Section 6 lists L\u00e9on Marr\u00f3n-Saavedra's tenure as 7 years.",
+          "section_id": 6,
+          "topic_tag": "Personnel"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q8",
+          "question_text": "Which two EUMR operatives are mentioned in the Section 9 notes?",
+          "options": {
+            "A": "HOLLOWMARK and VERIDIAN",
+            "B": "Sol\u00e8ne and Ra\u00fal",
+            "C": "L\u00e9on and Maite",
+            "D": "Bauer-Cortez and Salvatierra-Bunge"
+          },
+          "correct_answer": "A",
+          "user_answer": "D",
+          "is_correct": false,
+          "explanation": "The text states the operation involved EUMR operatives HOLLOWMARK and VERIDIAN.",
+          "section_id": 9,
+          "topic_tag": "Intelligence"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q13",
+          "question_text": "What type of report was produced after the Tallinn operation?",
+          "options": {
+            "A": "A 14-page joint after-action report",
+            "B": "A 9-page intelligence briefing",
+            "C": "A 52-hour summary",
+            "D": "A classified cache audit"
+          },
+          "correct_answer": "A",
+          "user_answer": "D",
+          "is_correct": false,
+          "explanation": "The text confirms the production of a 14-page joint after-action report.",
+          "section_id": 9,
+          "topic_tag": "Intelligence"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q3",
+          "question_text": "What is the professional role of Maite Borghi-Castelnuovo?",
+          "options": {
+            "A": "Cell medic",
+            "B": "CBMP physicist",
+            "C": "Psychologist",
+            "D": "Cell tracker"
           },
           "correct_answer": "C",
           "user_answer": "C",
           "is_correct": true,
-          "explanation": "Section 6 identifies the personnel located in Trelew as a communications relay operator known as 'T\u00f3rtola'.",
+          "explanation": "Maite Borghi-Castelnuovo is identified as the Psychologist in Section 6.",
           "section_id": 6,
-          "topic_tag": "Communications Infrastructure"
+          "topic_tag": "Personnel"
         },
         {
-          "session_id": "c67030d9-082f-4528-9b1d-7ecf7c20ca1b",
-          "created_at": "2026-05-19T15:48:36.030000",
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
           "question_id": "q4",
-          "question_text": "How many total cases have been logged by the PAMC between 2019 and 2025?",
+          "question_text": "What was the classification status of Case 2019-0017?",
           "options": {
-            "A": "47",
-            "B": "48",
-            "C": "31",
-            "D": "28"
+            "A": "Open",
+            "B": "Classified",
+            "C": "Declassified Q4 2020",
+            "D": "Declassified Q1 2021"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "Case 2019-0017 is listed as Declassified Q4 2020 in the Case Files section.",
+          "section_id": 9,
+          "topic_tag": "Case History"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q5",
+          "question_text": "Where specifically did Case 2019-0017 take place?",
+          "options": {
+            "A": "Tallinn, Estonia",
+            "B": "Near Tocopilla, Antofagasta Region, Chile",
+            "C": "The Cordillera Mountains",
+            "D": "Atacama, Peru"
           },
           "correct_answer": "B",
           "user_answer": "B",
           "is_correct": true,
-          "explanation": "Section 9.11 summary statistics indicate 47 closed cases and 1 open case, totaling 48.",
+          "explanation": "The location for Case 2019-0017 is given as the Atacama Desert, near Tocopilla, Antofagasta Region, Chile.",
           "section_id": 9,
-          "topic_tag": "Case Statistics"
+          "topic_tag": "Location"
         },
         {
-          "session_id": "c67030d9-082f-4528-9b1d-7ecf7c20ca1b",
-          "created_at": "2026-05-19T15:48:36.030000",
-          "question_id": "q5",
-          "question_text": "In Case 2019-0017, what was the demonstrated mass-ceiling stability weight?",
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q6",
+          "question_text": "What was the outcome of Case 2019-0017?",
+          "options": {
+            "A": "Pyrrhic",
+            "B": "Catastrophic",
+            "C": "Inconclusive",
+            "D": "Successful"
+          },
+          "correct_answer": "D",
+          "user_answer": "D",
+          "is_correct": true,
+          "explanation": "The Outcome field for Case 2019-0017 is explicitly marked as Successful.",
+          "section_id": 9,
+          "topic_tag": "Operations"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q7",
+          "question_text": "How many days did the operation in Tallinn last for the asset?",
+          "options": {
+            "A": "3 days",
+            "B": "7 days",
+            "C": "9 days",
+            "D": "14 days"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "The notes in Section 9 state the asset spent 9 days in Tallinn coordinating intelligence handoff.",
+          "section_id": 9,
+          "topic_tag": "Operations"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q9",
+          "question_text": "In Case 2019-0017, how many adversary casualties were recorded?",
+          "options": {
+            "A": "None",
+            "B": "1 captured",
+            "C": "2 captured",
+            "D": "2 killed"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "The adversary casualties for Case 2019-0017 were 2 captured (small-arms smugglers).",
+          "section_id": 9,
+          "topic_tag": "Operations"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q10",
+          "question_text": "What mass-ceiling stability was demonstrated during Case 2019-0017?",
           "options": {
             "A": "100 kg",
-            "B": "150 kg",
-            "C": "200 kg",
-            "D": "250 kg"
-          },
-          "correct_answer": "C",
-          "user_answer": "C",
-          "is_correct": true,
-          "explanation": "Section 9.2 states the operation demonstrated initial mass-ceiling stability at 200 kg.",
-          "section_id": 9,
-          "topic_tag": "Operations"
-        },
-        {
-          "session_id": "c67030d9-082f-4528-9b1d-7ecf7c20ca1b",
-          "created_at": "2026-05-19T15:48:36.030000",
-          "question_id": "q6",
-          "question_text": "Which entity provides the PAMC with case-data exchanges and four reciprocal briefings per year?",
-          "options": {
-            "A": "Iron Tributary",
-            "B": "Mar Inverso",
-            "C": "European Metahuman Reserve (EUMR)",
-            "D": "Norwegian Coast Guard"
-          },
-          "correct_answer": "C",
-          "user_answer": "C",
-          "is_correct": true,
-          "explanation": "Section 6 lists the EUMR as an ally providing case-data exchange and four reciprocal briefings annually.",
-          "section_id": 6,
-          "topic_tag": "Allies and Networks"
-        },
-        {
-          "session_id": "c67030d9-082f-4528-9b1d-7ecf7c20ca1b",
-          "created_at": "2026-05-19T15:48:36.030000",
-          "question_id": "q8",
-          "question_text": "How many micro-caches were audited during Case 2025-0220?",
-          "options": {
-            "A": "10",
-            "B": "15",
-            "C": "19",
-            "D": "28"
-          },
-          "correct_answer": "C",
-          "user_answer": "C",
-          "is_correct": true,
-          "explanation": "Section 9 states Case 2025-0220 involved the triennial audit of all 19 micro-caches.",
-          "section_id": 9,
-          "topic_tag": "Logistics"
-        },
-        {
-          "session_id": "c67030d9-082f-4528-9b1d-7ecf7c20ca1b",
-          "created_at": "2026-05-19T15:48:36.030000",
-          "question_id": "q11",
-          "question_text": "What was the specific cause of the operational failure during the engagement where Quebrantadero escaped?",
-          "options": {
-            "A": "Communication failure in the relay network",
-            "B": "A pulse striking a civilian-density target",
-            "C": "Failure of the micro-cache system",
-            "D": "Unauthorized EUMR intervention"
+            "B": "200 kg",
+            "C": "300 kg",
+            "D": "72 kg"
           },
           "correct_answer": "B",
           "user_answer": "B",
           "is_correct": true,
-          "explanation": "Section 9 notes that Quebrantadero's pulse struck a civilian-density urban target before SLATEFALL could interdict.",
+          "explanation": "The post-action notes for Case 2019-0017 state the mass-ceiling stability was at 200 kg.",
+          "section_id": 9,
+          "topic_tag": "Technical"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q11",
+          "question_text": "How much planned time was originally allocated for the operation in Case 2019-0017?",
+          "options": {
+            "A": "52 hours",
+            "B": "24 hours",
+            "C": "3 days",
+            "D": "72 hours"
+          },
+          "correct_answer": "D",
+          "user_answer": "D",
+          "is_correct": true,
+          "explanation": "The operation was planned for 72 hours, though it concluded in 52 hours.",
           "section_id": 9,
           "topic_tag": "Operations"
         },
         {
-          "session_id": "c67030d9-082f-4528-9b1d-7ecf7c20ca1b",
-          "created_at": "2026-05-19T15:48:36.030000",
-          "question_id": "q14",
-          "question_text": "Where is the lawyer and civilian-affairs counsel, Lic. Marta Spiess-Quiroga, based?",
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q12",
+          "question_text": "What is the job title of A\u00edda Salvatierra-Bunge?",
           "options": {
-            "A": "Lima",
-            "B": "Troms\u00f8",
-            "C": "Coyhaique",
-            "D": "Trelew"
+            "A": "Cell tracker",
+            "B": "Operations Director",
+            "C": "Cell medic",
+            "D": "Psychologist"
           },
-          "correct_answer": "A",
-          "user_answer": "A",
+          "correct_answer": "B",
+          "user_answer": "B",
           "is_correct": true,
-          "explanation": "Section 6 lists Lic. Marta Spiess-Quiroga as a lawyer/counsel based in Lima.",
+          "explanation": "A\u00edda Salvatierra-Bunge is listed as the Operations Director in Section 6.",
           "section_id": 6,
           "topic_tag": "Personnel"
         },
         {
-          "session_id": "c67030d9-082f-4528-9b1d-7ecf7c20ca1b",
-          "created_at": "2026-05-19T15:48:36.030000",
-          "question_id": "q15",
-          "question_text": "What was the final status of the underwriter referral in Case 2025-0019?",
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q14",
+          "question_text": "Which operative serves as the 'Cell medic'?",
           "options": {
-            "A": "Approved",
-            "B": "Dismissed",
-            "C": "Ongoing",
-            "D": "Escalated"
+            "A": "Mateo Quispe-Linares",
+            "B": "Ra\u00fal Vendrame",
+            "C": "Sol\u00e8ne Bauer-Cortez",
+            "D": "L\u00e9on Marr\u00f3n-Saavedra"
           },
           "correct_answer": "B",
           "user_answer": "B",
           "is_correct": true,
-          "explanation": "Section 9.8 states that in the Audiencia Counter-Audit, the underwriter referral was dismissed.",
+          "explanation": "Ra\u00fal Vendrame is explicitly listed as the Cell medic in Section 6.",
+          "section_id": 6,
+          "topic_tag": "Personnel"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q15",
+          "question_text": "What was the 'first' for the asset during the Tallinn operation?",
+          "options": {
+            "A": "The first independent operation",
+            "B": "The first intelligence handoff",
+            "C": "The first demonstration of Inertial Suspension to non-PAMC liaisons",
+            "D": "The first audit of a cache"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "The text notes the Tallinn operation was the first instance of the asset's Inertial Suspension being demonstrated to non-PAMC liaisons.",
           "section_id": 9,
-          "topic_tag": "Internal Affairs"
+          "topic_tag": "Technical"
         }
       ]
     },
     {
-      "session_id": "95f9f293-4d20-480c-8437-1223dc73bbc4",
+      "session_id": "25cba98b-4e6c-42f3-9e66-84549a07116f",
       "section_ids": [
         5,
         8
       ],
-      "created_at": "2026-05-19T15:47:37.760000",
+      "created_at": "2026-05-19T18:17:39.346000",
       "total_q": 10,
-      "correct_count": 5,
-      "score_pct": 50.0,
+      "correct_count": 2,
+      "score_pct": 20.0,
       "questions": [
         {
-          "session_id": "95f9f293-4d20-480c-8437-1223dc73bbc4",
-          "created_at": "2026-05-19T15:47:37.760000",
-          "question_id": "q2",
-          "question_text": "What is the primary constraint of the 'Three-Two-One' rule concerning activations?",
-          "options": {
-            "A": "Three activations maximum per 60-second window",
-            "B": "Three activations per mission",
-            "C": "Three activations per day",
-            "D": "Three activations per engagement zone"
-          },
-          "correct_answer": "A",
-          "user_answer": "C",
-          "is_correct": false,
-          "explanation": "Section 5.2 defines the Three-Two-One rule as three activations maximum per 60-second window.",
-          "section_id": 5,
-          "topic_tag": "Tactical Heuristic"
-        },
-        {
-          "session_id": "95f9f293-4d20-480c-8437-1223dc73bbc4",
-          "created_at": "2026-05-19T15:47:37.760000",
-          "question_id": "q4",
-          "question_text": "Under the Tier-Based Engagement Protocols, what is the required preparation for a Tier 5 threat?",
-          "options": {
-            "A": "Solo engagement with authorization",
-            "B": "96-hour rest preceding the engagement",
-            "C": "Calexin-7 dose pre-loaded",
-            "D": "Cell lead authority only"
-          },
-          "correct_answer": "B",
-          "user_answer": "C",
-          "is_correct": false,
-          "explanation": "Section 5.3 stipulates that Tier 5 engagements require a 96-hour rest period preceding the mission.",
-          "section_id": 5,
-          "topic_tag": "Engagement Protocols"
-        },
-        {
-          "session_id": "95f9f293-4d20-480c-8437-1223dc73bbc4",
-          "created_at": "2026-05-19T15:47:37.760000",
-          "question_id": "q5",
-          "question_text": "How many burst-relay nodes are served within the PAMC Yatiri network in the asset's territory?",
-          "options": {
-            "A": "4",
-            "B": "6",
-            "C": "8",
-            "D": "12"
-          },
-          "correct_answer": "C",
-          "user_answer": "B",
-          "is_correct": false,
-          "explanation": "Section 8.7 states there are 8 burst-relay nodes serving the asset's territory.",
-          "section_id": 8,
-          "topic_tag": "Communications Infrastructure"
-        },
-        {
-          "session_id": "95f9f293-4d20-480c-8437-1223dc73bbc4",
-          "created_at": "2026-05-19T15:47:37.760000",
-          "question_id": "q9",
-          "question_text": "At what percentage of targeting fatigue must the asset withdraw, according to Directive 10?",
-          "options": {
-            "A": "60%",
-            "B": "75%",
-            "C": "80%",
-            "D": "90%"
-          },
-          "correct_answer": "C",
-          "user_answer": "D",
-          "is_correct": false,
-          "explanation": "Section 5.11, Directive 10 requires withdrawal at 80% targeting fatigue.",
-          "section_id": 5,
-          "topic_tag": "Combat Directives"
-        },
-        {
-          "session_id": "95f9f293-4d20-480c-8437-1223dc73bbc4",
-          "created_at": "2026-05-19T15:47:37.760000",
-          "question_id": "q10",
-          "question_text": "Which Tier of threat prohibits the asset from engaging solo under any condition?",
-          "options": {
-            "A": "Tier 2",
-            "B": "Tier 3",
-            "C": "Tier 4",
-            "D": "Tier 5"
-          },
-          "correct_answer": "D",
-          "user_answer": "C",
-          "is_correct": false,
-          "explanation": "Section 5.3 explicitly states that the asset is not authorized to engage Tier 5 threats solo under any condition.",
-          "section_id": 5,
-          "topic_tag": "Engagement Protocols"
-        },
-        {
-          "session_id": "95f9f293-4d20-480c-8437-1223dc73bbc4",
-          "created_at": "2026-05-19T15:47:37.760000",
+          "session_id": "25cba98b-4e6c-42f3-9e66-84549a07116f",
+          "created_at": "2026-05-19T18:17:39.346000",
           "question_id": "q1",
-          "question_text": "According to the Doctrine of Sequential Suspension (DSS), what is the duration of the targeting window that must be protected above all else?",
+          "question_text": "According to the Doctrine of Sequential Suspension, how many suspension activations define an ordered chain?",
           "options": {
-            "A": "0.8 seconds",
-            "B": "1.2 seconds",
-            "C": "2.0 seconds",
-            "D": "3.0 seconds"
+            "A": "Two",
+            "B": "Three",
+            "C": "Four",
+            "D": "Five"
           },
           "correct_answer": "B",
-          "user_answer": "B",
-          "is_correct": true,
-          "explanation": "Section 5.1, Principle 3 explicitly states that acquisition is the vulnerability and the targeting window is 1.2 seconds.",
+          "user_answer": "A",
+          "is_correct": false,
+          "explanation": "Principle 2 of the Doctrine of Sequential Suspension states that ordered chains of three define the doctrine.",
           "section_id": 5,
           "topic_tag": "Doctrine Principles"
         },
         {
-          "session_id": "95f9f293-4d20-480c-8437-1223dc73bbc4",
-          "created_at": "2026-05-19T15:47:37.760000",
-          "question_id": "q3",
-          "question_text": "Which location is restricted due to a 'psychological' reason following a 2018 incident?",
+          "session_id": "25cba98b-4e6c-42f3-9e66-84549a07116f",
+          "created_at": "2026-05-19T18:17:39.346000",
+          "question_id": "q2",
+          "question_text": "What is the duration of the targeting window that operatives are instructed to protect?",
           "options": {
-            "A": "Salar de Uyuni Sector 4",
-            "B": "Easter Island",
-            "C": "Cerro Castillo",
-            "D": "Oficina Tarija"
+            "A": "0.8 seconds",
+            "B": "1.0 seconds",
+            "C": "1.2 seconds",
+            "D": "1.5 seconds"
           },
           "correct_answer": "C",
-          "user_answer": "C",
-          "is_correct": true,
-          "explanation": "Section 8 identifies the Cerro Castillo exclusion ring as restricted for psychological reasons following a 2018 trigger site incident.",
-          "section_id": 8,
-          "topic_tag": "Operational Territory"
+          "user_answer": "D",
+          "is_correct": false,
+          "explanation": "Principle 3 of the Doctrine of Sequential Suspension identifies the 1.2-second targeting window as the primary vulnerability.",
+          "section_id": 5,
+          "topic_tag": "Targeting"
         },
         {
-          "session_id": "95f9f293-4d20-480c-8437-1223dc73bbc4",
-          "created_at": "2026-05-19T15:47:37.760000",
-          "question_id": "q6",
-          "question_text": "Which Directive was violated during the Salta incident on 14 August 2023?",
+          "session_id": "25cba98b-4e6c-42f3-9e66-84549a07116f",
+          "created_at": "2026-05-19T18:17:39.346000",
+          "question_id": "q4",
+          "question_text": "The Mendoza engagement resulted in a 'Pyrrhic' outcome due to which doctrinal violation?",
           "options": {
-            "A": "Directive 6",
+            "A": "Violation of Directive 9 (low visibility)",
+            "B": "Violation of Directive 6 (insufficient extraction routes)",
+            "C": "Violation of Directive 10 (fatigue threshold)",
+            "D": "Violation of Directive 12 (radio silence)"
+          },
+          "correct_answer": "C",
+          "user_answer": "A",
+          "is_correct": false,
+          "explanation": "Section 5.12 documents that the Mendoza incident involved a violation of Directive 10 regarding the fatigue threshold.",
+          "section_id": 5,
+          "topic_tag": "Doctrine Departures"
+        },
+        {
+          "session_id": "25cba98b-4e6c-42f3-9e66-84549a07116f",
+          "created_at": "2026-05-19T18:17:39.346000",
+          "question_id": "q5",
+          "question_text": "Which condition must be met to engage a Tier 4 target?",
+          "options": {
+            "A": "Verification of two extraction routes",
+            "B": "Holding two activations in reserve",
+            "C": "Acclimatization above 4,800 m",
+            "D": "Visibility greater than 20 m"
+          },
+          "correct_answer": "A",
+          "user_answer": "B",
+          "is_correct": false,
+          "explanation": "Directive 6 explicitly states that Tier 4 engagements require two verified extraction routes.",
+          "section_id": 5,
+          "topic_tag": "Combat Directives"
+        },
+        {
+          "session_id": "25cba98b-4e6c-42f3-9e66-84549a07116f",
+          "created_at": "2026-05-19T18:17:39.346000",
+          "question_id": "q6",
+          "question_text": "What does the Doctrine of Sequential Suspension compare suspension activations to?",
+          "options": {
+            "A": "Decisive tactical maneuvers",
+            "B": "A continuous energy supply",
+            "C": "Ammunition",
+            "D": "A finite cooling process"
+          },
+          "correct_answer": "C",
+          "user_answer": "B",
+          "is_correct": false,
+          "explanation": "Principle 1 of the Doctrine of Sequential Suspension states that suspension is a resource and each activation should be treated as ammunition.",
+          "section_id": 5,
+          "topic_tag": "Doctrine Principles"
+        },
+        {
+          "session_id": "25cba98b-4e6c-42f3-9e66-84549a07116f",
+          "created_at": "2026-05-19T18:17:39.346000",
+          "question_id": "q7",
+          "question_text": "Which directive governs the handling of captured Calexin-7 supplies?",
+          "options": {
+            "A": "Directive 7",
             "B": "Directive 9",
-            "C": "Directive 10",
-            "D": "Directive 11"
+            "C": "Directive 11",
+            "D": "Directive 12"
+          },
+          "correct_answer": "C",
+          "user_answer": "D",
+          "is_correct": false,
+          "explanation": "Directive 11 requires operatives to release captured Calexin-7 supply to the medic before engagement.",
+          "section_id": 5,
+          "topic_tag": "Combat Directives"
+        },
+        {
+          "session_id": "25cba98b-4e6c-42f3-9e66-84549a07116f",
+          "created_at": "2026-05-19T18:17:39.346000",
+          "question_id": "q8",
+          "question_text": "What was the outcome of the Salta incident documented in Section 5.12?",
+          "options": {
+            "A": "Successful",
+            "B": "Pyrrhic",
+            "C": "Catastrophic",
+            "D": "Injury sustained"
+          },
+          "correct_answer": "C",
+          "user_answer": "A",
+          "is_correct": false,
+          "explanation": "Section 5.12 explicitly lists the outcome of the 14 August 2023 Salta engagement as 'Catastrophic'.",
+          "section_id": 5,
+          "topic_tag": "Doctrine Departures"
+        },
+        {
+          "session_id": "25cba98b-4e6c-42f3-9e66-84549a07116f",
+          "created_at": "2026-05-19T18:17:39.346000",
+          "question_id": "q10",
+          "question_text": "What is the altitude limit for engagement without prior acclimatization?",
+          "options": {
+            "A": "2,400 m",
+            "B": "3,600 m",
+            "C": "4,800 m",
+            "D": "5,200 m"
+          },
+          "correct_answer": "C",
+          "user_answer": "D",
+          "is_correct": false,
+          "explanation": "Directive 8 states that operatives must not engage above 4,800 m without acclimatization.",
+          "section_id": 5,
+          "topic_tag": "Combat Directives"
+        },
+        {
+          "session_id": "25cba98b-4e6c-42f3-9e66-84549a07116f",
+          "created_at": "2026-05-19T18:17:39.346000",
+          "question_id": "q3",
+          "question_text": "When is an operative required to withdraw according to Combat Directive 10?",
+          "options": {
+            "A": "At 70% targeting fatigue",
+            "B": "At 80% targeting fatigue",
+            "C": "At 90% targeting fatigue",
+            "D": "At 95% targeting fatigue"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Directive 10 specifies that operatives must withdraw at 80% targeting fatigue, also known as the Reset Bracer abort threshold.",
+          "section_id": 5,
+          "topic_tag": "Combat Directives"
+        },
+        {
+          "session_id": "25cba98b-4e6c-42f3-9e66-84549a07116f",
+          "created_at": "2026-05-19T18:17:39.346000",
+          "question_id": "q9",
+          "question_text": "Under the standing combat directives, what overrides cooldown discipline?",
+          "options": {
+            "A": "Civilian risk",
+            "B": "Targeting fatigue",
+            "C": "Extraction mapping",
+            "D": "Weapon retention"
           },
           "correct_answer": "A",
           "user_answer": "A",
           "is_correct": true,
-          "explanation": "Section 5.12 lists the Salta incident as a violation of Directive 6, which resulted in a catastrophic outcome.",
+          "explanation": "Directive 5 explicitly states that civilian risk overrides cooldown discipline.",
           "section_id": 5,
-          "topic_tag": "Documented Departures"
-        },
-        {
-          "session_id": "95f9f293-4d20-480c-8437-1223dc73bbc4",
-          "created_at": "2026-05-19T15:47:37.760000",
-          "question_id": "q7",
-          "question_text": "What is the mandatory action regarding Calexin-7 supplies before an engagement?",
-          "options": {
-            "A": "Destroy the supply",
-            "B": "Store it in the vehicle bay",
-            "C": "Release it to the medic",
-            "D": "Inject a dose immediately"
-          },
-          "correct_answer": "C",
-          "user_answer": "C",
-          "is_correct": true,
-          "explanation": "Directive 11 in Section 5.11 states the asset must always release a captured Calexin-7 supply to the medic before engagement.",
-          "section_id": 5,
-          "topic_tag": "Standing Directives"
-        },
-        {
-          "session_id": "95f9f293-4d20-480c-8437-1223dc73bbc4",
-          "created_at": "2026-05-19T15:47:37.760000",
-          "question_id": "q8",
-          "question_text": "What is the operational security level of the Cuartel Valpara\u00edso facility?",
-          "options": {
-            "A": "Restricted-1",
-            "B": "Restricted-2",
-            "C": "Restricted-3",
-            "D": "Classified-5"
-          },
-          "correct_answer": "C",
-          "user_answer": "C",
-          "is_correct": true,
-          "explanation": "Section 8 states that the operational security level for Cuartel Valpara\u00edso is PAMC Restricted-3.",
-          "section_id": 8,
-          "topic_tag": "Base Information"
+          "topic_tag": "Combat Directives"
         }
       ]
     },
     {
-      "session_id": "38706f24-c5f0-47e8-98f6-abcb7af43aae",
+      "session_id": "b393e8c9-c644-426f-a7e9-c369b894759e",
       "section_ids": [
         1,
         2
       ],
-      "created_at": "2026-05-19T15:37:42.301000",
+      "created_at": "2026-05-19T18:17:32.552000",
       "total_q": 10,
-      "correct_count": 4,
-      "score_pct": 40.0,
+      "correct_count": 6,
+      "score_pct": 60.0,
       "questions": [
         {
-          "session_id": "38706f24-c5f0-47e8-98f6-abcb7af43aae",
-          "created_at": "2026-05-19T15:37:42.301000",
-          "question_id": "q3",
-          "question_text": "What is the official registry number of the asset SLATEFALL?",
+          "session_id": "b393e8c9-c644-426f-a7e9-c369b894759e",
+          "created_at": "2026-05-19T18:17:32.552000",
+          "question_id": "q1",
+          "question_text": "Under which official PAMC protocol is the public-facing media presence of the asset SLATEFALL restricted?",
+          "options": {
+            "A": "Protocol 2-Alpha",
+            "B": "Protocol 4-Bravo",
+            "C": "Protocol 7-Charlie",
+            "D": "Protocol 9-Delta"
+          },
+          "correct_answer": "B",
+          "user_answer": "D",
+          "is_correct": false,
+          "explanation": "Section 1 states that SLATEFALL's public-facing media presence is restricted under PAMC Protocol 4-Bravo.",
+          "section_id": 1,
+          "topic_tag": "Protocol"
+        },
+        {
+          "session_id": "b393e8c9-c644-426f-a7e9-c369b894759e",
+          "created_at": "2026-05-19T18:17:32.552000",
+          "question_id": "q2",
+          "question_text": "Which declassified PAMC after-action report corresponds to the Potos\u00ed intervention?",
           "options": {
             "A": "PAMC-PR-2021-006",
-            "B": "PAMC-A2-014",
-            "C": "PAMC-A2-001",
-            "D": "PAMC-S-014"
-          },
-          "correct_answer": "B",
-          "user_answer": "A",
-          "is_correct": false,
-          "explanation": "Section 1.1 states the asset is filed under the Pan-American Metahuman Cooperative Master Registry as PAMC-A2-014.",
-          "section_id": 1,
-          "topic_tag": "Registry"
-        },
-        {
-          "session_id": "38706f24-c5f0-47e8-98f6-abcb7af43aae",
-          "created_at": "2026-05-19T15:37:42.301000",
-          "question_id": "q4",
-          "question_text": "Which condition regarding 'Drift Read' is true?",
-          "options": {
-            "A": "It enables direct evasion of projectiles.",
-            "B": "It is completely inactive during sleep.",
-            "C": "It can be voluntarily disengaged by the asset.",
-            "D": "It has a hard-capped range of 3.0 meters."
-          },
-          "correct_answer": "D",
-          "user_answer": "B",
-          "is_correct": false,
-          "explanation": "Section 2 specifies that Drift Read parameters include a range of '3.0 m, hard-capped'.",
-          "section_id": 2,
-          "topic_tag": "Drift Read"
-        },
-        {
-          "session_id": "38706f24-c5f0-47e8-98f6-abcb7af43aae",
-          "created_at": "2026-05-19T15:37:42.301000",
-          "question_id": "q5",
-          "question_text": "How many other Class A-2 operatives possess an inertial- or momentum-related primary power, according to the PAMC roster?",
-          "options": {
-            "A": "12",
-            "B": "38",
-            "C": "4",
-            "D": "217"
+            "B": "PAMC-PR-2024-002",
+            "C": "PAMC-PR-2025-011",
+            "D": "PAMC-PR-2023-009"
           },
           "correct_answer": "C",
-          "user_answer": "A",
+          "user_answer": "B",
           "is_correct": false,
-          "explanation": "Section 2 notes that of the 217 operatives, only 4 Class A-2 operatives possess inertial- or momentum-related primary powers.",
-          "section_id": 2,
-          "topic_tag": "Comparative Profile"
+          "explanation": "The table in Section 1 lists PAMC-PR-2025-011 as the report associated with the Potos\u00ed intervention.",
+          "section_id": 1,
+          "topic_tag": "Reporting"
         },
         {
-          "session_id": "38706f24-c5f0-47e8-98f6-abcb7af43aae",
-          "created_at": "2026-05-19T15:37:42.301000",
+          "session_id": "b393e8c9-c644-426f-a7e9-c369b894759e",
+          "created_at": "2026-05-19T18:17:32.552000",
           "question_id": "q6",
-          "question_text": "What is the 'Echo Lock' failure mode?",
+          "question_text": "Which organization is responsible for filing the reports that are later declassified and released by the Lima press office?",
           "options": {
-            "A": "A physical inability to release interlocked objects.",
-            "B": "A neurological seizure-equivalent.",
-            "C": "A complete loss of the contact-exclusion field.",
-            "D": "A system error during the annual re-evaluation."
+            "A": "CBMP",
+            "B": "PAMC",
+            "C": "Cell Halc\u00f3n",
+            "D": "Cuartel Valpara\u00edso"
           },
           "correct_answer": "B",
           "user_answer": "C",
           "is_correct": false,
-          "explanation": "Section 2.13 defines Echo Lock as a 'neurological seizure-equivalent observed twice in operational record'.",
-          "section_id": 2,
-          "topic_tag": "Failure Modes"
+          "explanation": "The reports are identified as 'PAMC after-action reports' in Section 1.",
+          "section_id": 1,
+          "topic_tag": "Reporting"
         },
         {
-          "session_id": "38706f24-c5f0-47e8-98f6-abcb7af43aae",
-          "created_at": "2026-05-19T15:37:42.301000",
-          "question_id": "q7",
-          "question_text": "Where was the 'Twin-Lock' hypothesis observed?",
-          "options": {
-            "A": "Lima training environment",
-            "B": "Tarapac\u00e1 compound raid",
-            "C": "Salta engagement",
-            "D": "Antofagasta containment"
-          },
-          "correct_answer": "C",
-          "user_answer": "B",
-          "is_correct": false,
-          "explanation": "Section 2.20 states that the 'Twin-Lock' hypothesis was recorded during the 14 August 2023 Salta engagement.",
-          "section_id": 2,
-          "topic_tag": "Anomalies"
-        },
-        {
-          "session_id": "38706f24-c5f0-47e8-98f6-abcb7af43aae",
-          "created_at": "2026-05-19T15:37:42.301000",
+          "session_id": "b393e8c9-c644-426f-a7e9-c369b894759e",
+          "created_at": "2026-05-19T18:17:32.552000",
           "question_id": "q8",
-          "question_text": "What is the reason given for the prohibition of targeting biological tissue exceeding 12 kg?",
+          "question_text": "When was the after-action report regarding the Tarapac\u00e1 compound raid released?",
           "options": {
-            "A": "The target is too large to resolve a center of mass.",
-            "B": "Cooperative ethical prohibition and inconsistent results.",
-            "C": "Energy release exceeds binding limits.",
-            "D": "Potential for quantum-correlated instability."
+            "A": "14 July 2021",
+            "B": "22 February 2024",
+            "C": "9 December 2025",
+            "D": "7 May 2019"
           },
           "correct_answer": "B",
-          "user_answer": "D",
+          "user_answer": "A",
           "is_correct": false,
-          "explanation": "The table in Section 2 explicitly lists 'Cooperative ethical prohibition and inconsistent results' for biological tissue exceeding 12 kg.",
-          "section_id": 2,
-          "topic_tag": "Limits"
+          "explanation": "According to the incident table in Section 1, the report for the Tarapac\u00e1 compound raid (PAMC-PR-2024-002) was released on 22 February 2024.",
+          "section_id": 1,
+          "topic_tag": "Reporting"
         },
         {
-          "session_id": "38706f24-c5f0-47e8-98f6-abcb7af43aae",
-          "created_at": "2026-05-19T15:37:42.301000",
-          "question_id": "q1",
-          "question_text": "What is the primary civilian identity of the asset SLATEFALL?",
+          "session_id": "b393e8c9-c644-426f-a7e9-c369b894759e",
+          "created_at": "2026-05-19T18:17:32.552000",
+          "question_id": "q3",
+          "question_text": "What is the specific timeframe recorded during the 'Twin-Lock' hypothesis event where two objects exhibited interlocked termination?",
           "options": {
-            "A": "Dr. Sol\u00e8ne Bauer-Cortez",
-            "B": "Capt. (ret.) Inez Yolanda Calvache-Renstr\u00f6m",
-            "C": "Claire Renstr\u00f6m-Verdugo",
-            "D": "Hern\u00e1n Calvache-Mardones"
+            "A": "0.14 seconds",
+            "B": "0.21 seconds",
+            "C": "0.28 seconds",
+            "D": "0.11 seconds"
           },
           "correct_answer": "B",
           "user_answer": "B",
           "is_correct": true,
-          "explanation": "Section 1.2 identifies the asset's civilian identity as Capt. (ret.) Inez Yolanda Calvache-Renstr\u00f6m.",
-          "section_id": 1,
-          "topic_tag": "Identity"
+          "explanation": "Section 2.20 specifies that the 'Twin-Lock' hypothesis event occurred over a 0.21-second period.",
+          "section_id": 2,
+          "topic_tag": "Protocol"
         },
         {
-          "session_id": "38706f24-c5f0-47e8-98f6-abcb7af43aae",
-          "created_at": "2026-05-19T15:37:42.301000",
-          "question_id": "q2",
-          "question_text": "Which of the following is an operational prohibition for SLATEFALL\u2019s powers due to a lack of a bound inertial signature?",
+          "session_id": "b393e8c9-c644-426f-a7e9-c369b894759e",
+          "created_at": "2026-05-19T18:17:32.552000",
+          "question_id": "q4",
+          "question_text": "In which city is the Lima press office that releases SLATEFALL's declassified after-action reports located?",
           "options": {
-            "A": "Liquids in flow >4 L/s",
-            "B": "Biological tissue exceeding 12 kg",
-            "C": "Plasma",
-            "D": "Rotating bodies > 1,800 rpm"
+            "A": "Valpara\u00edso",
+            "B": "Santiago",
+            "C": "Lima",
+            "D": "Antofagasta"
           },
           "correct_answer": "C",
           "user_answer": "C",
           "is_correct": true,
-          "explanation": "Section 2 lists 'Plasma' as a prohibited target specifically because there is 'No bound inertial signature'.",
-          "section_id": 2,
-          "topic_tag": "Limits"
-        },
-        {
-          "session_id": "38706f24-c5f0-47e8-98f6-abcb7af43aae",
-          "created_at": "2026-05-19T15:37:42.301000",
-          "question_id": "q9",
-          "question_text": "Which of the following is NOT an active designation for the asset?",
-          "options": {
-            "A": "Calva",
-            "B": "0-3-Castillo",
-            "C": "La Detenci\u00f3n",
-            "D": "Cerro Castillo"
-          },
-          "correct_answer": "D",
-          "user_answer": "D",
-          "is_correct": true,
-          "explanation": "Cerro Castillo is the location where the power-emergence event occurred, not an active designation for the asset.",
+          "explanation": "The text explicitly states that reports are released through the Cooperative's Lima press office.",
           "section_id": 1,
-          "topic_tag": "Identity"
+          "topic_tag": "Reporting"
         },
         {
-          "session_id": "38706f24-c5f0-47e8-98f6-abcb7af43aae",
-          "created_at": "2026-05-19T15:37:42.301000",
-          "question_id": "q10",
-          "question_text": "What is the asset's registry threat-to-handler rating?",
+          "session_id": "b393e8c9-c644-426f-a7e9-c369b894759e",
+          "created_at": "2026-05-19T18:17:32.552000",
+          "question_id": "q5",
+          "question_text": "How many milliseconds elapsed between the release of the two interlocked objects during the Salta engagement?",
           "options": {
-            "A": "0.7 / 5",
-            "B": "4.0 / 5",
-            "C": "5.0 / 5",
-            "D": "1.0 / 5"
+            "A": "14 milliseconds",
+            "B": "21 milliseconds",
+            "C": "28 milliseconds",
+            "D": "7 milliseconds"
           },
           "correct_answer": "A",
           "user_answer": "A",
           "is_correct": true,
-          "explanation": "Section 1 states her registry threat-to-handler rating is 0.7 / 5, which is the lowest among active Class A-2 operatives.",
+          "explanation": "Section 2.20 notes that both objects were released within 14 milliseconds of each other during the Salta engagement.",
+          "section_id": 2,
+          "topic_tag": "Reporting"
+        },
+        {
+          "session_id": "b393e8c9-c644-426f-a7e9-c369b894759e",
+          "created_at": "2026-05-19T18:17:32.552000",
+          "question_id": "q7",
+          "question_text": "What is the informal handle used for SLATEFALL specifically within Cell Halc\u00f3n?",
+          "options": {
+            "A": "La Detenci\u00f3n",
+            "B": "0-3-Castillo",
+            "C": "Calva",
+            "D": "Slate-A"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "Section 1 identifies 'Calva' as the informal in-cell handle used within Cell Halc\u00f3n.",
           "section_id": 1,
-          "topic_tag": "Threat Rating"
+          "topic_tag": "Protocol"
+        },
+        {
+          "session_id": "b393e8c9-c644-426f-a7e9-c369b894759e",
+          "created_at": "2026-05-19T18:17:32.552000",
+          "question_id": "q9",
+          "question_text": "Which of the following describes the operational classification of the asset SLATEFALL?",
+          "options": {
+            "A": "Class A-1 (Kinetic, General)",
+            "B": "Class B-2 (Tactical, Passive)",
+            "C": "Class A-2 (Kinetic, Targeted)",
+            "D": "Class C-1 (Strategic, Targeted)"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "Section 1.1 states the asset's operational classification is Class A-2 (Kinetic, Targeted).",
+          "section_id": 1,
+          "topic_tag": "Protocol"
+        },
+        {
+          "session_id": "b393e8c9-c644-426f-a7e9-c369b894759e",
+          "created_at": "2026-05-19T18:17:32.552000",
+          "question_id": "q10",
+          "question_text": "What is the official radio call sign used for cross-cell coordination involving the asset SLATEFALL?",
+          "options": {
+            "A": "0-3-Castillo",
+            "B": "PAMC-A2-014",
+            "C": "La Detenci\u00f3n",
+            "D": "Calva-Alpha"
+          },
+          "correct_answer": "A",
+          "user_answer": "A",
+          "is_correct": true,
+          "explanation": "Section 1 defines '0-3-Castillo' as the radio call sign for cross-cell coordination.",
+          "section_id": 1,
+          "topic_tag": "Protocol"
+        }
+      ]
+    },
+    {
+      "session_id": "1bd9fcf4-f251-47ae-b44c-8b2741691491",
+      "section_ids": [
+        1,
+        2
+      ],
+      "created_at": "2026-05-19T18:11:31.908000",
+      "total_q": 10,
+      "correct_count": 8,
+      "score_pct": 80.0,
+      "questions": [
+        {
+          "session_id": "1bd9fcf4-f251-47ae-b44c-8b2741691491",
+          "created_at": "2026-05-19T18:11:31.908000",
+          "question_id": "q7",
+          "question_text": "Which of the following after-action reports was released most recently according to the declassified list?",
+          "options": {
+            "A": "PAMC-PR-2021-006",
+            "B": "PAMC-PR-2024-002",
+            "C": "PAMC-PR-2025-011",
+            "D": "PAMC-PR-2022-001"
+          },
+          "correct_answer": "C",
+          "user_answer": "A",
+          "is_correct": false,
+          "explanation": "PAMC-PR-2025-011, regarding the Potos\u00ed intervention, was released on 9 December 2025, which is the latest date listed.",
+          "section_id": 1,
+          "topic_tag": "Reporting"
+        },
+        {
+          "session_id": "1bd9fcf4-f251-47ae-b44c-8b2741691491",
+          "created_at": "2026-05-19T18:11:31.908000",
+          "question_id": "q8",
+          "question_text": "Under which PAMC protocol is SLATEFALL's public-facing media presence restricted?",
+          "options": {
+            "A": "Protocol 1-Alpha",
+            "B": "Protocol 4-Bravo",
+            "C": "Protocol 7-Delta",
+            "D": "Protocol 2-Charlie"
+          },
+          "correct_answer": "B",
+          "user_answer": "A",
+          "is_correct": false,
+          "explanation": "Section 1.1 states that media presence is restricted under PAMC Protocol 4-Bravo.",
+          "section_id": 1,
+          "topic_tag": "Protocol"
+        },
+        {
+          "session_id": "1bd9fcf4-f251-47ae-b44c-8b2741691491",
+          "created_at": "2026-05-19T18:11:31.908000",
+          "question_id": "q1",
+          "question_text": "What is the official PAMC Master Registry designation for the asset known as SLATEFALL?",
+          "options": {
+            "A": "PAMC-A2-014",
+            "B": "PAMC-0-3-Castillo",
+            "C": "PAMC-2019-A2",
+            "D": "PAMC-Class-A-01"
+          },
+          "correct_answer": "A",
+          "user_answer": "A",
+          "is_correct": true,
+          "explanation": "Section 1.1 explicitly states that SLATEFALL is filed under the PAMC Master Registry as PAMC-A2-014.",
+          "section_id": 1,
+          "topic_tag": "Registry"
+        },
+        {
+          "session_id": "1bd9fcf4-f251-47ae-b44c-8b2741691491",
+          "created_at": "2026-05-19T18:11:31.908000",
+          "question_id": "q2",
+          "question_text": "What is the primary reason researchers believe the 'Antofagasta Drift' anomaly occurred?",
+          "options": {
+            "A": "A mechanical error in the recording telemetry",
+            "B": "An asymmetric thermal gradient from a refinery flare",
+            "C": "Intentional manipulation of the Drift Read event",
+            "D": "A failure in the CBMP containment field"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Section 2.20 states the hypothesis for the Antofagasta Drift was an asymmetric thermal gradient from a nearby refinery flare.",
+          "section_id": 2,
+          "topic_tag": "Anomalies"
+        },
+        {
+          "session_id": "1bd9fcf4-f251-47ae-b44c-8b2741691491",
+          "created_at": "2026-05-19T18:11:31.908000",
+          "question_id": "q3",
+          "question_text": "Which of the following is an adversary-side designation used for SLATEFALL?",
+          "options": {
+            "A": "Calva",
+            "B": "0-3-Castillo",
+            "C": "La Detenci\u00f3n",
+            "D": "Slate-Drift"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "Section 1.1 identifies 'La Detenci\u00f3n' as the adversary-side designation observed in intercepted Concession communications.",
+          "section_id": 1,
+          "topic_tag": "Designations"
+        },
+        {
+          "session_id": "1bd9fcf4-f251-47ae-b44c-8b2741691491",
+          "created_at": "2026-05-19T18:11:31.908000",
+          "question_id": "q4",
+          "question_text": "How many times did CBMP labs attempt to replicate the 'Antofagasta Drift' effect?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "correct_answer": "D",
+          "user_answer": "D",
+          "is_correct": true,
+          "explanation": "Section 2.20 confirms that there were 4 replication attempts in CBMP labs between 2021 and 2024.",
+          "section_id": 2,
+          "topic_tag": "Anomalies"
+        },
+        {
+          "session_id": "1bd9fcf4-f251-47ae-b44c-8b2741691491",
+          "created_at": "2026-05-19T18:11:31.908000",
+          "question_id": "q5",
+          "question_text": "On what date was the codename 'SLATEFALL' assigned by the PAMC Naming Subcommittee?",
+          "options": {
+            "A": "19 March 2019",
+            "B": "7 May 2019",
+            "C": "14 August 2023",
+            "D": "14 July 2021"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Section 1.1 states that the codename was assigned by the PAMC Naming Subcommittee on 7 May 2019.",
+          "section_id": 1,
+          "topic_tag": "Identity"
+        },
+        {
+          "session_id": "1bd9fcf4-f251-47ae-b44c-8b2741691491",
+          "created_at": "2026-05-19T18:11:31.908000",
+          "question_id": "q6",
+          "question_text": "In the context of the 'Twin-Lock' hypothesis, what was the interval between the termination of the two interlocked objects?",
+          "options": {
+            "A": "0.21 seconds",
+            "B": "14 milliseconds",
+            "C": "2.8 milliseconds",
+            "D": "0.6 seconds"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Section 2.20 reports that the two objects released within 14 milliseconds of each other.",
+          "section_id": 2,
+          "topic_tag": "Anomalies"
+        },
+        {
+          "session_id": "1bd9fcf4-f251-47ae-b44c-8b2741691491",
+          "created_at": "2026-05-19T18:11:31.908000",
+          "question_id": "q9",
+          "question_text": "What is the projected outcome of an engagement against an adversary capable of 'Mass multiplication' (inverse symmetry)?",
+          "options": {
+            "A": "Decisive victory for SLATEFALL",
+            "B": "Immediate retreat for SLATEFALL",
+            "C": "Tactical stalemate; mutual cooldown exhaustion likely",
+            "D": "Total containment of the adversary"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "Section 2.21 indicates that in the 'Mass multiplication' scenario, the projected outcome is a tactical stalemate with likely mutual cooldown exhaustion.",
+          "section_id": 2,
+          "topic_tag": "Combat Modeling"
+        },
+        {
+          "session_id": "1bd9fcf4-f251-47ae-b44c-8b2741691491",
+          "created_at": "2026-05-19T18:11:31.908000",
+          "question_id": "q10",
+          "question_text": "What is the operational classification of SLATEFALL?",
+          "options": {
+            "A": "Class A-1 (Kinetic, General)",
+            "B": "Class B-2 (Inertial, Strategic)",
+            "C": "Class A-2 (Kinetic, Targeted)",
+            "D": "Class C-1 (Support, Passive)"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "Section 1.1 identifies the asset's operational classification as Class A-2 (Kinetic, Targeted).",
+          "section_id": 1,
+          "topic_tag": "Classification"
         }
       ]
     }
   ],
-  "exported_at": "2026-05-19T15:49:22.547759"
+  "exported_at": "2026-05-19T18:18:40.468971"
 }
