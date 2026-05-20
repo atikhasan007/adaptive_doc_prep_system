@@ -1,15 +1,18 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import List, Dict
-
-import uvicorn
+import uuid
 
 from src.pipeline.run_session import run_prep_session
-from src.database.mongo_client import col_sessions
+from src.database.mongo_client import (
+    col_sessions,
+    col_questions,
+    col_sections,
+    col_weak_topics
+)
 from src.evaluation.session_eval import score_session
 
-
-app = FastAPI(title="Adaptive Document Prep System")
+app = FastAPI(title="Adaptive Prep System")
 
 
 # =========================
@@ -25,43 +28,51 @@ class AnswerRequest(BaseModel):
 
 
 # =========================
-# HEALTH CHECK
-# =========================
-@app.get("/")
-def home():
-    return {
-        "status": "running",
-        "service": "Adaptive Prep API"
-    }
-
-
-# =========================
 # START SESSION
 # =========================
 @app.post("/prep/start")
 def start_prep(req: StartRequest):
 
     try:
+        session_id = str(uuid.uuid4())
+
         result = run_prep_session(
             section_ids=req.section_ids,
             simulate=True
         )
 
-        if not result or "session_id" not in result:
-            raise HTTPException(status_code=500, detail="Invalid pipeline response")
+        mcqs = result["mcqs"]
 
-        session_data = {
-            "session_id": result["session_id"],
+        # SESSION INSERT
+        col_sessions.insert_one({
+            "session_id": session_id,
             "section_ids": req.section_ids,
-            "mcqs": result.get("mcqs", []),
+            "mcqs": mcqs,
             "results": {}
-        }
+        })
 
-        col_sessions.insert_one(session_data)
+        # QUESTIONS INSERT
+        col_questions.insert_many([
+            {
+                "session_id": session_id,
+                "question_id": q["question_id"],
+                "topic": q.get("topic", "general"),
+                "is_correct": None
+            }
+            for q in mcqs
+        ])
+
+        # SECTIONS UPDATE
+        for sid in req.section_ids:
+            col_sections.update_one(
+                {"section_id": sid},
+                {"$inc": {"total_attempts": 1}},
+                upsert=True
+            )
 
         return {
-            "session_id": result["session_id"],
-            "mcqs": result.get("mcqs", [])
+            "session_id": session_id,
+            "mcqs": mcqs
         }
 
     except Exception as e:
@@ -74,33 +85,74 @@ def start_prep(req: StartRequest):
 @app.post("/prep/submit")
 def submit_answers(req: AnswerRequest):
 
-    try:
-        session = col_sessions.find_one({"session_id": req.session_id})
+    session = col_sessions.find_one({"session_id": req.session_id})
 
-        if not session:
-            raise HTTPException(status_code=404, detail="Session not found")
+    if not session:
+        raise HTTPException(status_code=404, detail="Session not found")
 
-        mcqs = session.get("mcqs", [])
+    mcqs = session["mcqs"]
 
-        if not mcqs:
-            raise HTTPException(status_code=400, detail="MCQs missing")
+    results = score_session(mcqs, req.answers)
 
-        answers = req.answers or {}
+    # =========================
+    # SAFE NORMALIZATION (IMPORTANT FIX)
+    # =========================
+    if isinstance(results, list):
+        details = results
+        correct_count = sum(1 for x in results if x.get("is_correct"))
+    else:
+        details = results.get("details", [])
+        correct_count = results.get("correct_count", 0)
 
-        results = score_session(mcqs, answers)
+    # =========================
+    # UPDATE SESSION
+    # =========================
+    col_sessions.update_one(
+        {"session_id": req.session_id},
+        {"$set": {"results": results}}
+    )
 
-        col_sessions.update_one(
-            {"session_id": req.session_id},
-            {"$set": {"results": results}}
+    # =========================
+    # UPDATE QUESTIONS + WEAK TOPICS
+    # =========================
+    for item in details:
+
+        qid = item.get("question_id")
+        is_correct = item.get("is_correct", False)
+        topic = item.get("topic", "general")
+
+        if qid:
+            col_questions.update_one(
+                {"session_id": req.session_id, "question_id": qid},
+                {"$set": {"is_correct": is_correct}}
+            )
+
+        if not is_correct:
+            col_weak_topics.update_one(
+                {"topic": topic},
+                {"$inc": {"wrong_count": 1}},
+                upsert=True
+            )
+
+    # =========================
+    # UPDATE SECTIONS
+    # =========================
+    section_ids = session["section_ids"]
+
+    for sid in section_ids:
+        col_sections.update_one(
+            {"section_id": sid},
+            {"$inc": {
+                "total_attempts": 1,
+                "total_correct": correct_count
+            }},
+            upsert=True
         )
 
-        return {
-            "session_id": req.session_id,
-            "results": results
-        }
-
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+    return {
+        "session_id": req.session_id,
+        "results": results
+    }
 
 
 # =========================
@@ -118,10 +170,3 @@ def get_result(session_id: str):
         raise HTTPException(status_code=404, detail="Not found")
 
     return session
-
-
-# =========================
-# RUN SERVER
-# =========================
-if __name__ == "__main__":
-    uvicorn.run("app:app", host="127.0.0.1", port=8000, reload=True)

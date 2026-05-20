@@ -158,50 +158,50 @@
 
 
 
-import glob
-import os
-import json
+# import glob
+# import os
+# import json
 
-from src.utils.logger import get_logger
+# from src.utils.logger import get_logger
 
-logger = get_logger("demo")
-
-
-# ================================================================
-# Output file tree
-# ================================================================
-
-logger.info("Output file tree:")
-
-for f in sorted(glob.glob("outputss/**/*.json", recursive=True)):
-    size = os.path.getsize(f)
-    logger.info(f"{f} ({size:,} bytes)")
+# logger = get_logger("demo")
 
 
-# ================================================================
-# Preview iter3 KB snapshot
-# ================================================================
+# # ================================================================
+# # Output file tree
+# # ================================================================
 
-logger.info("KB Snapshot preview (iter3, first session)")
+# logger.info("Output file tree:")
 
-with open(
-    "outputss/scenario_b_iter3/kb_snapshot.json",
-    "r",
-    encoding="utf-8"
-) as f:
-    snap = json.load(f)
+# for f in sorted(glob.glob("outputss/**/*.json", recursive=True)):
+#     size = os.path.getsize(f)
+#     logger.info(f"{f} ({size:,} bytes)")
 
-first = snap["kb_snapshot"][0]
 
-logger.info(f"session_id  : {first['session_id']}")
-logger.info(f"section_ids : {first['section_ids']}")
+# # ================================================================
+# # Preview iter3 KB snapshot
+# # ================================================================
 
-logger.info(
-    f"score       : "
-    f"{first['correct_count']}/{first['total_q']} "
-    f"({first['score_pct']}%)"
-)
+# logger.info("KB Snapshot preview (iter3, first session)")
 
-logger.info(f"questions   : {len(first['questions'])}")
+# with open(
+#     "outputss/scenario_b_iter3/kb_snapshot.json",
+#     "r",
+#     encoding="utf-8"
+# ) as f:
+#     snap = json.load(f)
 
-logger.info("ALL DEMO RUNS COMPLETED SUCCESSFULLY")
+# first = snap["kb_snapshot"][0]
+
+# logger.info(f"session_id  : {first['session_id']}")
+# logger.info(f"section_ids : {first['section_ids']}")
+
+# logger.info(
+#     f"score       : "
+#     f"{first['correct_count']}/{first['total_q']} "
+#     f"({first['score_pct']}%)"
+# )
+
+# logger.info(f"questions   : {len(first['questions'])}")
+
+# logger.info("ALL DEMO RUNS COMPLETED SUCCESSFULLY")

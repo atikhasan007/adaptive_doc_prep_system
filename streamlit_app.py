@@ -3,14 +3,13 @@ import requests
 
 API_URL = "http://127.0.0.1:8000"
 
-
 st.set_page_config(page_title="Adaptive Prep System", layout="wide")
 
 st.title("📘 Adaptive Document Prep System")
 
 
 # =========================
-# SESSION STATE INIT
+# STATE
 # =========================
 if "mcqs" not in st.session_state:
     st.session_state.mcqs = []
@@ -20,115 +19,79 @@ if "session_id" not in st.session_state:
 
 
 # =========================
-# STEP 1: SECTION SELECT
+# START SESSION
 # =========================
-st.header("1️⃣ Select Sections")
+st.header("1️⃣ Start Session")
 
-sections = st.multiselect(
-    "Choose sections (1-10)",
-    list(range(1, 11))
-)
+sections = st.multiselect("Select Sections", list(range(1, 11)))
 
-if st.button("Start Prep"):
+if st.button("Generate MCQs"):
 
-    if not sections:
-        st.error("Please select at least one section")
+    res = requests.post(
+        f"{API_URL}/prep/start",
+        json={"section_ids": sections}
+    )
+
+    if res.status_code == 200:
+        data = res.json()
+
+        st.session_state.session_id = data["session_id"]
+        st.session_state.mcqs = data["mcqs"]
+
+        st.success("MCQs Generated!")
     else:
-        try:
-            res = requests.post(
-                f"{API_URL}/prep/start",
-                json={"section_ids": sections}
-            )
+        st.error(res.text)
 
-            if res.status_code == 200:
-                data = res.json()
-
-                st.session_state.session_id = data["session_id"]
-                st.session_state.mcqs = data["mcqs"]
-
-                st.success("MCQs Generated Successfully!")
-            else:
-                st.error(res.text)
-
-        except Exception as e:
-            st.error(f"Request failed: {str(e)}")
 
 # =========================
-# STEP 2: SHOW MCQS (FIXED)
+# ANSWER MCQS
 # =========================
 if st.session_state.mcqs:
 
-    st.header("2️⃣ Answer MCQs")
+    st.header("2️⃣ Answer Questions")
 
-    # store answers & results
-    if "feedback" not in st.session_state:
-        st.session_state.feedback = {}
+    answers = {}
 
     for i, q in enumerate(st.session_state.mcqs):
 
-        st.subheader(f"Q{i+1}: {q['question_text']}")
+        st.subheader(q["question_text"])
 
-        st.write("A:", q["options"]["A"])
-        st.write("B:", q["options"]["B"])
-        st.write("C:", q["options"]["C"])
-        st.write("D:", q["options"]["D"])
-
-        selected = st.radio(
+        ans = st.radio(
             "Select answer",
             ["A", "B", "C", "D"],
             key=f"q_{i}"
         )
 
-        # per-question submit
-        if st.button(f"Submit Q{i+1}", key=f"submit_{i}"):
+        answers[q["question_id"]] = ans
 
-            correct = q["correct_answer"]
+    if st.button("Submit Answers"):
 
-            if selected == correct:
-                st.success("✅ Correct Answer!")
-                st.session_state.feedback[q["question_id"]] = {
-                    "status": "correct"
-                }
-            else:
-                st.error("❌ Wrong Answer!")
+        res = requests.post(
+            f"{API_URL}/prep/submit",
+            json={
+                "session_id": st.session_state.session_id,
+                "answers": answers
+            }
+        )
 
-                st.info(f"""
-                💡 **Explanation:**  
-                {q.get('explanation', 'No explanation available')}
-                """)
+        if res.status_code == 200:
+            st.success("Results Saved")
+            st.json(res.json()["results"])
+        else:
+            st.error(res.text)
 
-                st.session_state.feedback[q["question_id"]] = {
-                    "status": "wrong",
-                    "correct_answer": correct,
-                    "your_answer": selected,
-                    "explanation": q.get("explanation", "")
-                }
 
-        st.markdown("---")
 # =========================
-# STEP 3: LOAD PREVIOUS RESULT
+# LOAD RESULT
 # =========================
 st.markdown("---")
 
-if st.button("📊 Load Previous Result"):
+if st.button("Load Result"):
 
     if st.session_state.session_id:
 
-        try:
-            res = requests.get(
-                f"{API_URL}/prep/result/{st.session_state.session_id}"
-            )
+        res = requests.get(
+            f"{API_URL}/prep/result/{st.session_state.session_id}"
+        )
 
-            if res.status_code == 200:
-
-                st.header("📊 Saved Result")
-                st.json(res.json())
-
-            else:
-                st.error(res.text)
-
-        except Exception as e:
-            st.error(f"Failed: {str(e)}")
-
-    else:
-        st.warning("No session found. Start prep first.")
+        st.json(res.json())
