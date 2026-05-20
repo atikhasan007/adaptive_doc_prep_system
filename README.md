@@ -16,27 +16,30 @@ conda activate assignment_ai_ml
 
 pip install -r requirements.txt
 
-##  2. project over view
+🧠 Overview
 
-This system enables intelligent exam preparation by:
+The Adaptive Document Preparation System is an AI-powered backend application that transforms static study material into a personalized learning system.
 
-- Generating MCQs from selected document sections using an LLM
-- Evaluating user responses automatically
-- Storing session history in a Knowledge Base (KB)
-- Detecting weak topics from past performance
-- Adapting future MCQs based on user weaknesses
+It:
 
+- Ingests a multi-section PDF document
+- Generates MCQs using an LLM
+- Evaluates user responses automatically
+- Stores session history in a Knowledge Base (KB)
+- Adapts future questions based on user weaknesses
+
+👉 The key innovation is history-aware adaptive MCQ generation.
 
 
 ##  3. Business Objectives
 Traditional learning systems are static and repetitive.
+This system introduces adaptive intelligence:
 
-This project solves that problem by introducing **adaptive learning intelligence**:
-
-- Dynamic MCQ generation based on user history
-- Weak-area detection from past mistakes
-- Continuous improvement of question quality
-- Personalized exam preparation experience
+- Dynamic MCQ generation from selected sections
+- Automatic evaluation and feedback
+- Weak-topic detection from past performance
+- Personalized question selection in future sessions
+- Continuous improvement of learning effectiveness
 
 
 
