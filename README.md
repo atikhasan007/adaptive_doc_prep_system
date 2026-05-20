@@ -1,16 +1,14 @@
-conda create -n assignment_ai_ml python=3.10
 
-conda activate assignment_ai_ml
+## Adaptive Document Preparation System
 
-pip install -r requirements.txt
-
+---
 ## fast work 
 - research  
 then
 - module codding
+---
 
-
-
+---
 ##  1. project setup 
 conda create -n assignment_ai_ml python=3.10
 
