@@ -24,28 +24,64 @@ def get_weak_topics(section_ids: List[int], top_k: int = 3) -> List[str]:
     return [r["topic_summary"] for r in results]
 
 
+# def get_prior_questions(section_ids: List[int]) -> List[str]:
+#     """
+#     Retrieve questions already asked in previous sessions for these sections.
+#     Used to avoid repetition of mastered questions.
+#     """
+#     # Find session IDs for these sections
+#     session_docs = col_sessions.find(
+#         {"section_ids": {"$elemMatch": {"$in": section_ids}}},
+#         {"session_id": 1}
+#     )
+#     session_ids = [s["session_id"] for s in session_docs]
+#     if not session_ids:
+#         return []
+
+#     # Get correct questions (mastered) — avoid repeating these
+#     q_docs = col_questions.find(
+#         {"session_id": {"$in": session_ids}, "is_correct": True},
+#         {"question_text": 1}
+#     ).limit(20)
+#     return [q["question_text"] for q in q_docs]
+
 def get_prior_questions(section_ids: List[int]) -> List[str]:
     """
     Retrieve questions already asked in previous sessions for these sections.
-    Used to avoid repetition of mastered questions.
+     Used to avoid repetition of mastered questions.
     """
-    # Find session IDs for these sections
+
     session_docs = col_sessions.find(
         {"section_ids": {"$elemMatch": {"$in": section_ids}}},
         {"session_id": 1}
     )
-    session_ids = [s["session_id"] for s in session_docs]
+
+    session_ids = [s.get("session_id") for s in session_docs]
+
     if not session_ids:
         return []
 
-    # Get correct questions (mastered) — avoid repeating these
     q_docs = col_questions.find(
-        {"session_id": {"$in": session_ids}, "is_correct": True},
-        {"question_text": 1}
+        {
+            "session_id": {"$in": session_ids},
+            "is_correct": True
+        },
+        {
+            "question_text": 1,
+            "question": 1
+        }
     ).limit(20)
-    return [q["question_text"] for q in q_docs]
 
+    questions = []
 
+    for q in q_docs:
+
+        text = q.get("question_text") or q.get("question")
+
+        if text:
+            questions.append(text)
+
+    return questions
 
 
 

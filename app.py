@@ -1,34 +1,17 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import List, Dict
+import uvicorn
 import uuid
+import traceback
 
 from src.pipeline.run_session import run_prep_session
-from src.database.mongo_client import col_sessions
+from src.database.mongo_client import col_sessions, col_questions, col_sections, col_weak_topics
+from src.evaluation.session_eval import score_session
 
 app = FastAPI(title="Adaptive Prep System")
 
 
-# =========================
-# SAFE GETTERS
-# =========================
-def get_question(q: dict):
-    return (
-        q.get("question_text")
-        or q.get("question")
-        or q.get("text")
-        or q.get("stem")
-        or "No question available"
-    )
-
-
-def get_options(q: dict):
-    return q.get("options", {})
-
-
-# =========================
-# MODELS
-# =========================
 class StartRequest(BaseModel):
     section_ids: List[int]
 
@@ -38,6 +21,11 @@ class AnswerRequest(BaseModel):
     answers: Dict[str, str]
 
 
+@app.get("/")
+def home():
+    return {"status": "running"}
+
+
 # =========================
 # START SESSION
 # =========================
@@ -45,20 +33,33 @@ class AnswerRequest(BaseModel):
 def start_prep(req: StartRequest):
 
     try:
+        session_id = str(uuid.uuid4())
+
         result = run_prep_session(
             section_ids=req.section_ids,
-            simulate=False
+            simulate=True
         )
 
-        session_id = result["session_id"]
-        mcqs = result["mcqs"]
+        mcqs = result.get("mcqs", [])
 
+        # SESSION SAVE
         col_sessions.insert_one({
             "session_id": session_id,
             "section_ids": req.section_ids,
             "mcqs": mcqs,
-            "results": None
+            "results": {}
         })
+
+        # QUESTIONS TRACKING
+        col_questions.insert_many([
+            {
+                "session_id": session_id,
+                "question_id": q.get("question_id"),
+                "topic": q.get("topic_tag", "general"),
+                "is_correct": None
+            }
+            for q in mcqs
+        ])
 
         return {
             "session_id": session_id,
@@ -66,12 +67,12 @@ def start_prep(req: StartRequest):
         }
 
     except Exception as e:
-        print("❌ START ERROR:", e)
+        traceback.print_exc()
         raise HTTPException(status_code=500, detail=str(e))
 
 
 # =========================
-# SUBMIT (FULL SAFE FIX)
+# SUBMIT ANSWERS
 # =========================
 @app.post("/prep/submit")
 def submit_answers(req: AnswerRequest):
@@ -83,48 +84,16 @@ def submit_answers(req: AnswerRequest):
 
     mcqs = session.get("mcqs", [])
 
-    results = []
-    correct = 0
-
-    for q in mcqs:
-
-        qid = q.get("question_id")
-        user_ans = req.answers.get(qid)
-
-        correct_ans = q.get("correct_answer")
-
-        is_correct = (user_ans == correct_ans)
-
-        if is_correct:
-            correct += 1
-
-        results.append({
-            "question_id": qid,
-            "question": get_question(q),   # 🔥 SAFE FIX HERE
-            "options": get_options(q),
-            "user_answer": user_ans,
-            "correct_answer": correct_ans,
-            "is_correct": is_correct,
-            "explanation": q.get("explanation", "")
-        })
-
-    total = len(results)
-
-    final_result = {
-        "total_questions": total,
-        "correct_answers": correct,
-        "score_percentage": round((correct / total) * 100, 2) if total else 0,
-        "results": results
-    }
+    results = score_session(mcqs, req.answers)
 
     col_sessions.update_one(
         {"session_id": req.session_id},
-        {"$set": {"results": final_result}}
+        {"$set": {"results": results}}
     )
 
     return {
         "session_id": req.session_id,
-        "results": final_result
+        "results": results
     }
 
 
@@ -140,3 +109,7 @@ def get_result(session_id: str):
         raise HTTPException(status_code=404, detail="Not found")
 
     return session
+
+
+if __name__ == "__main__":
+    uvicorn.run("app:app", host="127.0.0.1", port=8000, reload=True)
