@@ -6,7 +6,6 @@ from src.config.config import get_config
 from src.retrieval.retrieval_engine import retrieve_context , get_weak_topics, get_prior_questions
 
 
-
 config = get_config()
 MCQ_PER_SECTION = config["MCQ_PER_SECTION"]
 genai.configure(api_key=config["GEMINI_API_KEY"])

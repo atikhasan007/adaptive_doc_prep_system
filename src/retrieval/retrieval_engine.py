@@ -5,6 +5,10 @@ from src.database.mongo_client import col_weak_topics, col_sessions, col_questio
 from src.vectorstore.chroma_store import create_vectorstore
 from src.database.chroma_client import get_vectorstore
 
+vectorstore = get_vectorstore()
+
+
+
 def get_weak_topics(section_ids: List[int], top_k: int = 3) -> List[str]:
     """
     Fetch top-K weak topic summaries from MongoDB for given sections.

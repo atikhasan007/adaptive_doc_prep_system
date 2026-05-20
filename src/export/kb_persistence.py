@@ -1,6 +1,6 @@
 from typing import List , Dict
 from src.utils.helper import datetime
-from src.database.mongo_client import col_sessions,col_questions,col_weak_topics,
+from src.database.mongo_client import col_sessions,col_questions,col_weak_topics
 from pymongo import DESCENDING
 
 
