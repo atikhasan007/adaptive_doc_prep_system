@@ -1,6 +1,108 @@
 {
   "kb_snapshot": [
     {
+      "session_id": "ae868ee7-d7bf-490a-88d5-802a4279328a",
+      "section_ids": [
+        8
+      ],
+      "created_at": "2026-05-20T09:01:36.028000",
+      "total_q": 5,
+      "correct_count": 3,
+      "score_pct": 60.0,
+      "questions": [
+        {
+          "session_id": "ae868ee7-d7bf-490a-88d5-802a4279328a",
+          "created_at": "2026-05-20T09:01:36.028000",
+          "question_id": "q4",
+          "question_text": "In the event of a Doctrine conflict, which directive principle takes precedence for field operatives?",
+          "options": {
+            "A": "Efficiency of resource allocation",
+            "B": "The hierarchy of the primary operational chain",
+            "C": "Situational adaptability over rigid adherence",
+            "D": "The preservation of the operational stealth profile"
+          },
+          "correct_answer": "D",
+          "user_answer": "A",
+          "is_correct": false,
+          "explanation": "Doctrine Principles mandate that maintaining the operational stealth profile is the absolute priority when conflicting directives arise in the field.",
+          "section_id": 8,
+          "topic_tag": "Doctrine Principles"
+        },
+        {
+          "session_id": "ae868ee7-d7bf-490a-88d5-802a4279328a",
+          "created_at": "2026-05-20T09:01:36.028000",
+          "question_id": "q5",
+          "question_text": "Which condition strictly prohibits the activation of a designated Secondary Base?",
+          "options": {
+            "A": "Presence of active subterranean scanning equipment in the region",
+            "B": "Expiration of the operative's current identification clearance",
+            "C": "Failure to complete the mandatory tri-monthly status report",
+            "D": "Inability to confirm the atmospheric stability of the cache"
+          },
+          "correct_answer": "A",
+          "user_answer": "B",
+          "is_correct": false,
+          "explanation": "Secondary Bases are rendered invalid and prohibited from activation if active subterranean scanning equipment is detected in the immediate vicinity.",
+          "section_id": 8,
+          "topic_tag": "Secondary Bases"
+        },
+        {
+          "session_id": "ae868ee7-d7bf-490a-88d5-802a4279328a",
+          "created_at": "2026-05-20T09:01:36.028000",
+          "question_id": "q1",
+          "question_text": "According to the Doctrine Principles outlined in Section 8, what is the primary mandate regarding environmental integration for operatives?",
+          "options": {
+            "A": "Complete isolation from local civilian infrastructure",
+            "B": "Synchronous alignment with indigenous logistical patterns",
+            "C": "Aggressive expansion of operational surveillance zones",
+            "D": "Permanent severance of all communication relays"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Section 8 specifies that Doctrine Principles require operatives to maintain synchronous alignment with indigenous logistical patterns to ensure stability.",
+          "section_id": 8,
+          "topic_tag": "Doctrine Principles"
+        },
+        {
+          "session_id": "ae868ee7-d7bf-490a-88d5-802a4279328a",
+          "created_at": "2026-05-20T09:01:36.028000",
+          "question_id": "q2",
+          "question_text": "What constitutes an authorized 'Doctrine Departure' under the emergency protocols of Section 8?",
+          "options": {
+            "A": "Any deviation requiring external tactical approval",
+            "B": "The prioritization of asset preservation over mission completion",
+            "C": "Unauthorized interaction with non-networked civilian sectors",
+            "D": "Automated system failure leading to manual signal interception"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Doctrine Departures are strictly defined as situations where asset preservation is permitted to take precedence over standard mission completion requirements.",
+          "section_id": 8,
+          "topic_tag": "Doctrine Departures"
+        },
+        {
+          "session_id": "ae868ee7-d7bf-490a-88d5-802a4279328a",
+          "created_at": "2026-05-20T09:01:36.028000",
+          "question_id": "q3",
+          "question_text": "Under the Secondary Bases mandate, how must an operative verify the integrity of an auxiliary cache?",
+          "options": {
+            "A": "Through manual entry of the bi-annual cryptographic shift key",
+            "B": "By confirming the physical status of the pulse-dampening seal",
+            "C": "Via remote signal handshake with the primary Yatiri hub",
+            "D": "By performing a secondary diagnostic on the local relay network"
+          },
+          "correct_answer": "A",
+          "user_answer": "A",
+          "is_correct": true,
+          "explanation": "The protocols state that integrity verification for secondary bases relies on the input of the bi-annual cryptographic shift key.",
+          "section_id": 8,
+          "topic_tag": "Secondary Bases"
+        }
+      ]
+    },
+    {
       "session_id": "e85d67c2-d743-4f92-bf30-8ee7dfa54aa5",
       "section_ids": [
         8
@@ -771,109 +873,7 @@
           "topic_tag": "Reporting"
         }
       ]
-    },
-    {
-      "session_id": "621dc2b1-d464-48f6-a08b-d8881933da3d",
-      "section_ids": [
-        8
-      ],
-      "created_at": "2026-05-19T18:18:39.861000",
-      "total_q": 5,
-      "correct_count": 4,
-      "score_pct": 80.0,
-      "questions": [
-        {
-          "session_id": "621dc2b1-d464-48f6-a08b-d8881933da3d",
-          "created_at": "2026-05-19T18:18:39.861000",
-          "question_id": "q3",
-          "question_text": "Which facility serves as the PAMC Headquarters where the asset rotates through for senior briefings on a quarterly basis?",
-          "options": {
-            "A": "Cuartel Valpara\u00edso",
-            "B": "Oficina Tarija",
-            "C": "Edificio Marasol",
-            "D": "The CBMP regional micro-lab"
-          },
-          "correct_answer": "C",
-          "user_answer": "B",
-          "is_correct": false,
-          "explanation": "Section 8.2 identifies Edificio Marasol in Lima as the PAMC Headquarters used for quarterly senior briefings.",
-          "section_id": 8,
-          "topic_tag": "Secondary Bases"
-        },
-        {
-          "session_id": "621dc2b1-d464-48f6-a08b-d8881933da3d",
-          "created_at": "2026-05-19T18:18:39.861000",
-          "question_id": "q1",
-          "question_text": "How many burst-relay nodes currently constitute the PAMC Yatiri network serving the asset's operational territory?",
-          "options": {
-            "A": "6",
-            "B": "8",
-            "C": "10",
-            "D": "12"
-          },
-          "correct_answer": "B",
-          "user_answer": "B",
-          "is_correct": true,
-          "explanation": "Section 8.7 explicitly states that the operational territory is served by 8 burst-relay nodes within the PAMC Yatiri network.",
-          "section_id": 8,
-          "topic_tag": "Communications"
-        },
-        {
-          "session_id": "621dc2b1-d464-48f6-a08b-d8881933da3d",
-          "created_at": "2026-05-19T18:18:39.861000",
-          "question_id": "q2",
-          "question_text": "What is the primary reason listed for the restricted status of the Salar de Uyuni Sector 4 in Bolivia?",
-          "options": {
-            "A": "Psychological concerns regarding a 2018 trigger site",
-            "B": "Pending bilateral jurisdictional agreements",
-            "C": "Ongoing classified PAMC investigation since 2023",
-            "D": "Lack of adequate communication infrastructure"
-          },
-          "correct_answer": "C",
-          "user_answer": "C",
-          "is_correct": true,
-          "explanation": "The context identifies the status of Salar de Uyuni Sector 4 as strategic due to an ongoing classified PAMC investigation since 2023.",
-          "section_id": 8,
-          "topic_tag": "Restricted Zones"
-        },
-        {
-          "session_id": "621dc2b1-d464-48f6-a08b-d8881933da3d",
-          "created_at": "2026-05-19T18:18:39.861000",
-          "question_id": "q4",
-          "question_text": "Regarding the Cuartel Valpara\u00edso facility, which of the following statements is true?",
-          "options": {
-            "A": "It contains 15 vehicle spaces, including one for the Quiltro V-12.",
-            "B": "It has an average daily population of 47 personnel.",
-            "C": "It is rated as PAMC Restricted-1 security level.",
-            "D": "It possesses three subsurface levels for storage and lab work."
-          },
-          "correct_answer": "B",
-          "user_answer": "B",
-          "is_correct": true,
-          "explanation": "The parameter table for Cuartel Valpara\u00edso lists an average daily population of 47 personnel.",
-          "section_id": 8,
-          "topic_tag": "Facility Specs"
-        },
-        {
-          "session_id": "621dc2b1-d464-48f6-a08b-d8881933da3d",
-          "created_at": "2026-05-19T18:18:39.861000",
-          "question_id": "q5",
-          "question_text": "What is the specific nature of the partnership with the Peruvian Direcci\u00f3n de Asuntos Metahumanos (DAM) for Cuzco operations?",
-          "options": {
-            "A": "Full operational integration",
-            "B": "Joint tactical response",
-            "C": "Observation-only sharing",
-            "D": "Mutual resource funding"
-          },
-          "correct_answer": "C",
-          "user_answer": "C",
-          "is_correct": true,
-          "explanation": "The Annex 2023 note specifies that the arrangement with the Peruvian DAM is for observation-only sharing regarding Cuzco operations.",
-          "section_id": 8,
-          "topic_tag": "Annexes"
-        }
-      ]
     }
   ],
-  "exported_at": "2026-05-20T08:55:10.149231"
+  "exported_at": "2026-05-20T09:01:37.036457"
 }

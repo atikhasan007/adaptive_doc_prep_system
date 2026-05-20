@@ -119,7 +119,7 @@
 #         section_ids  = [8],
 #         simulate     = True,
 #         correct_rate = 0.8,
-#         output_dir   = "outputs/scenario_b_iter3"
+#         output_dir   = "outputss/scenario_b_iter3"
 #     )
 
 
@@ -145,7 +145,7 @@
 #             section_ids  = [8],
 #             simulate     = True,
 #             correct_rate = 0.8,
-#             output_dir   = "outputs/scenario_b_iter3"
+#             output_dir   = "outputss/scenario_b_iter3"
 #         )
 
 
@@ -167,9 +167,13 @@ from src.utils.logger import get_logger
 logger = get_logger("demo")
 
 
+# ================================================================
+# Output file tree
+# ================================================================
+
 logger.info("Output file tree:")
 
-for f in sorted(glob.glob("outputs/**/*.json", recursive=True)):
+for f in sorted(glob.glob("outputss/**/*.json", recursive=True)):
     size = os.path.getsize(f)
     logger.info(f"{f} ({size:,} bytes)")
 
@@ -180,16 +184,24 @@ for f in sorted(glob.glob("outputs/**/*.json", recursive=True)):
 
 logger.info("KB Snapshot preview (iter3, first session)")
 
-with open("outputs/scenario_b_iter3/kb_snapshot.json", "r", encoding="utf-8") as f:
+with open(
+    "outputss/scenario_b_iter3/kb_snapshot.json",
+    "r",
+    encoding="utf-8"
+) as f:
     snap = json.load(f)
 
 first = snap["kb_snapshot"][0]
 
 logger.info(f"session_id  : {first['session_id']}")
 logger.info(f"section_ids : {first['section_ids']}")
+
 logger.info(
-    f"score       : {first['correct_count']}/{first['total_q']} ({first['score_pct']}%)"
+    f"score       : "
+    f"{first['correct_count']}/{first['total_q']} "
+    f"({first['score_pct']}%)"
 )
+
 logger.info(f"questions   : {len(first['questions'])}")
 
-logger.info("ALL DEMO RUNS COMPLETED")
+logger.info("ALL DEMO RUNS COMPLETED SUCCESSFULLY")

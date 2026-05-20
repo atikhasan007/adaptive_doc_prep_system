@@ -1,0 +1,157 @@
+{
+  "session_id": "ae868ee7-d7bf-490a-88d5-802a4279328a",
+  "mcqs": [
+    {
+      "question_id": "q1",
+      "question_text": "According to the Doctrine Principles outlined in Section 8, what is the primary mandate regarding environmental integration for operatives?",
+      "options": {
+        "A": "Complete isolation from local civilian infrastructure",
+        "B": "Synchronous alignment with indigenous logistical patterns",
+        "C": "Aggressive expansion of operational surveillance zones",
+        "D": "Permanent severance of all communication relays"
+      },
+      "correct_answer": "B",
+      "explanation": "Section 8 specifies that Doctrine Principles require operatives to maintain synchronous alignment with indigenous logistical patterns to ensure stability.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    },
+    {
+      "question_id": "q2",
+      "question_text": "What constitutes an authorized 'Doctrine Departure' under the emergency protocols of Section 8?",
+      "options": {
+        "A": "Any deviation requiring external tactical approval",
+        "B": "The prioritization of asset preservation over mission completion",
+        "C": "Unauthorized interaction with non-networked civilian sectors",
+        "D": "Automated system failure leading to manual signal interception"
+      },
+      "correct_answer": "B",
+      "explanation": "Doctrine Departures are strictly defined as situations where asset preservation is permitted to take precedence over standard mission completion requirements.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Departures"
+    },
+    {
+      "question_id": "q3",
+      "question_text": "Under the Secondary Bases mandate, how must an operative verify the integrity of an auxiliary cache?",
+      "options": {
+        "A": "Through manual entry of the bi-annual cryptographic shift key",
+        "B": "By confirming the physical status of the pulse-dampening seal",
+        "C": "Via remote signal handshake with the primary Yatiri hub",
+        "D": "By performing a secondary diagnostic on the local relay network"
+      },
+      "correct_answer": "A",
+      "explanation": "The protocols state that integrity verification for secondary bases relies on the input of the bi-annual cryptographic shift key.",
+      "section_id": 8,
+      "topic_tag": "Secondary Bases"
+    },
+    {
+      "question_id": "q4",
+      "question_text": "In the event of a Doctrine conflict, which directive principle takes precedence for field operatives?",
+      "options": {
+        "A": "Efficiency of resource allocation",
+        "B": "The hierarchy of the primary operational chain",
+        "C": "Situational adaptability over rigid adherence",
+        "D": "The preservation of the operational stealth profile"
+      },
+      "correct_answer": "D",
+      "explanation": "Doctrine Principles mandate that maintaining the operational stealth profile is the absolute priority when conflicting directives arise in the field.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    },
+    {
+      "question_id": "q5",
+      "question_text": "Which condition strictly prohibits the activation of a designated Secondary Base?",
+      "options": {
+        "A": "Presence of active subterranean scanning equipment in the region",
+        "B": "Expiration of the operative's current identification clearance",
+        "C": "Failure to complete the mandatory tri-monthly status report",
+        "D": "Inability to confirm the atmospheric stability of the cache"
+      },
+      "correct_answer": "A",
+      "explanation": "Secondary Bases are rendered invalid and prohibited from activation if active subterranean scanning equipment is detected in the immediate vicinity.",
+      "section_id": 8,
+      "topic_tag": "Secondary Bases"
+    }
+  ],
+  "results": [
+    {
+      "question_id": "q1",
+      "question_text": "According to the Doctrine Principles outlined in Section 8, what is the primary mandate regarding environmental integration for operatives?",
+      "options": {
+        "A": "Complete isolation from local civilian infrastructure",
+        "B": "Synchronous alignment with indigenous logistical patterns",
+        "C": "Aggressive expansion of operational surveillance zones",
+        "D": "Permanent severance of all communication relays"
+      },
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "explanation": "Section 8 specifies that Doctrine Principles require operatives to maintain synchronous alignment with indigenous logistical patterns to ensure stability.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    },
+    {
+      "question_id": "q2",
+      "question_text": "What constitutes an authorized 'Doctrine Departure' under the emergency protocols of Section 8?",
+      "options": {
+        "A": "Any deviation requiring external tactical approval",
+        "B": "The prioritization of asset preservation over mission completion",
+        "C": "Unauthorized interaction with non-networked civilian sectors",
+        "D": "Automated system failure leading to manual signal interception"
+      },
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "explanation": "Doctrine Departures are strictly defined as situations where asset preservation is permitted to take precedence over standard mission completion requirements.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Departures"
+    },
+    {
+      "question_id": "q3",
+      "question_text": "Under the Secondary Bases mandate, how must an operative verify the integrity of an auxiliary cache?",
+      "options": {
+        "A": "Through manual entry of the bi-annual cryptographic shift key",
+        "B": "By confirming the physical status of the pulse-dampening seal",
+        "C": "Via remote signal handshake with the primary Yatiri hub",
+        "D": "By performing a secondary diagnostic on the local relay network"
+      },
+      "correct_answer": "A",
+      "user_answer": "A",
+      "is_correct": true,
+      "explanation": "The protocols state that integrity verification for secondary bases relies on the input of the bi-annual cryptographic shift key.",
+      "section_id": 8,
+      "topic_tag": "Secondary Bases"
+    },
+    {
+      "question_id": "q4",
+      "question_text": "In the event of a Doctrine conflict, which directive principle takes precedence for field operatives?",
+      "options": {
+        "A": "Efficiency of resource allocation",
+        "B": "The hierarchy of the primary operational chain",
+        "C": "Situational adaptability over rigid adherence",
+        "D": "The preservation of the operational stealth profile"
+      },
+      "correct_answer": "D",
+      "user_answer": "A",
+      "is_correct": false,
+      "explanation": "Doctrine Principles mandate that maintaining the operational stealth profile is the absolute priority when conflicting directives arise in the field.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    },
+    {
+      "question_id": "q5",
+      "question_text": "Which condition strictly prohibits the activation of a designated Secondary Base?",
+      "options": {
+        "A": "Presence of active subterranean scanning equipment in the region",
+        "B": "Expiration of the operative's current identification clearance",
+        "C": "Failure to complete the mandatory tri-monthly status report",
+        "D": "Inability to confirm the atmospheric stability of the cache"
+      },
+      "correct_answer": "A",
+      "user_answer": "B",
+      "is_correct": false,
+      "explanation": "Secondary Bases are rendered invalid and prohibited from activation if active subterranean scanning equipment is detected in the immediate vicinity.",
+      "section_id": 8,
+      "topic_tag": "Secondary Bases"
+    }
+  ]
+}
