@@ -130,6 +130,14 @@ embedding model : sentence-transformers/all-MiniLM-L6-v2
 - LLM-powered question generation
 
 
+## Explicit Adaptive Algorithm
+
+Example needed:
+weak_topic_score = wrong_count / total_attempts
+sampling weight in MCQ generation prompt
+
+
+
 ##  11. How to Run This Project
 - 1. clone the repository * git clone https://github.com/atikhasan007/adaptive_doc_prep_system.git
 
