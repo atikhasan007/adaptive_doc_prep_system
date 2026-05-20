@@ -45,13 +45,13 @@ given assigenment : SLATEFALL_DOSSIER.pdf
 
 
 
-##  6. Models Used and api for llm
+##  5. Models Used and api for llm
 gemeni api 
 model : gemini-3.1-flash-lite
 embedding model : sentence-transformers/all-MiniLM-L6-v2
 
 
-##  8. End-to-End Application workflow
+##  6. End-to-End Application workflow
 1. config
 2. database
 3. utils
@@ -68,7 +68,7 @@ embedding model : sentence-transformers/all-MiniLM-L6-v2
 14. app.py
 15. steamlit.py
 
-## Adaptive Learning Flow
+## 7. Adaptive Learning Flow
   User selects sections
         ↓
 Retrieve PDF context (ChromaDB)
@@ -91,7 +91,7 @@ Next session becomes smarter
 
 ---
 
-## 🗄️ Database Design
+## 8. Database Design
 
 ### 📌 ChromaDB
 - Used for semantic search
@@ -108,7 +108,7 @@ Next session becomes smarter
 
 ---
 
-## Tech Stack
+## 9. Tech Stack
 - Python
 - FastAPI
 - Streamlit
@@ -117,7 +117,7 @@ Next session becomes smarter
 - Gemini API
 - Sentence Transformers
 
-## Key Features
+## 10. Key Features
 - Adaptive MCQ generation
 - Weak topic detection
 - Session-based learning history
@@ -126,7 +126,7 @@ Next session becomes smarter
 - LLM-powered question generation
 
 
-##  10. How to Run This Project
+##  11. How to Run This Project
 - 1. clone the repository
 git clone https://github.com/atikhasan007/adaptive_doc_prep_system.git
 
@@ -137,7 +137,7 @@ uvicorn app:app --reload
 streamlit run streamlit_app.py
 
 
-##  11. Author & Contact 
+##  12. Author & Contact 
 Md Atik Hasan
 Email : imatik513@gmail.com
 Phone : +8801827693853
