@@ -1,0 +1,307 @@
+{
+  "session_id": "c3fde21c-8a4c-43ea-93f0-14b9b71ede15",
+  "mcqs": [
+    {
+      "question_id": "q1",
+      "question_text": "Under Combat Directive 14, what is the mandatory action when encountering a non-combatant in a high-density zone?",
+      "options": {
+        "A": "Immediate neutralization",
+        "B": "Asset redirection to local authorities",
+        "C": "Immediate extraction and radio silence",
+        "D": "Identification check followed by escort"
+      },
+      "correct_answer": "C",
+      "explanation": "Combat Directive 14 mandates immediate extraction and total radio silence to prevent exposure when non-combatants are identified in high-density zones.",
+      "section_id": 5,
+      "topic_tag": "Combat Directives"
+    },
+    {
+      "question_id": "q2",
+      "question_text": "Which Doctrine Principle explicitly states that 'efficiency is secondary to operational opacity'?",
+      "options": {
+        "A": "Principle IV",
+        "B": "Principle VII",
+        "C": "Principle IX",
+        "D": "Principle XII"
+      },
+      "correct_answer": "B",
+      "explanation": "Doctrine Principle VII establishes that maintaining operational opacity is always the primary concern, even at the cost of tactical efficiency.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    },
+    {
+      "question_id": "q3",
+      "question_text": "When is a 'Doctrine Departure' formally authorized by field command?",
+      "options": {
+        "A": "Only when the asset is compromised",
+        "B": "Upon the loss of communications with HQ for over 6 hours",
+        "C": "During extreme weather events in high-altitude zones",
+        "D": "When objective completion probability drops below 15%"
+      },
+      "correct_answer": "D",
+      "explanation": "A Doctrine Departure is only permitted when the probability of objective success falls beneath the 15% threshold as determined by the field commander.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Departures"
+    },
+    {
+      "question_id": "q4",
+      "question_text": "What is the primary requirement for invoking a Combat Directive override in the field?",
+      "options": {
+        "A": "Verbal confirmation from the field lead",
+        "B": "Digital signature from the Regional Overseer",
+        "C": "A manual reset of the uplink device",
+        "D": "Presence of a Tier-1 support unit"
+      },
+      "correct_answer": "B",
+      "explanation": "Directive overrides require a digital signature from a designated Regional Overseer to ensure accountability during mission-critical alterations.",
+      "section_id": 5,
+      "topic_tag": "Combat Directives"
+    },
+    {
+      "question_id": "q5",
+      "question_text": "Which of the following is considered an invalid Doctrine Departure under the revised guidelines?",
+      "options": {
+        "A": "Altering target priority in emergency scenarios",
+        "B": "Bypassing biometric scanners during low-light conditions",
+        "C": "Establishing unauthorized communication channels with extraction teams",
+        "D": "Using non-standard extraction routes"
+      },
+      "correct_answer": "C",
+      "explanation": "Establishing unauthorized communication channels is explicitly categorized as an invalid departure and is subject to immediate disciplinary review.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Departures"
+    },
+    {
+      "question_id": "q6",
+      "question_text": "What does Combat Directive 22 require if a primary asset sustains critical hardware damage?",
+      "options": {
+        "A": "Self-destruction of the unit",
+        "B": "Immediate initiation of the 'Ghost Protocol'",
+        "C": "Deployment of a secondary recovery drone",
+        "D": "Transfer of data to a local memory buffer"
+      },
+      "correct_answer": "B",
+      "explanation": "Directive 22 mandates the initiation of the 'Ghost Protocol' to ensure data integrity and asset concealment upon hardware failure.",
+      "section_id": 5,
+      "topic_tag": "Combat Directives"
+    },
+    {
+      "question_id": "q7",
+      "question_text": "Doctrine Principle III focuses on which aspect of field operations?",
+      "options": {
+        "A": "Resource allocation",
+        "B": "Signal suppression and noise reduction",
+        "C": "Personnel fatigue management",
+        "D": "Inter-agency cooperation"
+      },
+      "correct_answer": "B",
+      "explanation": "Doctrine Principle III dictates strict adherence to signal suppression techniques to avoid detection by hostile monitoring systems.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    },
+    {
+      "question_id": "q8",
+      "question_text": "Under what condition is the abandonment of a Doctrine Departure protocol necessary?",
+      "options": {
+        "A": "When reinforcements are sighted",
+        "B": "When the mission target relocates outside the sector",
+        "C": "When local civilian authorities initiate an investigation",
+        "D": "When the asset loses its primary weapon system"
+      },
+      "correct_answer": "C",
+      "explanation": "If civilian authorities begin an investigation, the asset must abandon the Departure and return to standard concealment procedures immediately.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Departures"
+    },
+    {
+      "question_id": "q9",
+      "question_text": "What is the maximum duration for a Combat Directive hold in an active conflict zone?",
+      "options": {
+        "A": "12 minutes",
+        "B": "30 minutes",
+        "C": "60 minutes",
+        "D": "120 minutes"
+      },
+      "correct_answer": "B",
+      "explanation": "Combat Directive holds are limited to 30 minutes to ensure that assets do not stagnate and remain predictable to opposing forces.",
+      "section_id": 5,
+      "topic_tag": "Combat Directives"
+    },
+    {
+      "question_id": "q10",
+      "question_text": "Which Doctrine Principle addresses the 'Human Element' in automated combat environments?",
+      "options": {
+        "A": "Principle I",
+        "B": "Principle V",
+        "C": "Principle X",
+        "D": "Principle XV"
+      },
+      "correct_answer": "A",
+      "explanation": "Doctrine Principle I emphasizes that the human operator remains the final decision-maker, even when automated combat directives are in effect.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    }
+  ],
+  "results": [
+    {
+      "question_id": "q1",
+      "question_text": "Under Combat Directive 14, what is the mandatory action when encountering a non-combatant in a high-density zone?",
+      "options": {
+        "A": "Immediate neutralization",
+        "B": "Asset redirection to local authorities",
+        "C": "Immediate extraction and radio silence",
+        "D": "Identification check followed by escort"
+      },
+      "correct_answer": "C",
+      "user_answer": "D",
+      "is_correct": false,
+      "explanation": "Combat Directive 14 mandates immediate extraction and total radio silence to prevent exposure when non-combatants are identified in high-density zones.",
+      "section_id": 5,
+      "topic_tag": "Combat Directives"
+    },
+    {
+      "question_id": "q2",
+      "question_text": "Which Doctrine Principle explicitly states that 'efficiency is secondary to operational opacity'?",
+      "options": {
+        "A": "Principle IV",
+        "B": "Principle VII",
+        "C": "Principle IX",
+        "D": "Principle XII"
+      },
+      "correct_answer": "B",
+      "user_answer": "D",
+      "is_correct": false,
+      "explanation": "Doctrine Principle VII establishes that maintaining operational opacity is always the primary concern, even at the cost of tactical efficiency.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    },
+    {
+      "question_id": "q3",
+      "question_text": "When is a 'Doctrine Departure' formally authorized by field command?",
+      "options": {
+        "A": "Only when the asset is compromised",
+        "B": "Upon the loss of communications with HQ for over 6 hours",
+        "C": "During extreme weather events in high-altitude zones",
+        "D": "When objective completion probability drops below 15%"
+      },
+      "correct_answer": "D",
+      "user_answer": "A",
+      "is_correct": false,
+      "explanation": "A Doctrine Departure is only permitted when the probability of objective success falls beneath the 15% threshold as determined by the field commander.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Departures"
+    },
+    {
+      "question_id": "q4",
+      "question_text": "What is the primary requirement for invoking a Combat Directive override in the field?",
+      "options": {
+        "A": "Verbal confirmation from the field lead",
+        "B": "Digital signature from the Regional Overseer",
+        "C": "A manual reset of the uplink device",
+        "D": "Presence of a Tier-1 support unit"
+      },
+      "correct_answer": "B",
+      "user_answer": "D",
+      "is_correct": false,
+      "explanation": "Directive overrides require a digital signature from a designated Regional Overseer to ensure accountability during mission-critical alterations.",
+      "section_id": 5,
+      "topic_tag": "Combat Directives"
+    },
+    {
+      "question_id": "q5",
+      "question_text": "Which of the following is considered an invalid Doctrine Departure under the revised guidelines?",
+      "options": {
+        "A": "Altering target priority in emergency scenarios",
+        "B": "Bypassing biometric scanners during low-light conditions",
+        "C": "Establishing unauthorized communication channels with extraction teams",
+        "D": "Using non-standard extraction routes"
+      },
+      "correct_answer": "C",
+      "user_answer": "A",
+      "is_correct": false,
+      "explanation": "Establishing unauthorized communication channels is explicitly categorized as an invalid departure and is subject to immediate disciplinary review.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Departures"
+    },
+    {
+      "question_id": "q6",
+      "question_text": "What does Combat Directive 22 require if a primary asset sustains critical hardware damage?",
+      "options": {
+        "A": "Self-destruction of the unit",
+        "B": "Immediate initiation of the 'Ghost Protocol'",
+        "C": "Deployment of a secondary recovery drone",
+        "D": "Transfer of data to a local memory buffer"
+      },
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "explanation": "Directive 22 mandates the initiation of the 'Ghost Protocol' to ensure data integrity and asset concealment upon hardware failure.",
+      "section_id": 5,
+      "topic_tag": "Combat Directives"
+    },
+    {
+      "question_id": "q7",
+      "question_text": "Doctrine Principle III focuses on which aspect of field operations?",
+      "options": {
+        "A": "Resource allocation",
+        "B": "Signal suppression and noise reduction",
+        "C": "Personnel fatigue management",
+        "D": "Inter-agency cooperation"
+      },
+      "correct_answer": "B",
+      "user_answer": "C",
+      "is_correct": false,
+      "explanation": "Doctrine Principle III dictates strict adherence to signal suppression techniques to avoid detection by hostile monitoring systems.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    },
+    {
+      "question_id": "q8",
+      "question_text": "Under what condition is the abandonment of a Doctrine Departure protocol necessary?",
+      "options": {
+        "A": "When reinforcements are sighted",
+        "B": "When the mission target relocates outside the sector",
+        "C": "When local civilian authorities initiate an investigation",
+        "D": "When the asset loses its primary weapon system"
+      },
+      "correct_answer": "C",
+      "user_answer": "C",
+      "is_correct": true,
+      "explanation": "If civilian authorities begin an investigation, the asset must abandon the Departure and return to standard concealment procedures immediately.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Departures"
+    },
+    {
+      "question_id": "q9",
+      "question_text": "What is the maximum duration for a Combat Directive hold in an active conflict zone?",
+      "options": {
+        "A": "12 minutes",
+        "B": "30 minutes",
+        "C": "60 minutes",
+        "D": "120 minutes"
+      },
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "explanation": "Combat Directive holds are limited to 30 minutes to ensure that assets do not stagnate and remain predictable to opposing forces.",
+      "section_id": 5,
+      "topic_tag": "Combat Directives"
+    },
+    {
+      "question_id": "q10",
+      "question_text": "Which Doctrine Principle addresses the 'Human Element' in automated combat environments?",
+      "options": {
+        "A": "Principle I",
+        "B": "Principle V",
+        "C": "Principle X",
+        "D": "Principle XV"
+      },
+      "correct_answer": "A",
+      "user_answer": "A",
+      "is_correct": true,
+      "explanation": "Doctrine Principle I emphasizes that the human operator remains the final decision-maker, even when automated combat directives are in effect.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    }
+  ]
+}

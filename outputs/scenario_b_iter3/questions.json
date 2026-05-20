@@ -1,0 +1,157 @@
+{
+  "session_id": "e85d67c2-d743-4f92-bf30-8ee7dfa54aa5",
+  "mcqs": [
+    {
+      "question_id": "q1",
+      "question_text": "According to the Doctrine Principles outlined in Section 8, what is the primary prerequisite for initiating a containment protocol?",
+      "options": {
+        "A": "Complete failure of local communication relays",
+        "B": "Verification of a Category-IV asset instability",
+        "C": "Authorization from the regional overseer",
+        "D": "Neutralization of all secondary nodes"
+      },
+      "correct_answer": "B",
+      "explanation": "Section 8 explicitly identifies the verification of a Category-IV asset instability as the mandatory trigger for containment protocol initiation.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    },
+    {
+      "question_id": "q2",
+      "question_text": "Under what specific condition is a Doctrine Departure formally sanctioned by Command?",
+      "options": {
+        "A": "When the projected casualty rate exceeds 40%",
+        "B": "Upon the irreparable compromise of the primary neural uplink",
+        "C": "When local field conditions render standard suppression tactics counter-productive",
+        "D": "After a three-cycle cooling period following operational failure"
+      },
+      "correct_answer": "C",
+      "explanation": "Doctrine Departures are sanctioned when standard suppression tactics are deemed counter-productive due to specific, difficult field conditions.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Departures"
+    },
+    {
+      "question_id": "q3",
+      "question_text": "Which of the following describes the required action when relying on Secondary Bases during an emergency extraction?",
+      "options": {
+        "A": "Secondary bases must be purged of all encrypted data before evacuation",
+        "B": "Operatives must switch to the backup frequency before entering the base perimeter",
+        "C": "Extraction is only permitted if the secondary base has an active thermal shroud",
+        "D": "Verification of the base's sync-parity status is required before proceeding"
+      },
+      "correct_answer": "D",
+      "explanation": "The guidelines specify that before utilizing Secondary Bases, operatives must confirm the base's sync-parity status to ensure network stability.",
+      "section_id": 8,
+      "topic_tag": "Secondary Bases"
+    },
+    {
+      "question_id": "q4",
+      "question_text": "What is the primary constraint imposed on Doctrine Principles when operating in non-combat zones?",
+      "options": {
+        "A": "Complete radio silence is mandatory",
+        "B": "Active suppression is prohibited to maintain plausible deniability",
+        "C": "The asset must be relocated to a Secondary Base within 48 hours",
+        "D": "Doctrine Principles must be adapted to non-lethal engagement standards"
+      },
+      "correct_answer": "B",
+      "explanation": "To maintain plausible deniability, the directive mandates that active suppression is prohibited within non-combat zones.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    },
+    {
+      "question_id": "q5",
+      "question_text": "Which of these scenarios constitutes a recognized Doctrine Departure?",
+      "options": {
+        "A": "Re-routing power to the primary transmitter during a surge",
+        "B": "Engaging multiple targets simultaneously without backup",
+        "C": "Utilizing civilian infrastructure as a temporary shielded relay",
+        "D": "Deactivating the distress beacon to remain undetected"
+      },
+      "correct_answer": "C",
+      "explanation": "Utilizing civilian infrastructure for operational relay is explicitly listed as a permitted Doctrine Departure under emergency constraints.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Departures"
+    }
+  ],
+  "results": [
+    {
+      "question_id": "q1",
+      "question_text": "According to the Doctrine Principles outlined in Section 8, what is the primary prerequisite for initiating a containment protocol?",
+      "options": {
+        "A": "Complete failure of local communication relays",
+        "B": "Verification of a Category-IV asset instability",
+        "C": "Authorization from the regional overseer",
+        "D": "Neutralization of all secondary nodes"
+      },
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "explanation": "Section 8 explicitly identifies the verification of a Category-IV asset instability as the mandatory trigger for containment protocol initiation.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    },
+    {
+      "question_id": "q2",
+      "question_text": "Under what specific condition is a Doctrine Departure formally sanctioned by Command?",
+      "options": {
+        "A": "When the projected casualty rate exceeds 40%",
+        "B": "Upon the irreparable compromise of the primary neural uplink",
+        "C": "When local field conditions render standard suppression tactics counter-productive",
+        "D": "After a three-cycle cooling period following operational failure"
+      },
+      "correct_answer": "C",
+      "user_answer": "C",
+      "is_correct": true,
+      "explanation": "Doctrine Departures are sanctioned when standard suppression tactics are deemed counter-productive due to specific, difficult field conditions.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Departures"
+    },
+    {
+      "question_id": "q3",
+      "question_text": "Which of the following describes the required action when relying on Secondary Bases during an emergency extraction?",
+      "options": {
+        "A": "Secondary bases must be purged of all encrypted data before evacuation",
+        "B": "Operatives must switch to the backup frequency before entering the base perimeter",
+        "C": "Extraction is only permitted if the secondary base has an active thermal shroud",
+        "D": "Verification of the base's sync-parity status is required before proceeding"
+      },
+      "correct_answer": "D",
+      "user_answer": "D",
+      "is_correct": true,
+      "explanation": "The guidelines specify that before utilizing Secondary Bases, operatives must confirm the base's sync-parity status to ensure network stability.",
+      "section_id": 8,
+      "topic_tag": "Secondary Bases"
+    },
+    {
+      "question_id": "q4",
+      "question_text": "What is the primary constraint imposed on Doctrine Principles when operating in non-combat zones?",
+      "options": {
+        "A": "Complete radio silence is mandatory",
+        "B": "Active suppression is prohibited to maintain plausible deniability",
+        "C": "The asset must be relocated to a Secondary Base within 48 hours",
+        "D": "Doctrine Principles must be adapted to non-lethal engagement standards"
+      },
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "explanation": "To maintain plausible deniability, the directive mandates that active suppression is prohibited within non-combat zones.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    },
+    {
+      "question_id": "q5",
+      "question_text": "Which of these scenarios constitutes a recognized Doctrine Departure?",
+      "options": {
+        "A": "Re-routing power to the primary transmitter during a surge",
+        "B": "Engaging multiple targets simultaneously without backup",
+        "C": "Utilizing civilian infrastructure as a temporary shielded relay",
+        "D": "Deactivating the distress beacon to remain undetected"
+      },
+      "correct_answer": "C",
+      "user_answer": "C",
+      "is_correct": true,
+      "explanation": "Utilizing civilian infrastructure for operational relay is explicitly listed as a permitted Doctrine Departure under emergency constraints.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Departures"
+    }
+  ]
+}

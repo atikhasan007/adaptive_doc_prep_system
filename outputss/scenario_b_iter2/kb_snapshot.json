@@ -1,0 +1,1061 @@
+{
+  "kb_snapshot": [
+    {
+      "session_id": "ced1362a-c81d-48e5-ba9b-ff4142a9e384",
+      "section_ids": [
+        6,
+        8,
+        9
+      ],
+      "created_at": "2026-05-20T08:51:10.314000",
+      "total_q": 15,
+      "correct_count": 10,
+      "score_pct": 66.67,
+      "questions": [
+        {
+          "session_id": "ced1362a-c81d-48e5-ba9b-ff4142a9e384",
+          "created_at": "2026-05-20T08:51:10.314000",
+          "question_id": "q2",
+          "question_text": "Which doctrine principle prioritizes the preservation of intelligence gathering assets over immediate tactical gain?",
+          "options": {
+            "A": "Principle of Asset Continuity",
+            "B": "Doctrine of Silent Observation",
+            "C": "Protocol of Strategic Retention",
+            "D": "Inertia Primacy"
+          },
+          "correct_answer": "D",
+          "user_answer": "C",
+          "is_correct": false,
+          "explanation": "Inertia Primacy is the doctrine principle stating that the continuity of an intelligence asset takes precedence over short-term tactical advantages.",
+          "section_id": 8,
+          "topic_tag": "Doctrine Principles"
+        },
+        {
+          "session_id": "ced1362a-c81d-48e5-ba9b-ff4142a9e384",
+          "created_at": "2026-05-20T08:51:10.314000",
+          "question_id": "q4",
+          "question_text": "What is the primary human resource requirement for authorizing a deep-cover mission?",
+          "options": {
+            "A": "Ten years of active service",
+            "B": "Psychological clearance and language fluency",
+            "C": "Three successful field deployments",
+            "D": "Recommendation from two commanding officers"
+          },
+          "correct_answer": "B",
+          "user_answer": "A",
+          "is_correct": false,
+          "explanation": "Personnel must meet specific psychological readiness standards and demonstrate proven fluency in the target region's language to qualify for deep-cover.",
+          "section_id": 6,
+          "topic_tag": "Personnel"
+        },
+        {
+          "session_id": "ced1362a-c81d-48e5-ba9b-ff4142a9e384",
+          "created_at": "2026-05-20T08:51:10.314000",
+          "question_id": "q8",
+          "question_text": "In the doctrine of 'Information Siloing', what is the main objective?",
+          "options": {
+            "A": "Increase communication speed",
+            "B": "Prevent single-point intelligence failure",
+            "C": "Ensure all operatives have equal access",
+            "D": "Automate data distribution"
+          },
+          "correct_answer": "B",
+          "user_answer": "C",
+          "is_correct": false,
+          "explanation": "Information Siloing is designed to restrict access so that the compromise of one operative does not lead to a total breakdown of the network.",
+          "section_id": 8,
+          "topic_tag": "Doctrine Principles"
+        },
+        {
+          "session_id": "ced1362a-c81d-48e5-ba9b-ff4142a9e384",
+          "created_at": "2026-05-20T08:51:10.314000",
+          "question_id": "q9",
+          "question_text": "Which protocol must be followed when transferring intelligence data across unsecured transit lines?",
+          "options": {
+            "A": "AES-256 encryption",
+            "B": "Analog voice-code masking",
+            "C": "Fragmentation and delayed reassembly",
+            "D": "Immediate deletion of local cache"
+          },
+          "correct_answer": "C",
+          "user_answer": "B",
+          "is_correct": false,
+          "explanation": "Section 9 dictates that intelligence data must be fragmented into smaller packets to be reassembled at the destination to minimize interception risks.",
+          "section_id": 9,
+          "topic_tag": "Intelligence"
+        },
+        {
+          "session_id": "ced1362a-c81d-48e5-ba9b-ff4142a9e384",
+          "created_at": "2026-05-20T08:51:10.314000",
+          "question_id": "q12",
+          "question_text": "According to Section 9, how often must cryptographic keys for intelligence nodes be rotated?",
+          "options": {
+            "A": "Every 48 hours",
+            "B": "Every 72 hours",
+            "C": "Every 168 hours",
+            "D": "Every 30 days"
+          },
+          "correct_answer": "C",
+          "user_answer": "B",
+          "is_correct": false,
+          "explanation": "Cryptographic rotation must occur every 168 hours (weekly) to ensure network security in Section 9 assets.",
+          "section_id": 9,
+          "topic_tag": "Intelligence"
+        },
+        {
+          "session_id": "ced1362a-c81d-48e5-ba9b-ff4142a9e384",
+          "created_at": "2026-05-20T08:51:10.314000",
+          "question_id": "q1",
+          "question_text": "According to Section 6, what is the mandatory psychological evaluation interval for Tier-1 personnel?",
+          "options": {
+            "A": "Monthly",
+            "B": "Quarterly",
+            "C": "Bi-annually",
+            "D": "Annually"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Section 6 mandates that all Tier-1 personnel undergo comprehensive psychological assessments every quarter to maintain operational fitness.",
+          "section_id": 6,
+          "topic_tag": "Personnel"
+        },
+        {
+          "session_id": "ced1362a-c81d-48e5-ba9b-ff4142a9e384",
+          "created_at": "2026-05-20T08:51:10.314000",
+          "question_id": "q3",
+          "question_text": "Under Section 9 protocols, what is the primary indicator of a compromised field intelligence node?",
+          "options": {
+            "A": "Increase in ping latency",
+            "B": "Cyclical heartbeat disruption",
+            "C": "Authorization code mismatch",
+            "D": "Unscheduled firmware update"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Section 9 defines the cyclical heartbeat disruption as the primary warning sign that a node has been tampered with or compromised.",
+          "section_id": 9,
+          "topic_tag": "Intelligence"
+        },
+        {
+          "session_id": "ced1362a-c81d-48e5-ba9b-ff4142a9e384",
+          "created_at": "2026-05-20T08:51:10.314000",
+          "question_id": "q5",
+          "question_text": "The doctrine principle of 'Asymmetric Deterrence' requires an operative to do what when faced with superior numbers?",
+          "options": {
+            "A": "Engage at maximum range",
+            "B": "Initiate an extraction maneuver immediately",
+            "C": "Maximize visual signature to bluff opposition",
+            "D": "Minimize engagement and signal for air support"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "Asymmetric Deterrence dictates that when outnumbered, an operative should project a larger presence to deter aggression rather than engaging.",
+          "section_id": 8,
+          "topic_tag": "Doctrine Principles"
+        },
+        {
+          "session_id": "ced1362a-c81d-48e5-ba9b-ff4142a9e384",
+          "created_at": "2026-05-20T08:51:10.314000",
+          "question_id": "q6",
+          "question_text": "Which intelligence gathering method is strictly prohibited by Section 9 directives?",
+          "options": {
+            "A": "Passive signal intercept",
+            "B": "Active intrusion of public networks",
+            "C": "Coercive interrogation of non-combatants",
+            "D": "Open-source data harvesting"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "Section 9 explicitly forbids the use of coercive interrogation techniques on non-combatants to protect the integrity of field intelligence operations.",
+          "section_id": 9,
+          "topic_tag": "Intelligence"
+        },
+        {
+          "session_id": "ced1362a-c81d-48e5-ba9b-ff4142a9e384",
+          "created_at": "2026-05-20T08:51:10.314000",
+          "question_id": "q7",
+          "question_text": "What defines the 'Duty of Care' for personnel assigned to high-risk zones?",
+          "options": {
+            "A": "Guarantee of extraction within 24 hours",
+            "B": "Provision of specialized medical support",
+            "C": "Authorization to use lethal force in self-defense",
+            "D": "Access to local safe houses"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Personnel in high-risk zones are entitled to specialized medical evacuation and support protocols as defined in Section 6.",
+          "section_id": 6,
+          "topic_tag": "Personnel"
+        },
+        {
+          "session_id": "ced1362a-c81d-48e5-ba9b-ff4142a9e384",
+          "created_at": "2026-05-20T08:51:10.314000",
+          "question_id": "q10",
+          "question_text": "What is the consequence for personnel violating the 'Chain of Command' doctrine under Section 6?",
+          "options": {
+            "A": "Immediate termination",
+            "B": "Mandatory re-training",
+            "C": "Temporary suspension of clearance",
+            "D": "Fines"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "Violating chain of command protocols results in a mandatory temporary suspension of the operative's security clearance for review.",
+          "section_id": 6,
+          "topic_tag": "Personnel"
+        },
+        {
+          "session_id": "ced1362a-c81d-48e5-ba9b-ff4142a9e384",
+          "created_at": "2026-05-20T08:51:10.314000",
+          "question_id": "q11",
+          "question_text": "How does the 'Neutrality Doctrine' apply to personnel in urban environments?",
+          "options": {
+            "A": "Operatives must appear as civilians",
+            "B": "Operatives must refrain from identifying with local factions",
+            "C": "Operatives are prohibited from carrying firearms",
+            "D": "Operatives must report to local authorities"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "The Neutrality Doctrine strictly prohibits operatives from expressing affiliation or support for any local factions to maintain operational ambiguity.",
+          "section_id": 8,
+          "topic_tag": "Doctrine Principles"
+        },
+        {
+          "session_id": "ced1362a-c81d-48e5-ba9b-ff4142a9e384",
+          "created_at": "2026-05-20T08:51:10.314000",
+          "question_id": "q13",
+          "question_text": "Which personnel category is eligible for 'Field Promotion' in emergency operational theaters?",
+          "options": {
+            "A": "Tier-1 only",
+            "B": "Tier-1 and Tier-2",
+            "C": "Support staff only",
+            "D": "Any operative with field experience"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Field promotions are restricted to personnel within Tier-1 and Tier-2 status, provided there is a documented need in an active emergency theater.",
+          "section_id": 6,
+          "topic_tag": "Personnel"
+        },
+        {
+          "session_id": "ced1362a-c81d-48e5-ba9b-ff4142a9e384",
+          "created_at": "2026-05-20T08:51:10.314000",
+          "question_id": "q14",
+          "question_text": "What is the definition of 'Static Intelligence' in Section 9?",
+          "options": {
+            "A": "Data gathered from fixed cameras",
+            "B": "Intelligence that has lost operational relevance",
+            "C": "Information collected via non-digital means",
+            "D": "Stored archives of past mission reports"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Static Intelligence is defined as data that is no longer time-sensitive or has lost its utility for immediate strategic decision-making.",
+          "section_id": 9,
+          "topic_tag": "Intelligence"
+        },
+        {
+          "session_id": "ced1362a-c81d-48e5-ba9b-ff4142a9e384",
+          "created_at": "2026-05-20T08:51:10.314000",
+          "question_id": "q15",
+          "question_text": "Which doctrine principle governs the 'Acceptable Risk Threshold' for operative deployments?",
+          "options": {
+            "A": "The Principle of Proportionality",
+            "B": "The Doctrine of Minimal Loss",
+            "C": "The Principle of Calculated Exposure",
+            "D": "The Doctrine of Utilitarian Security"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "The Principle of Calculated Exposure determines the extent to which an operative can be exposed to risk based on the strategic value of the objective.",
+          "section_id": 8,
+          "topic_tag": "Doctrine Principles"
+        }
+      ]
+    },
+    {
+      "session_id": "c3fde21c-8a4c-43ea-93f0-14b9b71ede15",
+      "section_ids": [
+        5,
+        8
+      ],
+      "created_at": "2026-05-20T08:47:53.417000",
+      "total_q": 10,
+      "correct_count": 4,
+      "score_pct": 40.0,
+      "questions": [
+        {
+          "session_id": "c3fde21c-8a4c-43ea-93f0-14b9b71ede15",
+          "created_at": "2026-05-20T08:47:53.417000",
+          "question_id": "q1",
+          "question_text": "Under Combat Directive 14, what is the mandatory action when encountering a non-combatant in a high-density zone?",
+          "options": {
+            "A": "Immediate neutralization",
+            "B": "Asset redirection to local authorities",
+            "C": "Immediate extraction and radio silence",
+            "D": "Identification check followed by escort"
+          },
+          "correct_answer": "C",
+          "user_answer": "D",
+          "is_correct": false,
+          "explanation": "Combat Directive 14 mandates immediate extraction and total radio silence to prevent exposure when non-combatants are identified in high-density zones.",
+          "section_id": 5,
+          "topic_tag": "Combat Directives"
+        },
+        {
+          "session_id": "c3fde21c-8a4c-43ea-93f0-14b9b71ede15",
+          "created_at": "2026-05-20T08:47:53.417000",
+          "question_id": "q2",
+          "question_text": "Which Doctrine Principle explicitly states that 'efficiency is secondary to operational opacity'?",
+          "options": {
+            "A": "Principle IV",
+            "B": "Principle VII",
+            "C": "Principle IX",
+            "D": "Principle XII"
+          },
+          "correct_answer": "B",
+          "user_answer": "D",
+          "is_correct": false,
+          "explanation": "Doctrine Principle VII establishes that maintaining operational opacity is always the primary concern, even at the cost of tactical efficiency.",
+          "section_id": 8,
+          "topic_tag": "Doctrine Principles"
+        },
+        {
+          "session_id": "c3fde21c-8a4c-43ea-93f0-14b9b71ede15",
+          "created_at": "2026-05-20T08:47:53.417000",
+          "question_id": "q3",
+          "question_text": "When is a 'Doctrine Departure' formally authorized by field command?",
+          "options": {
+            "A": "Only when the asset is compromised",
+            "B": "Upon the loss of communications with HQ for over 6 hours",
+            "C": "During extreme weather events in high-altitude zones",
+            "D": "When objective completion probability drops below 15%"
+          },
+          "correct_answer": "D",
+          "user_answer": "A",
+          "is_correct": false,
+          "explanation": "A Doctrine Departure is only permitted when the probability of objective success falls beneath the 15% threshold as determined by the field commander.",
+          "section_id": 8,
+          "topic_tag": "Doctrine Departures"
+        },
+        {
+          "session_id": "c3fde21c-8a4c-43ea-93f0-14b9b71ede15",
+          "created_at": "2026-05-20T08:47:53.417000",
+          "question_id": "q4",
+          "question_text": "What is the primary requirement for invoking a Combat Directive override in the field?",
+          "options": {
+            "A": "Verbal confirmation from the field lead",
+            "B": "Digital signature from the Regional Overseer",
+            "C": "A manual reset of the uplink device",
+            "D": "Presence of a Tier-1 support unit"
+          },
+          "correct_answer": "B",
+          "user_answer": "D",
+          "is_correct": false,
+          "explanation": "Directive overrides require a digital signature from a designated Regional Overseer to ensure accountability during mission-critical alterations.",
+          "section_id": 5,
+          "topic_tag": "Combat Directives"
+        },
+        {
+          "session_id": "c3fde21c-8a4c-43ea-93f0-14b9b71ede15",
+          "created_at": "2026-05-20T08:47:53.417000",
+          "question_id": "q5",
+          "question_text": "Which of the following is considered an invalid Doctrine Departure under the revised guidelines?",
+          "options": {
+            "A": "Altering target priority in emergency scenarios",
+            "B": "Bypassing biometric scanners during low-light conditions",
+            "C": "Establishing unauthorized communication channels with extraction teams",
+            "D": "Using non-standard extraction routes"
+          },
+          "correct_answer": "C",
+          "user_answer": "A",
+          "is_correct": false,
+          "explanation": "Establishing unauthorized communication channels is explicitly categorized as an invalid departure and is subject to immediate disciplinary review.",
+          "section_id": 8,
+          "topic_tag": "Doctrine Departures"
+        },
+        {
+          "session_id": "c3fde21c-8a4c-43ea-93f0-14b9b71ede15",
+          "created_at": "2026-05-20T08:47:53.417000",
+          "question_id": "q7",
+          "question_text": "Doctrine Principle III focuses on which aspect of field operations?",
+          "options": {
+            "A": "Resource allocation",
+            "B": "Signal suppression and noise reduction",
+            "C": "Personnel fatigue management",
+            "D": "Inter-agency cooperation"
+          },
+          "correct_answer": "B",
+          "user_answer": "C",
+          "is_correct": false,
+          "explanation": "Doctrine Principle III dictates strict adherence to signal suppression techniques to avoid detection by hostile monitoring systems.",
+          "section_id": 8,
+          "topic_tag": "Doctrine Principles"
+        },
+        {
+          "session_id": "c3fde21c-8a4c-43ea-93f0-14b9b71ede15",
+          "created_at": "2026-05-20T08:47:53.417000",
+          "question_id": "q6",
+          "question_text": "What does Combat Directive 22 require if a primary asset sustains critical hardware damage?",
+          "options": {
+            "A": "Self-destruction of the unit",
+            "B": "Immediate initiation of the 'Ghost Protocol'",
+            "C": "Deployment of a secondary recovery drone",
+            "D": "Transfer of data to a local memory buffer"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Directive 22 mandates the initiation of the 'Ghost Protocol' to ensure data integrity and asset concealment upon hardware failure.",
+          "section_id": 5,
+          "topic_tag": "Combat Directives"
+        },
+        {
+          "session_id": "c3fde21c-8a4c-43ea-93f0-14b9b71ede15",
+          "created_at": "2026-05-20T08:47:53.417000",
+          "question_id": "q8",
+          "question_text": "Under what condition is the abandonment of a Doctrine Departure protocol necessary?",
+          "options": {
+            "A": "When reinforcements are sighted",
+            "B": "When the mission target relocates outside the sector",
+            "C": "When local civilian authorities initiate an investigation",
+            "D": "When the asset loses its primary weapon system"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "If civilian authorities begin an investigation, the asset must abandon the Departure and return to standard concealment procedures immediately.",
+          "section_id": 8,
+          "topic_tag": "Doctrine Departures"
+        },
+        {
+          "session_id": "c3fde21c-8a4c-43ea-93f0-14b9b71ede15",
+          "created_at": "2026-05-20T08:47:53.417000",
+          "question_id": "q9",
+          "question_text": "What is the maximum duration for a Combat Directive hold in an active conflict zone?",
+          "options": {
+            "A": "12 minutes",
+            "B": "30 minutes",
+            "C": "60 minutes",
+            "D": "120 minutes"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Combat Directive holds are limited to 30 minutes to ensure that assets do not stagnate and remain predictable to opposing forces.",
+          "section_id": 5,
+          "topic_tag": "Combat Directives"
+        },
+        {
+          "session_id": "c3fde21c-8a4c-43ea-93f0-14b9b71ede15",
+          "created_at": "2026-05-20T08:47:53.417000",
+          "question_id": "q10",
+          "question_text": "Which Doctrine Principle addresses the 'Human Element' in automated combat environments?",
+          "options": {
+            "A": "Principle I",
+            "B": "Principle V",
+            "C": "Principle X",
+            "D": "Principle XV"
+          },
+          "correct_answer": "A",
+          "user_answer": "A",
+          "is_correct": true,
+          "explanation": "Doctrine Principle I emphasizes that the human operator remains the final decision-maker, even when automated combat directives are in effect.",
+          "section_id": 8,
+          "topic_tag": "Doctrine Principles"
+        }
+      ]
+    },
+    {
+      "session_id": "cc7bccf0-b228-405e-9cd2-50a1cd6d8a83",
+      "section_ids": [
+        1,
+        2
+      ],
+      "created_at": "2026-05-20T08:43:09.469000",
+      "total_q": 10,
+      "correct_count": 7,
+      "score_pct": 70.0,
+      "questions": [
+        {
+          "session_id": "cc7bccf0-b228-405e-9cd2-50a1cd6d8a83",
+          "created_at": "2026-05-20T08:43:09.469000",
+          "question_id": "q1",
+          "question_text": "According to the established reporting protocol, to whom must an anomaly breach be escalated if the onsite lead is incapacitated?",
+          "options": {
+            "A": "PAMC Central Command",
+            "B": "The Site Safety Officer",
+            "C": "The Regional Oversight Committee",
+            "D": "The Naming Subcommittee"
+          },
+          "correct_answer": "C",
+          "user_answer": "D",
+          "is_correct": false,
+          "explanation": "Section 1 mandates that the Regional Oversight Committee serves as the secondary point of contact for breach reporting if the onsite lead is unavailable.",
+          "section_id": 1,
+          "topic_tag": "Protocol"
+        },
+        {
+          "session_id": "cc7bccf0-b228-405e-9cd2-50a1cd6d8a83",
+          "created_at": "2026-05-20T08:43:09.469000",
+          "question_id": "q8",
+          "question_text": "Before ending a shift, what is the required protocol for the handling of physical data logs related to SLATEFALL?",
+          "options": {
+            "A": "Destroy all paper copies",
+            "B": "Transfer to the secure vault",
+            "C": "Encrypt and email to the director",
+            "D": "Place in the onsite recycling bin"
+          },
+          "correct_answer": "B",
+          "user_answer": "D",
+          "is_correct": false,
+          "explanation": "Security protocols mandate that all physical data logs be transferred to the secure vault before the end of the shift.",
+          "section_id": 2,
+          "topic_tag": "Protocol"
+        },
+        {
+          "session_id": "cc7bccf0-b228-405e-9cd2-50a1cd6d8a83",
+          "created_at": "2026-05-20T08:43:09.469000",
+          "question_id": "q10",
+          "question_text": "Which protocol must be followed when transferring SLATEFALL data between departments?",
+          "options": {
+            "A": "Dual-key authentication",
+            "B": "Verbal authorization",
+            "C": "Immediate deletion of the source copy",
+            "D": "Hardware-only file transfer"
+          },
+          "correct_answer": "A",
+          "user_answer": "D",
+          "is_correct": false,
+          "explanation": "The protocol for sensitive data transfer strictly requires dual-key authentication to ensure oversight.",
+          "section_id": 2,
+          "topic_tag": "Protocol"
+        },
+        {
+          "session_id": "cc7bccf0-b228-405e-9cd2-50a1cd6d8a83",
+          "created_at": "2026-05-20T08:43:09.469000",
+          "question_id": "q2",
+          "question_text": "What is the mandatory timeframe for filing a 'Level 3 Incident Report' after an asset containment failure?",
+          "options": {
+            "A": "Within 1 hour",
+            "B": "Within 4 hours",
+            "C": "Within 12 hours",
+            "D": "Within 24 hours"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Protocol requirements dictate that Level 3 reports must be submitted within 4 hours of the incident occurring.",
+          "section_id": 1,
+          "topic_tag": "Reporting"
+        },
+        {
+          "session_id": "cc7bccf0-b228-405e-9cd2-50a1cd6d8a83",
+          "created_at": "2026-05-20T08:43:09.469000",
+          "question_id": "q3",
+          "question_text": "Which individual is strictly prohibited from participating in the internal review of a reported anomaly breach?",
+          "options": {
+            "A": "The primary observer",
+            "B": "The Site Director",
+            "C": "The PAMC Master Registry technician",
+            "D": "Any researcher with prior field experience with SLATEFALL"
+          },
+          "correct_answer": "A",
+          "user_answer": "A",
+          "is_correct": true,
+          "explanation": "Reporting protocols state that the primary observer is barred from internal reviews to maintain impartiality.",
+          "section_id": 1,
+          "topic_tag": "Reporting"
+        },
+        {
+          "session_id": "cc7bccf0-b228-405e-9cd2-50a1cd6d8a83",
+          "created_at": "2026-05-20T08:43:09.469000",
+          "question_id": "q4",
+          "question_text": "What specific equipment calibration protocol must be performed before initiating a data synchronization for SLATEFALL?",
+          "options": {
+            "A": "Thermal baseline reset",
+            "B": "Sub-atomic resonance check",
+            "C": "Logarithmic entropy alignment",
+            "D": "Visual spectrum frequency calibration"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "Section 2 identifies logarithmic entropy alignment as the prerequisite calibration step for data synchronization.",
+          "section_id": 2,
+          "topic_tag": "Protocol"
+        },
+        {
+          "session_id": "cc7bccf0-b228-405e-9cd2-50a1cd6d8a83",
+          "created_at": "2026-05-20T08:43:09.469000",
+          "question_id": "q5",
+          "question_text": "When submitting a breach report, what is the 'Classification Code' assigned to anomalies involving trans-dimensional displacement?",
+          "options": {
+            "A": "TD-9",
+            "B": "AX-4",
+            "C": "BZ-7",
+            "D": "ST-2"
+          },
+          "correct_answer": "A",
+          "user_answer": "A",
+          "is_correct": true,
+          "explanation": "The reporting documentation classifies all trans-dimensional displacement incidents under the TD-9 code.",
+          "section_id": 1,
+          "topic_tag": "Reporting"
+        },
+        {
+          "session_id": "cc7bccf0-b228-405e-9cd2-50a1cd6d8a83",
+          "created_at": "2026-05-20T08:43:09.469000",
+          "question_id": "q6",
+          "question_text": "Under the emergency protocol for SLATEFALL, what action must be taken immediately upon detection of an uncontrolled energy spike?",
+          "options": {
+            "A": "Initiate full site lockdown",
+            "B": "Engage the containment dampeners",
+            "C": "Evacuate non-essential personnel",
+            "D": "Activate the auxiliary cooling system"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "The protocol explicitly requires the engagement of containment dampeners to neutralize uncontrolled energy spikes.",
+          "section_id": 2,
+          "topic_tag": "Protocol"
+        },
+        {
+          "session_id": "cc7bccf0-b228-405e-9cd2-50a1cd6d8a83",
+          "created_at": "2026-05-20T08:43:09.469000",
+          "question_id": "q7",
+          "question_text": "What is the secondary reporting requirement for researchers who witness an unauthorized access attempt to the registry?",
+          "options": {
+            "A": "Notify the local IT security desk",
+            "B": "Generate a manual incident log",
+            "C": "Update the security clearance manifest",
+            "D": "Submit an incident report via the secure encrypted terminal"
+          },
+          "correct_answer": "D",
+          "user_answer": "D",
+          "is_correct": true,
+          "explanation": "Reporting protocol mandates the use of a secure encrypted terminal to report unauthorized access attempts.",
+          "section_id": 1,
+          "topic_tag": "Reporting"
+        },
+        {
+          "session_id": "cc7bccf0-b228-405e-9cd2-50a1cd6d8a83",
+          "created_at": "2026-05-20T08:43:09.469000",
+          "question_id": "q9",
+          "question_text": "In the context of incident reporting, what does the suffix '-B' signify when appended to a report ID?",
+          "options": {
+            "A": "Biological containment breach",
+            "B": "Baseline deviation confirmed",
+            "C": "Bypassed security firewall",
+            "D": "Basic routine observation"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "The reporting guidelines specify that the '-B' suffix indicates a confirmed baseline deviation during an observation.",
+          "section_id": 1,
+          "topic_tag": "Reporting"
+        }
+      ]
+    },
+    {
+      "session_id": "621dc2b1-d464-48f6-a08b-d8881933da3d",
+      "section_ids": [
+        8
+      ],
+      "created_at": "2026-05-19T18:18:39.861000",
+      "total_q": 5,
+      "correct_count": 4,
+      "score_pct": 80.0,
+      "questions": [
+        {
+          "session_id": "621dc2b1-d464-48f6-a08b-d8881933da3d",
+          "created_at": "2026-05-19T18:18:39.861000",
+          "question_id": "q3",
+          "question_text": "Which facility serves as the PAMC Headquarters where the asset rotates through for senior briefings on a quarterly basis?",
+          "options": {
+            "A": "Cuartel Valpara\u00edso",
+            "B": "Oficina Tarija",
+            "C": "Edificio Marasol",
+            "D": "The CBMP regional micro-lab"
+          },
+          "correct_answer": "C",
+          "user_answer": "B",
+          "is_correct": false,
+          "explanation": "Section 8.2 identifies Edificio Marasol in Lima as the PAMC Headquarters used for quarterly senior briefings.",
+          "section_id": 8,
+          "topic_tag": "Secondary Bases"
+        },
+        {
+          "session_id": "621dc2b1-d464-48f6-a08b-d8881933da3d",
+          "created_at": "2026-05-19T18:18:39.861000",
+          "question_id": "q1",
+          "question_text": "How many burst-relay nodes currently constitute the PAMC Yatiri network serving the asset's operational territory?",
+          "options": {
+            "A": "6",
+            "B": "8",
+            "C": "10",
+            "D": "12"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Section 8.7 explicitly states that the operational territory is served by 8 burst-relay nodes within the PAMC Yatiri network.",
+          "section_id": 8,
+          "topic_tag": "Communications"
+        },
+        {
+          "session_id": "621dc2b1-d464-48f6-a08b-d8881933da3d",
+          "created_at": "2026-05-19T18:18:39.861000",
+          "question_id": "q2",
+          "question_text": "What is the primary reason listed for the restricted status of the Salar de Uyuni Sector 4 in Bolivia?",
+          "options": {
+            "A": "Psychological concerns regarding a 2018 trigger site",
+            "B": "Pending bilateral jurisdictional agreements",
+            "C": "Ongoing classified PAMC investigation since 2023",
+            "D": "Lack of adequate communication infrastructure"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "The context identifies the status of Salar de Uyuni Sector 4 as strategic due to an ongoing classified PAMC investigation since 2023.",
+          "section_id": 8,
+          "topic_tag": "Restricted Zones"
+        },
+        {
+          "session_id": "621dc2b1-d464-48f6-a08b-d8881933da3d",
+          "created_at": "2026-05-19T18:18:39.861000",
+          "question_id": "q4",
+          "question_text": "Regarding the Cuartel Valpara\u00edso facility, which of the following statements is true?",
+          "options": {
+            "A": "It contains 15 vehicle spaces, including one for the Quiltro V-12.",
+            "B": "It has an average daily population of 47 personnel.",
+            "C": "It is rated as PAMC Restricted-1 security level.",
+            "D": "It possesses three subsurface levels for storage and lab work."
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "The parameter table for Cuartel Valpara\u00edso lists an average daily population of 47 personnel.",
+          "section_id": 8,
+          "topic_tag": "Facility Specs"
+        },
+        {
+          "session_id": "621dc2b1-d464-48f6-a08b-d8881933da3d",
+          "created_at": "2026-05-19T18:18:39.861000",
+          "question_id": "q5",
+          "question_text": "What is the specific nature of the partnership with the Peruvian Direcci\u00f3n de Asuntos Metahumanos (DAM) for Cuzco operations?",
+          "options": {
+            "A": "Full operational integration",
+            "B": "Joint tactical response",
+            "C": "Observation-only sharing",
+            "D": "Mutual resource funding"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "The Annex 2023 note specifies that the arrangement with the Peruvian DAM is for observation-only sharing regarding Cuzco operations.",
+          "section_id": 8,
+          "topic_tag": "Annexes"
+        }
+      ]
+    },
+    {
+      "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+      "section_ids": [
+        6,
+        8,
+        9
+      ],
+      "created_at": "2026-05-19T18:18:19.737000",
+      "total_q": 15,
+      "correct_count": 11,
+      "score_pct": 73.33,
+      "questions": [
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q1",
+          "question_text": "Who serves as the Cell technical lead in Section 6?",
+          "options": {
+            "A": "L\u00e9on Marr\u00f3n-Saavedra",
+            "B": "Sol\u00e8ne Bauer-Cortez",
+            "C": "Maite Borghi-Castelnuovo",
+            "D": "A\u00edda Salvatierra-Bunge"
+          },
+          "correct_answer": "B",
+          "user_answer": "C",
+          "is_correct": false,
+          "explanation": "Section 6 explicitly lists Sol\u00e8ne Bauer-Cortez as the Cell technical lead.",
+          "section_id": 6,
+          "topic_tag": "Personnel"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q2",
+          "question_text": "How many years has L\u00e9on Marr\u00f3n-Saavedra been with the organization?",
+          "options": {
+            "A": "3 years",
+            "B": "4 years",
+            "C": "6 years",
+            "D": "7 years"
+          },
+          "correct_answer": "D",
+          "user_answer": "A",
+          "is_correct": false,
+          "explanation": "The table in Section 6 lists L\u00e9on Marr\u00f3n-Saavedra's tenure as 7 years.",
+          "section_id": 6,
+          "topic_tag": "Personnel"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q8",
+          "question_text": "Which two EUMR operatives are mentioned in the Section 9 notes?",
+          "options": {
+            "A": "HOLLOWMARK and VERIDIAN",
+            "B": "Sol\u00e8ne and Ra\u00fal",
+            "C": "L\u00e9on and Maite",
+            "D": "Bauer-Cortez and Salvatierra-Bunge"
+          },
+          "correct_answer": "A",
+          "user_answer": "D",
+          "is_correct": false,
+          "explanation": "The text states the operation involved EUMR operatives HOLLOWMARK and VERIDIAN.",
+          "section_id": 9,
+          "topic_tag": "Intelligence"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q13",
+          "question_text": "What type of report was produced after the Tallinn operation?",
+          "options": {
+            "A": "A 14-page joint after-action report",
+            "B": "A 9-page intelligence briefing",
+            "C": "A 52-hour summary",
+            "D": "A classified cache audit"
+          },
+          "correct_answer": "A",
+          "user_answer": "D",
+          "is_correct": false,
+          "explanation": "The text confirms the production of a 14-page joint after-action report.",
+          "section_id": 9,
+          "topic_tag": "Intelligence"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q3",
+          "question_text": "What is the professional role of Maite Borghi-Castelnuovo?",
+          "options": {
+            "A": "Cell medic",
+            "B": "CBMP physicist",
+            "C": "Psychologist",
+            "D": "Cell tracker"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "Maite Borghi-Castelnuovo is identified as the Psychologist in Section 6.",
+          "section_id": 6,
+          "topic_tag": "Personnel"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q4",
+          "question_text": "What was the classification status of Case 2019-0017?",
+          "options": {
+            "A": "Open",
+            "B": "Classified",
+            "C": "Declassified Q4 2020",
+            "D": "Declassified Q1 2021"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "Case 2019-0017 is listed as Declassified Q4 2020 in the Case Files section.",
+          "section_id": 9,
+          "topic_tag": "Case History"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q5",
+          "question_text": "Where specifically did Case 2019-0017 take place?",
+          "options": {
+            "A": "Tallinn, Estonia",
+            "B": "Near Tocopilla, Antofagasta Region, Chile",
+            "C": "The Cordillera Mountains",
+            "D": "Atacama, Peru"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "The location for Case 2019-0017 is given as the Atacama Desert, near Tocopilla, Antofagasta Region, Chile.",
+          "section_id": 9,
+          "topic_tag": "Location"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q6",
+          "question_text": "What was the outcome of Case 2019-0017?",
+          "options": {
+            "A": "Pyrrhic",
+            "B": "Catastrophic",
+            "C": "Inconclusive",
+            "D": "Successful"
+          },
+          "correct_answer": "D",
+          "user_answer": "D",
+          "is_correct": true,
+          "explanation": "The Outcome field for Case 2019-0017 is explicitly marked as Successful.",
+          "section_id": 9,
+          "topic_tag": "Operations"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q7",
+          "question_text": "How many days did the operation in Tallinn last for the asset?",
+          "options": {
+            "A": "3 days",
+            "B": "7 days",
+            "C": "9 days",
+            "D": "14 days"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "The notes in Section 9 state the asset spent 9 days in Tallinn coordinating intelligence handoff.",
+          "section_id": 9,
+          "topic_tag": "Operations"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q9",
+          "question_text": "In Case 2019-0017, how many adversary casualties were recorded?",
+          "options": {
+            "A": "None",
+            "B": "1 captured",
+            "C": "2 captured",
+            "D": "2 killed"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "The adversary casualties for Case 2019-0017 were 2 captured (small-arms smugglers).",
+          "section_id": 9,
+          "topic_tag": "Operations"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q10",
+          "question_text": "What mass-ceiling stability was demonstrated during Case 2019-0017?",
+          "options": {
+            "A": "100 kg",
+            "B": "200 kg",
+            "C": "300 kg",
+            "D": "72 kg"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "The post-action notes for Case 2019-0017 state the mass-ceiling stability was at 200 kg.",
+          "section_id": 9,
+          "topic_tag": "Technical"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q11",
+          "question_text": "How much planned time was originally allocated for the operation in Case 2019-0017?",
+          "options": {
+            "A": "52 hours",
+            "B": "24 hours",
+            "C": "3 days",
+            "D": "72 hours"
+          },
+          "correct_answer": "D",
+          "user_answer": "D",
+          "is_correct": true,
+          "explanation": "The operation was planned for 72 hours, though it concluded in 52 hours.",
+          "section_id": 9,
+          "topic_tag": "Operations"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q12",
+          "question_text": "What is the job title of A\u00edda Salvatierra-Bunge?",
+          "options": {
+            "A": "Cell tracker",
+            "B": "Operations Director",
+            "C": "Cell medic",
+            "D": "Psychologist"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "A\u00edda Salvatierra-Bunge is listed as the Operations Director in Section 6.",
+          "section_id": 6,
+          "topic_tag": "Personnel"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q14",
+          "question_text": "Which operative serves as the 'Cell medic'?",
+          "options": {
+            "A": "Mateo Quispe-Linares",
+            "B": "Ra\u00fal Vendrame",
+            "C": "Sol\u00e8ne Bauer-Cortez",
+            "D": "L\u00e9on Marr\u00f3n-Saavedra"
+          },
+          "correct_answer": "B",
+          "user_answer": "B",
+          "is_correct": true,
+          "explanation": "Ra\u00fal Vendrame is explicitly listed as the Cell medic in Section 6.",
+          "section_id": 6,
+          "topic_tag": "Personnel"
+        },
+        {
+          "session_id": "632a3238-a88b-4541-9618-d92202cf0c66",
+          "created_at": "2026-05-19T18:18:19.737000",
+          "question_id": "q15",
+          "question_text": "What was the 'first' for the asset during the Tallinn operation?",
+          "options": {
+            "A": "The first independent operation",
+            "B": "The first intelligence handoff",
+            "C": "The first demonstration of Inertial Suspension to non-PAMC liaisons",
+            "D": "The first audit of a cache"
+          },
+          "correct_answer": "C",
+          "user_answer": "C",
+          "is_correct": true,
+          "explanation": "The text notes the Tallinn operation was the first instance of the asset's Inertial Suspension being demonstrated to non-PAMC liaisons.",
+          "section_id": 9,
+          "topic_tag": "Technical"
+        }
+      ]
+    }
+  ],
+  "exported_at": "2026-05-20T08:51:11.485830"
+}

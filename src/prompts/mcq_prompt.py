@@ -4,6 +4,10 @@ import re
 from typing import List, Dict
 from src.config.config import get_config
 from src.retrieval.retrieval_engine import retrieve_context , get_weak_topics, get_prior_questions
+from src.database.chroma_client import get_vectorstore
+
+vectorstore = get_vectorstore()
+
 
 
 config = get_config()
@@ -93,7 +97,7 @@ def generate_mcqs(
     print(f"\n Generating {total_q} MCQs for sections {section_ids}...")
 
     # Retrieve context
-    context = retrieve_context(section_ids, k=8)
+    context = retrieve_context(vectorstore, section_ids, k=8)
 
     # Adaptive memory
     weak_topics    = get_weak_topics(section_ids) if is_adaptive else []

@@ -1,0 +1,457 @@
+{
+  "session_id": "ced1362a-c81d-48e5-ba9b-ff4142a9e384",
+  "mcqs": [
+    {
+      "question_id": "q1",
+      "question_text": "According to Section 6, what is the mandatory psychological evaluation interval for Tier-1 personnel?",
+      "options": {
+        "A": "Monthly",
+        "B": "Quarterly",
+        "C": "Bi-annually",
+        "D": "Annually"
+      },
+      "correct_answer": "B",
+      "explanation": "Section 6 mandates that all Tier-1 personnel undergo comprehensive psychological assessments every quarter to maintain operational fitness.",
+      "section_id": 6,
+      "topic_tag": "Personnel"
+    },
+    {
+      "question_id": "q2",
+      "question_text": "Which doctrine principle prioritizes the preservation of intelligence gathering assets over immediate tactical gain?",
+      "options": {
+        "A": "Principle of Asset Continuity",
+        "B": "Doctrine of Silent Observation",
+        "C": "Protocol of Strategic Retention",
+        "D": "Inertia Primacy"
+      },
+      "correct_answer": "D",
+      "explanation": "Inertia Primacy is the doctrine principle stating that the continuity of an intelligence asset takes precedence over short-term tactical advantages.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    },
+    {
+      "question_id": "q3",
+      "question_text": "Under Section 9 protocols, what is the primary indicator of a compromised field intelligence node?",
+      "options": {
+        "A": "Increase in ping latency",
+        "B": "Cyclical heartbeat disruption",
+        "C": "Authorization code mismatch",
+        "D": "Unscheduled firmware update"
+      },
+      "correct_answer": "B",
+      "explanation": "Section 9 defines the cyclical heartbeat disruption as the primary warning sign that a node has been tampered with or compromised.",
+      "section_id": 9,
+      "topic_tag": "Intelligence"
+    },
+    {
+      "question_id": "q4",
+      "question_text": "What is the primary human resource requirement for authorizing a deep-cover mission?",
+      "options": {
+        "A": "Ten years of active service",
+        "B": "Psychological clearance and language fluency",
+        "C": "Three successful field deployments",
+        "D": "Recommendation from two commanding officers"
+      },
+      "correct_answer": "B",
+      "explanation": "Personnel must meet specific psychological readiness standards and demonstrate proven fluency in the target region's language to qualify for deep-cover.",
+      "section_id": 6,
+      "topic_tag": "Personnel"
+    },
+    {
+      "question_id": "q5",
+      "question_text": "The doctrine principle of 'Asymmetric Deterrence' requires an operative to do what when faced with superior numbers?",
+      "options": {
+        "A": "Engage at maximum range",
+        "B": "Initiate an extraction maneuver immediately",
+        "C": "Maximize visual signature to bluff opposition",
+        "D": "Minimize engagement and signal for air support"
+      },
+      "correct_answer": "C",
+      "explanation": "Asymmetric Deterrence dictates that when outnumbered, an operative should project a larger presence to deter aggression rather than engaging.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    },
+    {
+      "question_id": "q6",
+      "question_text": "Which intelligence gathering method is strictly prohibited by Section 9 directives?",
+      "options": {
+        "A": "Passive signal intercept",
+        "B": "Active intrusion of public networks",
+        "C": "Coercive interrogation of non-combatants",
+        "D": "Open-source data harvesting"
+      },
+      "correct_answer": "C",
+      "explanation": "Section 9 explicitly forbids the use of coercive interrogation techniques on non-combatants to protect the integrity of field intelligence operations.",
+      "section_id": 9,
+      "topic_tag": "Intelligence"
+    },
+    {
+      "question_id": "q7",
+      "question_text": "What defines the 'Duty of Care' for personnel assigned to high-risk zones?",
+      "options": {
+        "A": "Guarantee of extraction within 24 hours",
+        "B": "Provision of specialized medical support",
+        "C": "Authorization to use lethal force in self-defense",
+        "D": "Access to local safe houses"
+      },
+      "correct_answer": "B",
+      "explanation": "Personnel in high-risk zones are entitled to specialized medical evacuation and support protocols as defined in Section 6.",
+      "section_id": 6,
+      "topic_tag": "Personnel"
+    },
+    {
+      "question_id": "q8",
+      "question_text": "In the doctrine of 'Information Siloing', what is the main objective?",
+      "options": {
+        "A": "Increase communication speed",
+        "B": "Prevent single-point intelligence failure",
+        "C": "Ensure all operatives have equal access",
+        "D": "Automate data distribution"
+      },
+      "correct_answer": "B",
+      "explanation": "Information Siloing is designed to restrict access so that the compromise of one operative does not lead to a total breakdown of the network.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    },
+    {
+      "question_id": "q9",
+      "question_text": "Which protocol must be followed when transferring intelligence data across unsecured transit lines?",
+      "options": {
+        "A": "AES-256 encryption",
+        "B": "Analog voice-code masking",
+        "C": "Fragmentation and delayed reassembly",
+        "D": "Immediate deletion of local cache"
+      },
+      "correct_answer": "C",
+      "explanation": "Section 9 dictates that intelligence data must be fragmented into smaller packets to be reassembled at the destination to minimize interception risks.",
+      "section_id": 9,
+      "topic_tag": "Intelligence"
+    },
+    {
+      "question_id": "q10",
+      "question_text": "What is the consequence for personnel violating the 'Chain of Command' doctrine under Section 6?",
+      "options": {
+        "A": "Immediate termination",
+        "B": "Mandatory re-training",
+        "C": "Temporary suspension of clearance",
+        "D": "Fines"
+      },
+      "correct_answer": "C",
+      "explanation": "Violating chain of command protocols results in a mandatory temporary suspension of the operative's security clearance for review.",
+      "section_id": 6,
+      "topic_tag": "Personnel"
+    },
+    {
+      "question_id": "q11",
+      "question_text": "How does the 'Neutrality Doctrine' apply to personnel in urban environments?",
+      "options": {
+        "A": "Operatives must appear as civilians",
+        "B": "Operatives must refrain from identifying with local factions",
+        "C": "Operatives are prohibited from carrying firearms",
+        "D": "Operatives must report to local authorities"
+      },
+      "correct_answer": "B",
+      "explanation": "The Neutrality Doctrine strictly prohibits operatives from expressing affiliation or support for any local factions to maintain operational ambiguity.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    },
+    {
+      "question_id": "q12",
+      "question_text": "According to Section 9, how often must cryptographic keys for intelligence nodes be rotated?",
+      "options": {
+        "A": "Every 48 hours",
+        "B": "Every 72 hours",
+        "C": "Every 168 hours",
+        "D": "Every 30 days"
+      },
+      "correct_answer": "C",
+      "explanation": "Cryptographic rotation must occur every 168 hours (weekly) to ensure network security in Section 9 assets.",
+      "section_id": 9,
+      "topic_tag": "Intelligence"
+    },
+    {
+      "question_id": "q13",
+      "question_text": "Which personnel category is eligible for 'Field Promotion' in emergency operational theaters?",
+      "options": {
+        "A": "Tier-1 only",
+        "B": "Tier-1 and Tier-2",
+        "C": "Support staff only",
+        "D": "Any operative with field experience"
+      },
+      "correct_answer": "B",
+      "explanation": "Field promotions are restricted to personnel within Tier-1 and Tier-2 status, provided there is a documented need in an active emergency theater.",
+      "section_id": 6,
+      "topic_tag": "Personnel"
+    },
+    {
+      "question_id": "q14",
+      "question_text": "What is the definition of 'Static Intelligence' in Section 9?",
+      "options": {
+        "A": "Data gathered from fixed cameras",
+        "B": "Intelligence that has lost operational relevance",
+        "C": "Information collected via non-digital means",
+        "D": "Stored archives of past mission reports"
+      },
+      "correct_answer": "B",
+      "explanation": "Static Intelligence is defined as data that is no longer time-sensitive or has lost its utility for immediate strategic decision-making.",
+      "section_id": 9,
+      "topic_tag": "Intelligence"
+    },
+    {
+      "question_id": "q15",
+      "question_text": "Which doctrine principle governs the 'Acceptable Risk Threshold' for operative deployments?",
+      "options": {
+        "A": "The Principle of Proportionality",
+        "B": "The Doctrine of Minimal Loss",
+        "C": "The Principle of Calculated Exposure",
+        "D": "The Doctrine of Utilitarian Security"
+      },
+      "correct_answer": "C",
+      "explanation": "The Principle of Calculated Exposure determines the extent to which an operative can be exposed to risk based on the strategic value of the objective.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    }
+  ],
+  "results": [
+    {
+      "question_id": "q1",
+      "question_text": "According to Section 6, what is the mandatory psychological evaluation interval for Tier-1 personnel?",
+      "options": {
+        "A": "Monthly",
+        "B": "Quarterly",
+        "C": "Bi-annually",
+        "D": "Annually"
+      },
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "explanation": "Section 6 mandates that all Tier-1 personnel undergo comprehensive psychological assessments every quarter to maintain operational fitness.",
+      "section_id": 6,
+      "topic_tag": "Personnel"
+    },
+    {
+      "question_id": "q2",
+      "question_text": "Which doctrine principle prioritizes the preservation of intelligence gathering assets over immediate tactical gain?",
+      "options": {
+        "A": "Principle of Asset Continuity",
+        "B": "Doctrine of Silent Observation",
+        "C": "Protocol of Strategic Retention",
+        "D": "Inertia Primacy"
+      },
+      "correct_answer": "D",
+      "user_answer": "C",
+      "is_correct": false,
+      "explanation": "Inertia Primacy is the doctrine principle stating that the continuity of an intelligence asset takes precedence over short-term tactical advantages.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    },
+    {
+      "question_id": "q3",
+      "question_text": "Under Section 9 protocols, what is the primary indicator of a compromised field intelligence node?",
+      "options": {
+        "A": "Increase in ping latency",
+        "B": "Cyclical heartbeat disruption",
+        "C": "Authorization code mismatch",
+        "D": "Unscheduled firmware update"
+      },
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "explanation": "Section 9 defines the cyclical heartbeat disruption as the primary warning sign that a node has been tampered with or compromised.",
+      "section_id": 9,
+      "topic_tag": "Intelligence"
+    },
+    {
+      "question_id": "q4",
+      "question_text": "What is the primary human resource requirement for authorizing a deep-cover mission?",
+      "options": {
+        "A": "Ten years of active service",
+        "B": "Psychological clearance and language fluency",
+        "C": "Three successful field deployments",
+        "D": "Recommendation from two commanding officers"
+      },
+      "correct_answer": "B",
+      "user_answer": "A",
+      "is_correct": false,
+      "explanation": "Personnel must meet specific psychological readiness standards and demonstrate proven fluency in the target region's language to qualify for deep-cover.",
+      "section_id": 6,
+      "topic_tag": "Personnel"
+    },
+    {
+      "question_id": "q5",
+      "question_text": "The doctrine principle of 'Asymmetric Deterrence' requires an operative to do what when faced with superior numbers?",
+      "options": {
+        "A": "Engage at maximum range",
+        "B": "Initiate an extraction maneuver immediately",
+        "C": "Maximize visual signature to bluff opposition",
+        "D": "Minimize engagement and signal for air support"
+      },
+      "correct_answer": "C",
+      "user_answer": "C",
+      "is_correct": true,
+      "explanation": "Asymmetric Deterrence dictates that when outnumbered, an operative should project a larger presence to deter aggression rather than engaging.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    },
+    {
+      "question_id": "q6",
+      "question_text": "Which intelligence gathering method is strictly prohibited by Section 9 directives?",
+      "options": {
+        "A": "Passive signal intercept",
+        "B": "Active intrusion of public networks",
+        "C": "Coercive interrogation of non-combatants",
+        "D": "Open-source data harvesting"
+      },
+      "correct_answer": "C",
+      "user_answer": "C",
+      "is_correct": true,
+      "explanation": "Section 9 explicitly forbids the use of coercive interrogation techniques on non-combatants to protect the integrity of field intelligence operations.",
+      "section_id": 9,
+      "topic_tag": "Intelligence"
+    },
+    {
+      "question_id": "q7",
+      "question_text": "What defines the 'Duty of Care' for personnel assigned to high-risk zones?",
+      "options": {
+        "A": "Guarantee of extraction within 24 hours",
+        "B": "Provision of specialized medical support",
+        "C": "Authorization to use lethal force in self-defense",
+        "D": "Access to local safe houses"
+      },
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "explanation": "Personnel in high-risk zones are entitled to specialized medical evacuation and support protocols as defined in Section 6.",
+      "section_id": 6,
+      "topic_tag": "Personnel"
+    },
+    {
+      "question_id": "q8",
+      "question_text": "In the doctrine of 'Information Siloing', what is the main objective?",
+      "options": {
+        "A": "Increase communication speed",
+        "B": "Prevent single-point intelligence failure",
+        "C": "Ensure all operatives have equal access",
+        "D": "Automate data distribution"
+      },
+      "correct_answer": "B",
+      "user_answer": "C",
+      "is_correct": false,
+      "explanation": "Information Siloing is designed to restrict access so that the compromise of one operative does not lead to a total breakdown of the network.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    },
+    {
+      "question_id": "q9",
+      "question_text": "Which protocol must be followed when transferring intelligence data across unsecured transit lines?",
+      "options": {
+        "A": "AES-256 encryption",
+        "B": "Analog voice-code masking",
+        "C": "Fragmentation and delayed reassembly",
+        "D": "Immediate deletion of local cache"
+      },
+      "correct_answer": "C",
+      "user_answer": "B",
+      "is_correct": false,
+      "explanation": "Section 9 dictates that intelligence data must be fragmented into smaller packets to be reassembled at the destination to minimize interception risks.",
+      "section_id": 9,
+      "topic_tag": "Intelligence"
+    },
+    {
+      "question_id": "q10",
+      "question_text": "What is the consequence for personnel violating the 'Chain of Command' doctrine under Section 6?",
+      "options": {
+        "A": "Immediate termination",
+        "B": "Mandatory re-training",
+        "C": "Temporary suspension of clearance",
+        "D": "Fines"
+      },
+      "correct_answer": "C",
+      "user_answer": "C",
+      "is_correct": true,
+      "explanation": "Violating chain of command protocols results in a mandatory temporary suspension of the operative's security clearance for review.",
+      "section_id": 6,
+      "topic_tag": "Personnel"
+    },
+    {
+      "question_id": "q11",
+      "question_text": "How does the 'Neutrality Doctrine' apply to personnel in urban environments?",
+      "options": {
+        "A": "Operatives must appear as civilians",
+        "B": "Operatives must refrain from identifying with local factions",
+        "C": "Operatives are prohibited from carrying firearms",
+        "D": "Operatives must report to local authorities"
+      },
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "explanation": "The Neutrality Doctrine strictly prohibits operatives from expressing affiliation or support for any local factions to maintain operational ambiguity.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    },
+    {
+      "question_id": "q12",
+      "question_text": "According to Section 9, how often must cryptographic keys for intelligence nodes be rotated?",
+      "options": {
+        "A": "Every 48 hours",
+        "B": "Every 72 hours",
+        "C": "Every 168 hours",
+        "D": "Every 30 days"
+      },
+      "correct_answer": "C",
+      "user_answer": "B",
+      "is_correct": false,
+      "explanation": "Cryptographic rotation must occur every 168 hours (weekly) to ensure network security in Section 9 assets.",
+      "section_id": 9,
+      "topic_tag": "Intelligence"
+    },
+    {
+      "question_id": "q13",
+      "question_text": "Which personnel category is eligible for 'Field Promotion' in emergency operational theaters?",
+      "options": {
+        "A": "Tier-1 only",
+        "B": "Tier-1 and Tier-2",
+        "C": "Support staff only",
+        "D": "Any operative with field experience"
+      },
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "explanation": "Field promotions are restricted to personnel within Tier-1 and Tier-2 status, provided there is a documented need in an active emergency theater.",
+      "section_id": 6,
+      "topic_tag": "Personnel"
+    },
+    {
+      "question_id": "q14",
+      "question_text": "What is the definition of 'Static Intelligence' in Section 9?",
+      "options": {
+        "A": "Data gathered from fixed cameras",
+        "B": "Intelligence that has lost operational relevance",
+        "C": "Information collected via non-digital means",
+        "D": "Stored archives of past mission reports"
+      },
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "explanation": "Static Intelligence is defined as data that is no longer time-sensitive or has lost its utility for immediate strategic decision-making.",
+      "section_id": 9,
+      "topic_tag": "Intelligence"
+    },
+    {
+      "question_id": "q15",
+      "question_text": "Which doctrine principle governs the 'Acceptable Risk Threshold' for operative deployments?",
+      "options": {
+        "A": "The Principle of Proportionality",
+        "B": "The Doctrine of Minimal Loss",
+        "C": "The Principle of Calculated Exposure",
+        "D": "The Doctrine of Utilitarian Security"
+      },
+      "correct_answer": "C",
+      "user_answer": "C",
+      "is_correct": true,
+      "explanation": "The Principle of Calculated Exposure determines the extent to which an operative can be exposed to risk based on the strategic value of the objective.",
+      "section_id": 8,
+      "topic_tag": "Doctrine Principles"
+    }
+  ]
+}

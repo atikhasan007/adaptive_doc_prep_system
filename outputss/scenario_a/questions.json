@@ -1,0 +1,307 @@
+{
+  "session_id": "cc7bccf0-b228-405e-9cd2-50a1cd6d8a83",
+  "mcqs": [
+    {
+      "question_id": "q1",
+      "question_text": "According to the established reporting protocol, to whom must an anomaly breach be escalated if the onsite lead is incapacitated?",
+      "options": {
+        "A": "PAMC Central Command",
+        "B": "The Site Safety Officer",
+        "C": "The Regional Oversight Committee",
+        "D": "The Naming Subcommittee"
+      },
+      "correct_answer": "C",
+      "explanation": "Section 1 mandates that the Regional Oversight Committee serves as the secondary point of contact for breach reporting if the onsite lead is unavailable.",
+      "section_id": 1,
+      "topic_tag": "Protocol"
+    },
+    {
+      "question_id": "q2",
+      "question_text": "What is the mandatory timeframe for filing a 'Level 3 Incident Report' after an asset containment failure?",
+      "options": {
+        "A": "Within 1 hour",
+        "B": "Within 4 hours",
+        "C": "Within 12 hours",
+        "D": "Within 24 hours"
+      },
+      "correct_answer": "B",
+      "explanation": "Protocol requirements dictate that Level 3 reports must be submitted within 4 hours of the incident occurring.",
+      "section_id": 1,
+      "topic_tag": "Reporting"
+    },
+    {
+      "question_id": "q3",
+      "question_text": "Which individual is strictly prohibited from participating in the internal review of a reported anomaly breach?",
+      "options": {
+        "A": "The primary observer",
+        "B": "The Site Director",
+        "C": "The PAMC Master Registry technician",
+        "D": "Any researcher with prior field experience with SLATEFALL"
+      },
+      "correct_answer": "A",
+      "explanation": "Reporting protocols state that the primary observer is barred from internal reviews to maintain impartiality.",
+      "section_id": 1,
+      "topic_tag": "Reporting"
+    },
+    {
+      "question_id": "q4",
+      "question_text": "What specific equipment calibration protocol must be performed before initiating a data synchronization for SLATEFALL?",
+      "options": {
+        "A": "Thermal baseline reset",
+        "B": "Sub-atomic resonance check",
+        "C": "Logarithmic entropy alignment",
+        "D": "Visual spectrum frequency calibration"
+      },
+      "correct_answer": "C",
+      "explanation": "Section 2 identifies logarithmic entropy alignment as the prerequisite calibration step for data synchronization.",
+      "section_id": 2,
+      "topic_tag": "Protocol"
+    },
+    {
+      "question_id": "q5",
+      "question_text": "When submitting a breach report, what is the 'Classification Code' assigned to anomalies involving trans-dimensional displacement?",
+      "options": {
+        "A": "TD-9",
+        "B": "AX-4",
+        "C": "BZ-7",
+        "D": "ST-2"
+      },
+      "correct_answer": "A",
+      "explanation": "The reporting documentation classifies all trans-dimensional displacement incidents under the TD-9 code.",
+      "section_id": 1,
+      "topic_tag": "Reporting"
+    },
+    {
+      "question_id": "q6",
+      "question_text": "Under the emergency protocol for SLATEFALL, what action must be taken immediately upon detection of an uncontrolled energy spike?",
+      "options": {
+        "A": "Initiate full site lockdown",
+        "B": "Engage the containment dampeners",
+        "C": "Evacuate non-essential personnel",
+        "D": "Activate the auxiliary cooling system"
+      },
+      "correct_answer": "B",
+      "explanation": "The protocol explicitly requires the engagement of containment dampeners to neutralize uncontrolled energy spikes.",
+      "section_id": 2,
+      "topic_tag": "Protocol"
+    },
+    {
+      "question_id": "q7",
+      "question_text": "What is the secondary reporting requirement for researchers who witness an unauthorized access attempt to the registry?",
+      "options": {
+        "A": "Notify the local IT security desk",
+        "B": "Generate a manual incident log",
+        "C": "Update the security clearance manifest",
+        "D": "Submit an incident report via the secure encrypted terminal"
+      },
+      "correct_answer": "D",
+      "explanation": "Reporting protocol mandates the use of a secure encrypted terminal to report unauthorized access attempts.",
+      "section_id": 1,
+      "topic_tag": "Reporting"
+    },
+    {
+      "question_id": "q8",
+      "question_text": "Before ending a shift, what is the required protocol for the handling of physical data logs related to SLATEFALL?",
+      "options": {
+        "A": "Destroy all paper copies",
+        "B": "Transfer to the secure vault",
+        "C": "Encrypt and email to the director",
+        "D": "Place in the onsite recycling bin"
+      },
+      "correct_answer": "B",
+      "explanation": "Security protocols mandate that all physical data logs be transferred to the secure vault before the end of the shift.",
+      "section_id": 2,
+      "topic_tag": "Protocol"
+    },
+    {
+      "question_id": "q9",
+      "question_text": "In the context of incident reporting, what does the suffix '-B' signify when appended to a report ID?",
+      "options": {
+        "A": "Biological containment breach",
+        "B": "Baseline deviation confirmed",
+        "C": "Bypassed security firewall",
+        "D": "Basic routine observation"
+      },
+      "correct_answer": "B",
+      "explanation": "The reporting guidelines specify that the '-B' suffix indicates a confirmed baseline deviation during an observation.",
+      "section_id": 1,
+      "topic_tag": "Reporting"
+    },
+    {
+      "question_id": "q10",
+      "question_text": "Which protocol must be followed when transferring SLATEFALL data between departments?",
+      "options": {
+        "A": "Dual-key authentication",
+        "B": "Verbal authorization",
+        "C": "Immediate deletion of the source copy",
+        "D": "Hardware-only file transfer"
+      },
+      "correct_answer": "A",
+      "explanation": "The protocol for sensitive data transfer strictly requires dual-key authentication to ensure oversight.",
+      "section_id": 2,
+      "topic_tag": "Protocol"
+    }
+  ],
+  "results": [
+    {
+      "question_id": "q1",
+      "question_text": "According to the established reporting protocol, to whom must an anomaly breach be escalated if the onsite lead is incapacitated?",
+      "options": {
+        "A": "PAMC Central Command",
+        "B": "The Site Safety Officer",
+        "C": "The Regional Oversight Committee",
+        "D": "The Naming Subcommittee"
+      },
+      "correct_answer": "C",
+      "user_answer": "D",
+      "is_correct": false,
+      "explanation": "Section 1 mandates that the Regional Oversight Committee serves as the secondary point of contact for breach reporting if the onsite lead is unavailable.",
+      "section_id": 1,
+      "topic_tag": "Protocol"
+    },
+    {
+      "question_id": "q2",
+      "question_text": "What is the mandatory timeframe for filing a 'Level 3 Incident Report' after an asset containment failure?",
+      "options": {
+        "A": "Within 1 hour",
+        "B": "Within 4 hours",
+        "C": "Within 12 hours",
+        "D": "Within 24 hours"
+      },
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "explanation": "Protocol requirements dictate that Level 3 reports must be submitted within 4 hours of the incident occurring.",
+      "section_id": 1,
+      "topic_tag": "Reporting"
+    },
+    {
+      "question_id": "q3",
+      "question_text": "Which individual is strictly prohibited from participating in the internal review of a reported anomaly breach?",
+      "options": {
+        "A": "The primary observer",
+        "B": "The Site Director",
+        "C": "The PAMC Master Registry technician",
+        "D": "Any researcher with prior field experience with SLATEFALL"
+      },
+      "correct_answer": "A",
+      "user_answer": "A",
+      "is_correct": true,
+      "explanation": "Reporting protocols state that the primary observer is barred from internal reviews to maintain impartiality.",
+      "section_id": 1,
+      "topic_tag": "Reporting"
+    },
+    {
+      "question_id": "q4",
+      "question_text": "What specific equipment calibration protocol must be performed before initiating a data synchronization for SLATEFALL?",
+      "options": {
+        "A": "Thermal baseline reset",
+        "B": "Sub-atomic resonance check",
+        "C": "Logarithmic entropy alignment",
+        "D": "Visual spectrum frequency calibration"
+      },
+      "correct_answer": "C",
+      "user_answer": "C",
+      "is_correct": true,
+      "explanation": "Section 2 identifies logarithmic entropy alignment as the prerequisite calibration step for data synchronization.",
+      "section_id": 2,
+      "topic_tag": "Protocol"
+    },
+    {
+      "question_id": "q5",
+      "question_text": "When submitting a breach report, what is the 'Classification Code' assigned to anomalies involving trans-dimensional displacement?",
+      "options": {
+        "A": "TD-9",
+        "B": "AX-4",
+        "C": "BZ-7",
+        "D": "ST-2"
+      },
+      "correct_answer": "A",
+      "user_answer": "A",
+      "is_correct": true,
+      "explanation": "The reporting documentation classifies all trans-dimensional displacement incidents under the TD-9 code.",
+      "section_id": 1,
+      "topic_tag": "Reporting"
+    },
+    {
+      "question_id": "q6",
+      "question_text": "Under the emergency protocol for SLATEFALL, what action must be taken immediately upon detection of an uncontrolled energy spike?",
+      "options": {
+        "A": "Initiate full site lockdown",
+        "B": "Engage the containment dampeners",
+        "C": "Evacuate non-essential personnel",
+        "D": "Activate the auxiliary cooling system"
+      },
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "explanation": "The protocol explicitly requires the engagement of containment dampeners to neutralize uncontrolled energy spikes.",
+      "section_id": 2,
+      "topic_tag": "Protocol"
+    },
+    {
+      "question_id": "q7",
+      "question_text": "What is the secondary reporting requirement for researchers who witness an unauthorized access attempt to the registry?",
+      "options": {
+        "A": "Notify the local IT security desk",
+        "B": "Generate a manual incident log",
+        "C": "Update the security clearance manifest",
+        "D": "Submit an incident report via the secure encrypted terminal"
+      },
+      "correct_answer": "D",
+      "user_answer": "D",
+      "is_correct": true,
+      "explanation": "Reporting protocol mandates the use of a secure encrypted terminal to report unauthorized access attempts.",
+      "section_id": 1,
+      "topic_tag": "Reporting"
+    },
+    {
+      "question_id": "q8",
+      "question_text": "Before ending a shift, what is the required protocol for the handling of physical data logs related to SLATEFALL?",
+      "options": {
+        "A": "Destroy all paper copies",
+        "B": "Transfer to the secure vault",
+        "C": "Encrypt and email to the director",
+        "D": "Place in the onsite recycling bin"
+      },
+      "correct_answer": "B",
+      "user_answer": "D",
+      "is_correct": false,
+      "explanation": "Security protocols mandate that all physical data logs be transferred to the secure vault before the end of the shift.",
+      "section_id": 2,
+      "topic_tag": "Protocol"
+    },
+    {
+      "question_id": "q9",
+      "question_text": "In the context of incident reporting, what does the suffix '-B' signify when appended to a report ID?",
+      "options": {
+        "A": "Biological containment breach",
+        "B": "Baseline deviation confirmed",
+        "C": "Bypassed security firewall",
+        "D": "Basic routine observation"
+      },
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "explanation": "The reporting guidelines specify that the '-B' suffix indicates a confirmed baseline deviation during an observation.",
+      "section_id": 1,
+      "topic_tag": "Reporting"
+    },
+    {
+      "question_id": "q10",
+      "question_text": "Which protocol must be followed when transferring SLATEFALL data between departments?",
+      "options": {
+        "A": "Dual-key authentication",
+        "B": "Verbal authorization",
+        "C": "Immediate deletion of the source copy",
+        "D": "Hardware-only file transfer"
+      },
+      "correct_answer": "A",
+      "user_answer": "D",
+      "is_correct": false,
+      "explanation": "The protocol for sensitive data transfer strictly requires dual-key authentication to ensure oversight.",
+      "section_id": 2,
+      "topic_tag": "Protocol"
+    }
+  ]
+}
