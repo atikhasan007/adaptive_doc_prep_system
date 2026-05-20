@@ -131,10 +131,10 @@ Next session becomes smarter
 git clone https://github.com/atikhasan007/adaptive_doc_prep_system.git
 
 - 2. Backend Run (FastAPI)
-uvicorn app:app --reload
+- uvicorn app:app --reload
 
 - 3. Streamlit UI Run
-streamlit run streamlit_app.py
+- streamlit run streamlit_app.py
 
 
 ##  12. Author & Contact 
