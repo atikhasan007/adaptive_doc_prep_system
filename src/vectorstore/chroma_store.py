@@ -1,6 +1,7 @@
 from langchain_chroma import Chroma
 from src.embedding.embeddings import get_embeddings
 
+
 def create_vectorstore(all_chunks, persist_dir):
 
     print(" Embedding chunks and storing in ChromaDB...")
