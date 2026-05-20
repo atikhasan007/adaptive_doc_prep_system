@@ -1,13 +1,11 @@
-from langchain_huggingface import HuggingFaceEmbeddings
+
 from langchain_chroma import Chroma
 from src.config.config import get_config
+from src.utils.helper import get_embeddings
 
 config = get_config()
 
-def get_embeddings():
-    return HuggingFaceEmbeddings(
-        model_name="sentence-transformers/all-MiniLM-L6-v2"
-    )
+
 
 def get_vectorstore(all_chunks=None):
 
