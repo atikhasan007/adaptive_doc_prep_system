@@ -42,63 +42,112 @@ if st.button("Generate MCQs"):
             st.success("MCQs Generated!")
         else:
             st.error(res.text)
-
-
 # =========================
 # SHOW MCQS
 # =========================
 if st.session_state.mcqs:
 
-    st.header("2️⃣ MCQs")
+    st.header("📝 MCQ Exam")
 
     answers = {}
 
     for i, q in enumerate(st.session_state.mcqs):
 
-        st.subheader(q.get("question_text", ""))
+        st.markdown("---")
+
+        question = q.get("question_text", "No Question")
 
         options = q.get("options", {})
 
-        st.write("A:", options.get("A"))
-        st.write("B:", options.get("B"))
-        st.write("C:", options.get("C"))
-        st.write("D:", options.get("D"))
+        st.markdown(f"### Q{i+1}. {question}")
 
         answers[q["question_id"]] = st.radio(
-            "Answer",
-            ["A", "B", "C", "D"],
-            key=i
-        )
+            "Select Answer",
+            [
+                f"A. {options.get('A', '')}",
+                f"B. {options.get('B', '')}",
+                f"C. {options.get('C', '')}",
+                f"D. {options.get('D', '')}",
+            ],
+            key=f"q_{i}"
+        )[0]
 
-    if st.button("Submit Answers"):
+    st.markdown("")
 
-        res = requests.post(
-            f"{API_URL}/prep/submit",
-            json={
-                "session_id": st.session_state.session_id,
-                "answers": answers
-            }
-        )
+    # =========================
+    # SUBMIT ANSWERS
+    # =========================
+    if st.button("✅ Submit Answers", use_container_width=True):
+
+        with st.spinner("Checking Answers..."):
+
+            res = requests.post(
+                f"{API_URL}/prep/submit",
+                json={
+                    "session_id": st.session_state.session_id,
+                    "answers": answers
+                }
+            )
 
         if res.status_code == 200:
-            st.success("Submitted Successfully")
-            st.json(res.json()["results"])
+
+            st.success("🎉 Answers Submitted Successfully!")
+
+            data = res.json()
+            results = data.get("results", [])
+
+            if results:
+
+                st.markdown("---")
+                st.header("📊 Results")
+
+                correct_count = 0
+
+                for i, r in enumerate(results):
+
+                    st.markdown(f"## Q{i+1}")
+
+                    st.write(r.get("question_text", ""))
+
+                    options = r.get("options", {})
+
+                    st.write(f"🅰️ A: {options.get('A', '')}")
+                    st.write(f"🅱️ B: {options.get('B', '')}")
+                    st.write(f"🇨 C: {options.get('C', '')}")
+                    st.write(f"🇩 D: {options.get('D', '')}")
+
+                    st.write(
+                        f"🧑 Your Answer: {r.get('user_answer', '')}"
+                    )
+
+                    st.write(
+                        f"✅ Correct Answer: {r.get('correct_answer', '')}"
+                    )
+
+                    if r.get("is_correct"):
+
+                        st.success("Correct Answer ✅")
+                        correct_count += 1
+
+                    else:
+
+                        st.error("Wrong Answer ❌")
+
+                    st.info(
+                        f"💡 Explanation: {r.get('explanation', '')}"
+                    )
+
+                    st.markdown("---")
+
+                total_questions = len(results)
+
+                st.metric(
+                    "🎯 Final Score",
+                    f"{correct_count}/{total_questions}"
+                )
+
+            else:
+                st.warning("No Results Found")
+
         else:
             st.error(res.text)
-
-
-# =========================
-# LOAD RESULT
-# =========================
-if st.button("Load Result"):
-
-    if st.session_state.session_id:
-
-        res = requests.get(
-            f"{API_URL}/prep/result/{st.session_state.session_id}"
-        )
-
-        st.json(res.json())
-
-    else:
-        st.warning("Start session first")
