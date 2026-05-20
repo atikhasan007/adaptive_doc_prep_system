@@ -1,14 +1,14 @@
 
 ## Adaptive Document Preparation System
 
----
+
 ## fast work 
 - research  
 then
 - module codding
----
 
----
+
+
 ##  1. project setup 
 conda create -n assignment_ai_ml python=3.10
 
@@ -26,7 +26,7 @@ This system enables intelligent exam preparation by:
 - Detecting weak topics from past performance
 - Adapting future MCQs based on user weaknesses
 
----
+
 
 ##  3. Business Objectives
 Traditional learning systems are static and repetitive.
@@ -109,21 +109,21 @@ Next session becomes smarter
 ---
 
 ## Tech Stack
-Python
-FastAPI
-Streamlit
-MongoDB
-ChromaDB
-Gemini API
-Sentence Transformers
+- Python
+- FastAPI
+- Streamlit
+- MongoDB
+- ChromaDB
+- Gemini API
+- Sentence Transformers
 
 ## Key Features
-Adaptive MCQ generation
-Weak topic detection
-Session-based learning history
-Real-time scoring system
-Vector-based document retrieval
-LLM-powered question generation
+- Adaptive MCQ generation
+- Weak topic detection
+- Session-based learning history
+- Real-time scoring system
+- Vector-based document retrieval
+- LLM-powered question generation
 
 
 ##  10. How to Run This Project
