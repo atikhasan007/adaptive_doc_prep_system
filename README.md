@@ -69,27 +69,28 @@ embedding model : sentence-transformers/all-MiniLM-L6-v2
 15. steamlit.py
 
 ## 7. Adaptive Learning Flow
-  User selects sections
-        ↓
-Retrieve PDF context (ChromaDB)
-        ↓
-Check previous performance (MongoDB)
-        ↓
-Detect weak topics
-        ↓
-Generate MCQs (Gemini + adaptive prompt)
-        ↓
-User answers
-        ↓
-Score evaluation
-        ↓
-Store results in KB
-        ↓
-Update weak topics
-        ↓
-Next session becomes smarter
 
----
+- User selects sections
+        ↓
+- Retrieve PDF context (ChromaDB)
+        ↓
+- Check previous performance (MongoDB)
+        ↓
+- Detect weak topics
+        ↓
+- Generate MCQs (Gemini + adaptive prompt)
+        ↓
+- User answers
+        ↓
+- Score evaluation
+        ↓
+- Store results in KB
+        ↓
+- Update weak topics
+        ↓
+- Next session becomes smarter
+
+
 
 ## 8. Database Design
 
