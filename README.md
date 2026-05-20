@@ -127,14 +127,11 @@ Next session becomes smarter
 
 
 ##  11. How to Run This Project
-- 1. clone the repository
-git clone https://github.com/atikhasan007/adaptive_doc_prep_system.git
+- 1. clone the repository * git clone https://github.com/atikhasan007/adaptive_doc_prep_system.git
 
-- 2. Backend Run (FastAPI)
-- uvicorn app:app --reload
+- 2. Backend Run (FastAPI) * uvicorn app:app --reload
 
-- 3. Streamlit UI Run
-- streamlit run streamlit_app.py
+- 3. Streamlit UI Run  * streamlit run streamlit_app.py
 
 
 ##  12. Author & Contact 
