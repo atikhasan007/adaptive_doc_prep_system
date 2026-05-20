@@ -4,15 +4,26 @@ from typing import List, Dict
 import uuid
 
 from src.pipeline.run_session import run_prep_session
-from src.database.mongo_client import (
-    col_sessions,
-    col_questions,
-    col_sections,
-    col_weak_topics
-)
-from src.evaluation.session_eval import score_session
+from src.database.mongo_client import col_sessions
 
 app = FastAPI(title="Adaptive Prep System")
+
+
+# =========================
+# SAFE GETTERS
+# =========================
+def get_question(q: dict):
+    return (
+        q.get("question_text")
+        or q.get("question")
+        or q.get("text")
+        or q.get("stem")
+        or "No question available"
+    )
+
+
+def get_options(q: dict):
+    return q.get("options", {})
 
 
 # =========================
@@ -34,41 +45,20 @@ class AnswerRequest(BaseModel):
 def start_prep(req: StartRequest):
 
     try:
-        session_id = str(uuid.uuid4())
-
         result = run_prep_session(
             section_ids=req.section_ids,
-            simulate=True
+            simulate=False
         )
 
+        session_id = result["session_id"]
         mcqs = result["mcqs"]
 
-        # SESSION INSERT
         col_sessions.insert_one({
             "session_id": session_id,
             "section_ids": req.section_ids,
             "mcqs": mcqs,
-            "results": {}
+            "results": None
         })
-
-        # QUESTIONS INSERT
-        col_questions.insert_many([
-            {
-                "session_id": session_id,
-                "question_id": q["question_id"],
-                "topic": q.get("topic", "general"),
-                "is_correct": None
-            }
-            for q in mcqs
-        ])
-
-        # SECTIONS UPDATE
-        for sid in req.section_ids:
-            col_sections.update_one(
-                {"section_id": sid},
-                {"$inc": {"total_attempts": 1}},
-                upsert=True
-            )
 
         return {
             "session_id": session_id,
@@ -76,11 +66,12 @@ def start_prep(req: StartRequest):
         }
 
     except Exception as e:
+        print("❌ START ERROR:", e)
         raise HTTPException(status_code=500, detail=str(e))
 
 
 # =========================
-# SUBMIT ANSWERS
+# SUBMIT (FULL SAFE FIX)
 # =========================
 @app.post("/prep/submit")
 def submit_answers(req: AnswerRequest):
@@ -90,68 +81,50 @@ def submit_answers(req: AnswerRequest):
     if not session:
         raise HTTPException(status_code=404, detail="Session not found")
 
-    mcqs = session["mcqs"]
+    mcqs = session.get("mcqs", [])
 
-    results = score_session(mcqs, req.answers)
+    results = []
+    correct = 0
 
-    # =========================
-    # SAFE NORMALIZATION (IMPORTANT FIX)
-    # =========================
-    if isinstance(results, list):
-        details = results
-        correct_count = sum(1 for x in results if x.get("is_correct"))
-    else:
-        details = results.get("details", [])
-        correct_count = results.get("correct_count", 0)
+    for q in mcqs:
 
-    # =========================
-    # UPDATE SESSION
-    # =========================
+        qid = q.get("question_id")
+        user_ans = req.answers.get(qid)
+
+        correct_ans = q.get("correct_answer")
+
+        is_correct = (user_ans == correct_ans)
+
+        if is_correct:
+            correct += 1
+
+        results.append({
+            "question_id": qid,
+            "question": get_question(q),   # 🔥 SAFE FIX HERE
+            "options": get_options(q),
+            "user_answer": user_ans,
+            "correct_answer": correct_ans,
+            "is_correct": is_correct,
+            "explanation": q.get("explanation", "")
+        })
+
+    total = len(results)
+
+    final_result = {
+        "total_questions": total,
+        "correct_answers": correct,
+        "score_percentage": round((correct / total) * 100, 2) if total else 0,
+        "results": results
+    }
+
     col_sessions.update_one(
         {"session_id": req.session_id},
-        {"$set": {"results": results}}
+        {"$set": {"results": final_result}}
     )
-
-    # =========================
-    # UPDATE QUESTIONS + WEAK TOPICS
-    # =========================
-    for item in details:
-
-        qid = item.get("question_id")
-        is_correct = item.get("is_correct", False)
-        topic = item.get("topic", "general")
-
-        if qid:
-            col_questions.update_one(
-                {"session_id": req.session_id, "question_id": qid},
-                {"$set": {"is_correct": is_correct}}
-            )
-
-        if not is_correct:
-            col_weak_topics.update_one(
-                {"topic": topic},
-                {"$inc": {"wrong_count": 1}},
-                upsert=True
-            )
-
-    # =========================
-    # UPDATE SECTIONS
-    # =========================
-    section_ids = session["section_ids"]
-
-    for sid in section_ids:
-        col_sections.update_one(
-            {"section_id": sid},
-            {"$inc": {
-                "total_attempts": 1,
-                "total_correct": correct_count
-            }},
-            upsert=True
-        )
 
     return {
         "session_id": req.session_id,
-        "results": results
+        "results": final_result
     }
 
 
@@ -161,10 +134,7 @@ def submit_answers(req: AnswerRequest):
 @app.get("/prep/result/{session_id}")
 def get_result(session_id: str):
 
-    session = col_sessions.find_one(
-        {"session_id": session_id},
-        {"_id": 0}
-    )
+    session = col_sessions.find_one({"session_id": session_id}, {"_id": 0})
 
     if not session:
         raise HTTPException(status_code=404, detail="Not found")
