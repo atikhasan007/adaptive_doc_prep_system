@@ -123,6 +123,7 @@ given assigenment : SLATEFALL_DOSSIER.pdf
 - MongoDB
 - ChromaDB
 - Gemini API
+- LangChain
 - Sentence Transformers
 
 ## 10. Key Features
