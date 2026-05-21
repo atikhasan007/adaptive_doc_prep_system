@@ -161,6 +161,7 @@ I enjoy solving complex problems and building real-world AI/ML projects.
 I am eager to learn from experienced engineers and contribute to real-world AI/ML projects.
   
 ## project UI overview and other UI 
+**FastAPI Swagger UI** for API testing and documentation
 --
 <img width="1910" height="1012" alt="report 1" src="https://github.com/user-attachments/assets/66a71130-397e-4932-ab9a-5fe07bc4f70a" />
 <img width="1917" height="966" alt="report 2" src="https://github.com/user-attachments/assets/60892004-920c-4c37-bb4b-497a11a11d7c" />
