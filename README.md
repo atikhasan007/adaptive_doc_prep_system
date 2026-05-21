@@ -1,5 +1,5 @@
 
-## Adaptive Document Preparation System
+## adaptive-rag-document-preparation-system
 
 
 ## fast work 
