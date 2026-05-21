@@ -168,7 +168,36 @@ sampling weight in MCQ generation prompt
 <img width="1877" height="722" alt="report 8" src="https://github.com/user-attachments/assets/9bcfd0f7-d5b5-4a7f-974c-8c783c9d2d47" />
 <img width="1902" height="827" alt="report 9" src="https://github.com/user-attachments/assets/cbc5b09e-5622-4dd1-9a56-65a1ebfdfcc7" />
 
+## Future Improvements
 
+### Infrastructure & Deployment
+- Docker containerization for consistent deployment
+- AWS/GCP based cloud deployment
+- Model serving and scalable API deployment
+- Distributed data storage and caching
+
+### DevOps & CI/CD
+- GitHub Actions based CI/CD pipeline
+- Automated testing and deployment workflow
+- Monitoring and logging integration
+
+### Codebase Improvements
+- Modular clean architecture
+- Service-based project structure
+- Improved error handling and validation
+- Environment-based configuration management
+
+### UI/UX Improvements
+- More interactive and responsive UI
+- Dashboard visualization
+- Better accessibility and user experience
+
+### System Design & Documentation
+- High Level Design (HLD)
+- Low Level Design (LLD)
+- System architecture diagrams
+- Wireframes and workflow diagrams
+- Technical documentation and reporting
 
 
 
