@@ -151,10 +151,6 @@ sampling weight in MCQ generation prompt
 - 3. Streamlit UI Run  * streamlit run streamlit_app.py
 
 
-##  12. Author & Contact 
-- Md Atik Hasan
-- Email : imatik513@gmail.com
-- Phone : +8801827693853
   
 ## Objective
 I enjoy solving complex problems and building real-world AI/ML projects.
@@ -219,6 +215,10 @@ This system implements an adaptive RAG-based MCQ generation pipeline that distin
 - Wireframes and workflow diagrams
 - Technical documentation and reporting
 
+##   Author & Contact 
+- Md Atik Hasan
+- Email : imatik513@gmail.com
+- Phone : +8801827693853
 
 
 
