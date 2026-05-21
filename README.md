@@ -168,6 +168,20 @@ sampling weight in MCQ generation prompt
 <img width="1877" height="722" alt="report 8" src="https://github.com/user-attachments/assets/9bcfd0f7-d5b5-4a7f-974c-8c783c9d2d47" />
 <img width="1902" height="827" alt="report 9" src="https://github.com/user-attachments/assets/cbc5b09e-5622-4dd1-9a56-65a1ebfdfcc7" />
 
+
+
+
+
+## System Overview
+
+This system implements an adaptive RAG-based MCQ generation pipeline that distinguishes between cold-start and history-aware sessions using persistent KB storage and vector similarity retrieval.
+
+## Architecture Diagram
+
+![System Architecture](assets/architecture.png)
+
+
+
 ## Future Improvements
 
 ### Infrastructure & Deployment
