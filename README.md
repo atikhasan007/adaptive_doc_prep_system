@@ -157,6 +157,7 @@ sampling weight in MCQ generation prompt
 - Phone : +8801827693853
   
 ## Objective
+I enjoy solving complex problems and building real-world AI/ML projects.
 I am eager to learn from experienced engineers and contribute to real-world AI/ML projects.
   
 ## project UI overview and other UI 
