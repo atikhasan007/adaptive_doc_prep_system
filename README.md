@@ -18,7 +18,7 @@ conda activate assignment_ai_ml
 
 pip install -r requirements.txt
 
-🧠 Overview
+## 🧠 Overview
 
 The Adaptive Document Preparation System is an AI-powered backend application that transforms static study material into a personalized learning system.
 
