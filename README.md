@@ -51,9 +51,11 @@ given assigenment : SLATEFALL_DOSSIER.pdf
 
 
 ##  5. Models Used and api for llm
-gemeni api 
-model : gemini-3.1-flash-lite
-embedding model : sentence-transformers/all-MiniLM-L6-v2
+- gemeni api 
+- model : gemini-3.1-flash-lite
+  
+- Hugging Face 
+- embedding model : sentence-transformers/all-MiniLM-L6-v2
 
 
 ##  6. End-to-End Application workflow
