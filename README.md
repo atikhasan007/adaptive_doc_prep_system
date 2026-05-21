@@ -152,9 +152,9 @@ sampling weight in MCQ generation prompt
 
 
 ##  12. Author & Contact 
-Md Atik Hasan
-Email : imatik513@gmail.com
-Phone : +8801827693853
+- Md Atik Hasan
+- Email : imatik513@gmail.com
+- Phone : +8801827693853
 
 ## project UI overview and other UI 
 --
