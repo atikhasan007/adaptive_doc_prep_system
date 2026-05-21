@@ -71,7 +71,7 @@ given assigenment : SLATEFALL_DOSSIER.pdf
 10. evaluation
 11. export
 12. pipeline
-13. demo.py for check
+13. demo.py for test
 14. app.py
 15. steamlit.py
 
