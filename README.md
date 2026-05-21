@@ -178,7 +178,7 @@ This system implements an adaptive RAG-based MCQ generation pipeline that distin
 
 ## Architecture Diagram
 
-![System Architecture](assets/architecture.png)
+![System Architecture](assets/architecture.svg)
 
 
 
