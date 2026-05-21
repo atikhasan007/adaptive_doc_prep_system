@@ -155,7 +155,10 @@ sampling weight in MCQ generation prompt
 - Md Atik Hasan
 - Email : imatik513@gmail.com
 - Phone : +8801827693853
-
+  
+## Objective
+I am eager to learn from experienced engineers and contribute to real-world AI/ML projects.
+  
 ## project UI overview and other UI 
 --
 <img width="1910" height="1012" alt="report 1" src="https://github.com/user-attachments/assets/66a71130-397e-4932-ab9a-5fe07bc4f70a" />
@@ -200,6 +203,7 @@ This system implements an adaptive RAG-based MCQ generation pipeline that distin
 - Service-based project structure
 - Improved error handling and validation
 - Environment-based configuration management
+- Improve model performance while enhancing accuracy.
 
 ### UI/UX Improvements
 - More interactive and responsive UI
